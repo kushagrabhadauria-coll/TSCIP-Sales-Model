@@ -1,0 +1,709 @@
+
+====================================================================================================
+COMPARISON REPORT: 2025-12-31 15:04:08
+GOOD URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764066854.224153&type=rec&token=a1JqVGw1SGQ1ZGlWM1g2WHdPejJ6MlZlZFNzOGszd05zSzRtNzJuOFpQQnBHOWx2b1lkaGNRNzQrZldNQ0tFYjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+BAD URL:  https://cloudphone.tatateleservices.com/file/recording?callId=1763973455.9098&type=rec&token=MG0rRlJLSmY3MUpQWlBiZ2JGVjV3SVIvbVMxbnZjaU8wem0vaXkrR3c2Y0Fvb0ZyR1FOQ2Vjc1lWVUQzUmRmQzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+====================================================================================================
+
+--- CSAT SCORES ---
+GOOD CALL:
+1. Score: 9/10
+2. Reason: Agent clearly explained limitations, offered solutions, and scheduled a follow-up.
+3. Tone: Professional
+
+BAD CALL:
+Score: 3/10
+Reason: Agent's identity confusion and lack of client/meeting information made the interaction inefficient and frustrating.
+Tone: Confused
+
+--- COMPARISON ANALYSIS ---
++---------------------------+-------------------------------------+-------------------------------------+
+| Evaluation Variable       | GOOD CALL (File 1)                  | BAD CALL (File 2)                   |
++===========================+=====================================+=====================================+
+| Variable Name             | Good Call description (timestamp)   | Bad Call description (timestamp)    |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Tone & Energy       | The agent maintains a very          | The agent's tone is hesitant and    |
+|                           | professional, friendly, and         | often defensive, especially when    |
+|                           | energetic tone throughout the call, | discussing names, lacking energy    |
+|                           | showing genuine interest in helping | and professionalism. (0:09, 0:47,   |
+|                           | the customer. (0:05, 1:44, 2:59)    | 1:28, 1:59)                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Confidence          | The agent is highly confident in    | The agent appears unsure and lacks  |
+|                           | their knowledge of services and     | confidence, particularly when       |
+|                           | solutions, clearly explaining       | trying to recall past interactions  |
+|                           | limitations and alternatives.       | and identify the customer. (0:47,   |
+|                           | (1:05-1:41)                         | 0:59, 1:27)                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Listening Quality         | The agent actively listens, asks    | The agent demonstrates poor         |
+|                           | clarifying questions, and confirms  | listening skills, repeatedly        |
+|                           | understanding of the customer's     | misunderstanding names and          |
+|                           | needs and previous discussions.     | struggling to grasp the context of  |
+|                           | (1:45-1:53, 2:22-2:27)              | previous interactions. (0:47, 0:59, |
+|                           |                                     | 1:28, 1:59)                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Empathy          | The agent acknowledges and          | There is a complete lack of         |
+|                           | apologizes for a previous missed    | customer empathy; the agent focuses |
+|                           | connection, showing understanding   | on being "right" about names rather |
+|                           | of the customer's situation.        | than understanding the customer's   |
+|                           | (0:05-0:07)                         | frustration or query. (0:47-0:56,   |
+|                           |                                     | 1:27-1:35)                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Discovery & Understanding | The agent effectively discovers the | The agent fails at the most basic   |
+|                           | customer's current setup (Amazon)   | level of discovery by not correctly |
+|                           | and future aspirations (Blinkit,    | identifying the customer or the     |
+|                           | Vamto), and pain points (wanting to | context of their previous           |
+|                           | sell on new platforms). (0:44-1:04) | engagement, leading to a circular   |
+|                           |                                     | conversation. (0:47-1:39)           |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Customer         | Not directly applicable as there    | The agent handles customer          |
+| Corrections               | were no corrections by the          | corrections very poorly, repeatedly |
+|                           | customer, but the agent's flexible  | correcting the customer about names |
+|                           | approach suggests good handling.    | (Akash vs. Adarsh, Mishra vs.       |
+|                           |                                     | Thakur) in a defensive manner.      |
+|                           |                                     | (0:47, 0:59, 1:06, 1:28, 1:59)      |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Handling        | The agent effectively handles the   | Not applicable, as the call never   |
+|                           | customer's request to sell on       | progresses to the stage of          |
+|                           | Blinkit and Vamto by clearly        | discussing objections to services   |
+|                           | explaining why they cannot support  | due to fundamental identity         |
+|                           | those platforms (lack of services)  | confusion.                          |
+|                           | and immediately offering            |                                     |
+|                           | alternative solutions on other      |                                     |
+|                           | marketplaces. (1:05-1:41)           |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pricing Objection         | Not applicable, pricing was not     | Not applicable, pricing was not     |
+| Response                  | discussed.                          | discussed.                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Financial        | Not applicable, financial           | Not applicable, financial           |
+| Constraints               | constraints were not discussed.     | constraints were not discussed.     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Solution Orientation      | The agent quickly pivots from what  | No solution is offered; the call is |
+|                           | they cannot do (Blinkit/Vamto) to   | stalled on clarifying past          |
+|                           | what they *can* do, offering to     | interactions and identities.        |
+|                           | help with other marketplaces and    | (1:42-2:08)                         |
+|                           | scheduling a detailed meeting.      |                                     |
+|                           | (1:35-1:41, 2:40-2:50)              |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Conversation Control      | The agent maintains control by      | The agent loses control of the      |
+|                           | guiding the conversation towards    | conversation, allowing it to get    |
+|                           | productive next steps, such as      | bogged down in a repetitive and     |
+|                           | scheduling a Google Meet for a      | unproductive discussion about names |
+|                           | detailed discussion. (2:39-2:50)    | and past interactions. (0:47-2:13)  |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pacing of Call            | The call has a good, steady pace,   | The call's pacing is erratic and    |
+|                           | allowing for clear communication    | disjointed, with frequent pauses    |
+|                           | and understanding without feeling   | and repetitions due to confusion,   |
+|                           | rushed or too slow. (Throughout)    | making it inefficient. (Throughout) |
++---------------------------+-------------------------------------+-------------------------------------+
+| Escalation Handling       | Not applicable, as the agent was    | The agent ultimately fails to       |
+|                           | capable of handling the customer's  | resolve the issue and states they   |
+|                           | query without needing escalation.   | will "connect to someone else,"     |
+|                           |                                     | indicating a failure to handle the  |
+|                           |                                     | initial interaction effectively.    |
+|                           |                                     | (2:07-2:08)                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Upsell / Add-on Handling  | The agent proactively mentions      | Not applicable, as the call did not |
+|                           | support for a wide range of         | progress beyond initial             |
+|                           | marketplaces (Amazon, Flipkart,     | identification issues.              |
+|                           | JioMart, Meesho) and even global    |                                     |
+|                           | selling, effectively upselling      |                                     |
+|                           | broader service capabilities.       |                                     |
+|                           | (1:54-1:59, 2:15-2:16)              |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Trust Impact     | The agent's professionalism, clear  | The agent's confusion,              |
+|                           | explanations, and proactive         | defensiveness, and inability to     |
+|                           | problem-solving build significant   | recall past interactions severely   |
+|                           | customer trust.                     | erode customer trust.               |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Mindset             | The agent demonstrates a proactive, | The agent displays a defensive and  |
+|                           | problem-solving, and customer-      | self-focused mindset, prioritizing  |
+|                           | centric mindset, always looking for | being correct about names over      |
+|                           | ways to assist.                     | helping the customer.               |
++---------------------------+-------------------------------------+-------------------------------------+
+| Problem Ownership         | The agent takes full ownership of   | The agent offloads the problem of   |
+|                           | finding a solution for the          | identification onto the customer,   |
+|                           | customer, even when the initial     | rather than proactively taking      |
+|                           | request cannot be directly          | steps to resolve the confusion.     |
+|                           | fulfilled. (1:35-1:41, 2:39-2:50)   | (1:30-1:35)                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Alignment        | The agent aligns with the           | The agent fails to align with the   |
+|                           | customer's ultimate goal (selling   | customer's purpose for calling,     |
+|                           | products online) by offering        | getting stuck on internal           |
+|                           | alternative, viable solutions when  | process/identification issues       |
+|                           | specific platforms are not          | rather than addressing the          |
+|                           | supported. (1:35-1:41)              | customer's actual need. (0:47-2:13) |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Framing         | The agent frames the inability to   | Not applicable, as no objections    |
+|                           | support certain platforms as a      | were handled.                       |
+|                           | logical business decision due to    |                                     |
+|                           | lack of "actual services there,"    |                                     |
+|                           | rather than a simple refusal.       |                                     |
+|                           | (1:24-1:26)                         |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Trust Signals             | Clear communication, professional   | Lack of preparedness, confusion,    |
+|                           | demeanor, offering a structured     | repeated corrections, and failure   |
+|                           | next step (Google Meet), and        | to recall basic information.        |
+|                           | demonstrating comprehensive         | (0:47-2:13)                         |
+|                           | knowledge. (2:39-2:50)              |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Cost Sensitivity          | Not applicable, as cost was not a   | Not applicable, as cost was not a   |
+|                           | discussion point.                   | discussion point.                   |
++---------------------------+-------------------------------------+-------------------------------------+
+| Decision Momentum         | The agent creates strong decision   | The call completely loses momentum, |
+|                           | momentum by proposing a clear,      | going in circles about names and    |
+|                           | actionable next step: scheduling a  | past meetings, with no clear path   |
+|                           | Google Meet. (2:56-2:58)            | forward. (1:27-2:13)                |
++---------------------------+-------------------------------------+-------------------------------------+
+| Overall Call Outcome      | The call is successful, with clear  | The call is unsuccessful, ending    |
+|                           | next steps agreed upon for a more   | with the agent needing to escalate  |
+|                           | detailed discussion and planning.   | or connect with someone else due to |
+|                           | (2:56-3:07)                         | fundamental miscommunication.       |
+|                           |                                     | (2:07-2:08)                         |
++---------------------------+-------------------------------------+-------------------------------------+
+
+--- MISSING ELEMENTS IN BAD CALL ---
+1.  **Customer Relationship Management (CRM) Usage / Call Preparation:** The agent in the bad call clearly did not access or review any prior customer interaction notes or CRM entries before or during the call, leading to significant confusion regarding names and past meetings.
+2.  **Proactive Problem Identification and Resolution:** Instead of getting stuck in a loop of identity clarification, the agent should have quickly identified the core problem (misidentification) and offered a swift resolution, such as transferring to a colleague or checking internal records more thoroughly.
+3.  **Active Listening and Confirmation:** The agent consistently failed to listen effectively and confirm details, instead repeatedly correcting the customer's perception of names and past conversations, escalating frustration.
+4.  **Empathy and Professional Tone:** The agent lacked empathy, appearing defensive and prioritizing correcting the customer's memory over understanding their actual query and maintaining a helpful, professional demeanor.
+5.  **Clear Next Steps and Accountability:** The bad call ended without a concrete plan or a clear timeline for how the customer's initial query would eventually be addressed, lacking accountability for follow-up.
+
+--- WINNING PHRASES MAPPING ---
+1.  "what the best we can do, we can just schedule a Google Meet so that we can have a proper discussion about everything like your queries I will be like answering and we can have your planning as well." (2:39-2:48)
+    *   **Where to use in Bad Call:** After the initial confusion about names (e.g., around 1:20 or 2:00), once some basic information is confirmed. The agent could say, "I apologize for the confusion regarding the names. To ensure we properly address your needs, what I can do is schedule a Google Meet with the correct team member so we can have a proper discussion about everything, and I will make sure all your queries are answered and we can plan effectively."
+    *   **Expected Impact:** This phrase would immediately shift the focus from past confusion and blame to a clear, actionable, and future-oriented solution. It demonstrates proactivity, offers a structured discussion, and implies expert handling, thereby rebuilding trust and injecting momentum into the stalled conversation.
+
+2.  "you are products should be available on those particular pincodes. Okay? And as a company we are not providing any services on Blinkit and. Because we can't provide any actual services there." (1:17-1:26)
+    *   **Where to use in Bad Call:** While this specific context (selling on platforms) wasn't reached, if the conversation had progressed to specific service limitations. For example, if the customer requested a service the company doesn't offer.
+    *   **Expected Impact:** This phrase provides a clear, logical, and transparent reason for why a particular service or platform cannot be supported, without being dismissive. It sets realistic expectations and prevents further misunderstanding by offering a justifiable explanation, which is crucial for maintaining trust even when delivering a "no."
+
+3.  "But we're working on marketplaces because they help you to like build a brand and provide you end to end everything." (1:35-1:41)
+    *   **Where to use in Bad Call:** Similar to the previous phrase, if a service limitation was identified, this phrase would follow the explanation of "why not." For instance, "While we might not directly support X, we focus on marketplaces like Y and Z because they help you to build a brand and provide you end-to-end everything."
+    *   **Expected Impact:** This phrase immediately pivots from a "no" to a positive "yes, and here's how we can help even better," framing alternatives as superior solutions. It focuses on tangible customer benefits (brand building, comprehensive support), demonstrating the agent's problem-solving attitude and re-engaging the customer positively, even if their initial request isn't directly met.
+
+====================================================================================================
+
+
+====================================================================================================
+COMPARISON REPORT: 2025-12-31 15:33:06
+GOOD URL: https://cloudphone.tatateleservices.com/file/recording?callId=1761822657.124382&type=rec&token=UTRKclV0SllIRGpvZGY0RW9hek9ERHNYcDRvR2prSWFiQnFDYlljb1c5WHVHR3pKajgrRHY0ZlYyM2ZHa2JLSjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+BAD URL:  https://cloudphone.tatateleservices.com/file/recording?callId=1758947946.1012802&type=rec&token=NW01NUNQQjZtc1hvQXowYitoaXkxVk5LVWtKYlh3NS9nalFBTzFLdVVNY0xMa2E4TGNWVk5SYklZU2NSQ1pWTDo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+====================================================================================================
+
+--- CSAT SCORES ---
+GOOD CALL:
+Score: 9/10
+Reason: Agent clearly explained and proposed solution for smooth connection.
+Tone: Helpful
+
+BAD CALL:
+1. Score: 9/10
+2. Reason: Agent clearly identified issue, resolved confusion politely, and ended call efficiently.
+3. Tone: Polite
+
+--- COMPARISON ANALYSIS ---
++---------------------------+-------------------------------------+-------------------------------------+
+| Evaluation Variable       | GOOD CALL (File 1)                  | BAD CALL (File 2)                   |
++===========================+=====================================+=====================================+
+| Variable Name             | Good Call description (timestamp)   | Bad Call description (timestamp)    |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Tone & Energy       | Professional, calm, and reassuring  | Robotic, low energy, and somewhat   |
+|                           | throughout the call, particularly   | interrogative, leading to a         |
+|                           | when clarifying next steps. (0:01,  | confrontational and unhelpful tone. |
+|                           | 0:43, 1:50)                         | (0:05, 0:17, 0:34)                  |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Confidence          | Confident in explaining the         | Lacks confidence, primarily reading |
+|                           | process, acknowledging limitations, | from a script and unable to adapt   |
+|                           | and offering alternative solutions. | when the customer denies the        |
+|                           | (0:11, 0:45, 1:51)                  | information. (0:10, 0:29, 0:50)     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Listening Quality         | Actively listens to the customer's  | Fails to listen to the customer's   |
+|                           | concerns, acknowledges their        | repeated denials, sticking strictly |
+|                           | points, and integrates them into    | to the information they have        |
+|                           | the response. (0:26, 1:07, 1:11)    | regardless of customer input.       |
+|                           |                                     | (0:17, 0:26, 0:47)                  |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Empathy          | Shows understanding of potential    | Shows no empathy for the customer's |
+|                           | communication delays and the        | confusion or denial about raising a |
+|                           | customer's situation, explaining    | query, simply insisting on their    |
+|                           | reasons for delays. (1:30-1:34,     | data. (0:17-0:20, 0:47-0:48)        |
+|                           | referring to US time difference)    |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Discovery & Understanding | Seeks to understand why the         | Makes no attempt to discover why    |
+|                           | customer hasn't received a response | the customer denies the query or to |
+|                           | and clarifies the different         | verify the information beyond       |
+|                           | communication channels. (0:17-0:20, | reiterating it. (0:17-0:24,         |
+|                           | 1:07-1:09)                          | 0:44-0:45)                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Customer         | Accepts the customer's correction   | Dismisses the customer's clear      |
+| Corrections               | that they had already connected,    | correction that they did not raise  |
+|                           | then clarifies the missing revert   | a query, instead repeating the      |
+|                           | from the other party. (1:11-1:17)   | query details as if the customer is |
+|                           |                                     | mistaken. (0:17-0:19, 0:26-0:30,    |
+|                           |                                     | 0:47-0:48)                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Handling        | Addresses the customer's            | Handles the customer's explicit     |
+|                           | "objection" about not receiving a   | denial (objection) very poorly by   |
+|                           | revert by offering logical          | simply repeating the initial query  |
+|                           | explanations and proactive next     | details, leading to frustration.    |
+|                           | steps. (1:30-1:34, 1:51-1:59)       | (0:17-0:24, 0:47-0:51)              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pricing Objection         | Not applicable as no pricing        | Not applicable as no pricing        |
+| Response                  | objection was raised.               | objection was raised.               |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Financial        | Not applicable as no financial      | Not applicable as no financial      |
+| Constraints               | constraints were discussed.         | constraints were discussed.         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Solution Orientation      | Proactively offers a clear,         | Offers no solution; the call ends   |
+|                           | actionable solution (Google Meet    | without any resolution or a clear   |
+|                           | conference call) to ensure face-to- | path forward for the customer or    |
+|                           | face communication. (2:02-2:10)     | the query. (0:57-0:58)              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Conversation Control      | Maintains control by guiding the    | Loses control as the customer gets  |
+|                           | conversation towards a clear        | frustrated and confused, resulting  |
+|                           | resolution and offering structured  | in a repetitive and unproductive    |
+|                           | next steps. (0:54-0:59, 1:51-1:59)  | exchange. (0:17-0:24, 0:47-0:56)    |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pacing of Call            | Well-paced, allowing for clear      | Rushed and disjointed, with the     |
+|                           | explanations and customer input     | agent quickly reiterating           |
+|                           | without feeling rushed or hurried.  | information without allowing for    |
+|                           | (0:11-0:15, 1:36-1:48)              | full customer comprehension or      |
+|                           |                                     | response. (0:09-0:12, 0:40-0:43)    |
++---------------------------+-------------------------------------+-------------------------------------+
+| Escalation Handling       | Provides an effective escalation    | No escalation handling is offered;  |
+|                           | path by suggesting a conference     | the call terminates with unresolved |
+|                           | call or Google Meet to resolve the  | confusion and a dissatisfied        |
+|                           | issue more comprehensively.         | customer.                           |
+|                           | (1:57-2:10)                         |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Upsell / Add-on Handling  | Not applicable as there was no      | Not applicable as there was no      |
+|                           | opportunity for upsell/add-on.      | opportunity for upsell/add-on.      |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Trust Impact     | Builds trust through transparency,  | Erodes trust; the customer likely   |
+|                           | solution-orientation, patience, and | feels unheard, misunderstood, and   |
+|                           | commitment to follow-up.            | wrongly accused of initiating a     |
+|                           |                                     | query.                              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Mindset             | Proactive, problem-solving, and     | Inflexible, script-bound, and data- |
+|                           | customer-centric mindset, focused   | centric, leading to an inability to |
+|                           | on achieving a satisfactory         | adapt to the customer's             |
+|                           | resolution.                         | contradictory information.          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Problem Ownership         | Takes ownership of the              | Fails to take ownership of the      |
+|                           | communication gap and proactively   | potential data discrepancy, instead |
+|                           | seeks ways to bridge it for the     | placing the burden of proof on the  |
+|                           | customer. (1:51-1:59, 2:02-2:10)    | customer. (0:17-0:24, 0:47-0:51)    |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Alignment        | Actively works to align with the    | Completely misaligned with the      |
+|                           | customer's understanding and needs, | customer, leading to mutual         |
+|                           | ensuring both parties are on the    | frustration and a lack of           |
+|                           | same page.                          | productive communication.           |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Framing         | Frames the "no revert" as a         | Frames the "no query" as the        |
+|                           | communication challenge to be       | customer being mistaken, rather     |
+|                           | overcome, not a customer complaint  | than considering a potential data   |
+|                           | or a failing on their part.         | error on the agent's side.          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Trust Signals             | Uses trust signals such as clear    | Lacks trust signals; the insistence |
+|                           | explanations, offering alternative  | on incorrect data creates an        |
+|                           | solutions, and confirming           | immediate sense of distrust.        |
+|                           | understanding.                      |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Cost Sensitivity          | Not applicable.                     | Not applicable.                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Decision Momentum         | Creates positive decision momentum  | Leads to a dead end, with no clear  |
+|                           | by outlining clear, actionable next | path forward or resolution for the  |
+|                           | steps for a resolution.             | customer's query.                   |
++---------------------------+-------------------------------------+-------------------------------------+
+| Overall Call Outcome      | Positive outcome with a clear plan  | Negative outcome, as the customer   |
+|                           | to resolve the customer's query and | is annoyed, and the agent fails to  |
+|                           | ensure future communication.        | resolve the initial query or offer  |
+|                           |                                     | any help.                           |
++---------------------------+-------------------------------------+-------------------------------------+
+
+--- MISSING ELEMENTS IN BAD CALL ---
+1.  **Initial Verification and Confirmation:** The agent in the bad call immediately states query details without first asking the customer to confirm their identity or if they recall making any recent inquiries.
+2.  **Apology for Potential System Error/Confusion:** Upon the customer's repeated denial, the agent does not apologize for the confusion or the possibility of a system error.
+3.  **Offer to Investigate Data Discrepancy:** The agent never offers to investigate why their system shows a query from the customer if the customer explicitly denies it.
+4.  **Empathy and Acknowledgment of Customer's Perspective:** There is no attempt to acknowledge the customer's confusion or frustration when they deny having raised the query.
+5.  **Proactive Problem-Solving/Alternative Assistance:** The call ends without any proposed solution to rectify the incorrect query or to offer assistance if the customer *did* have a different query.
+
+--- WINNING PHRASES MAPPING ---
+1.  "अच्छा, नहीं मुझे लगा आप वो आपने नंबर नहीं दिया, टू टिक नहीं आई तो मैंने सोचा शायद..." (0:06-0:10)
+    -> **Where to use in Bad Call:** When the customer first denies making the query (e.g., after 0:17).
+    -> **Expected Impact:** This phrase would allow the agent to acknowledge the customer's denial while explaining their own system's perspective. It signals active listening and a willingness to understand the discrepancy, rather than just insisting, making the customer feel heard and potentially preventing frustration.
+
+2.  "हम आइडियली कॉलिंग से कनेक्ट नहीं करते हैं, मैं आपको... मैं आपको मैसेज भेजा था..." (0:26-0:31)
+    -> **Where to use in Bad Call:** After the customer denies the query multiple times (e.g., after 0:26).
+    -> **Expected Impact:** The agent could pivot from the incorrect query to a preferred or standard communication method. This shifts the focus from the disputed query to how they usually interact with customers, creating an opening for general assistance or to re-verify contact methods, rather than just repeating query details.
+
+3.  "ऐसा हुआ तो हम Google Meet के थ्रू कनेक्ट हो जाएंगे जिससे कि वो भी कनेक्ट हो सकें Google Meet के लिंक पर और हम भी कनेक्ट हो सकें सो दैट कि हम फेस टू फेस बैठ के बात भी कर पाएं।" (2:02-2:10)
+    -> **Where to use in Bad Call:** At the end of the call, when the customer is clearly confused and denying the query (e.g., after 0:56).
+    -> **Expected Impact:** Instead of ending on a note of confusion, this phrase offers a clear, proactive, and collaborative solution. It could turn a negative interaction into a problem-solving opportunity, even if the initial query was invalid, by showing a commitment to help or clarify further, building potential trust.
+
+====================================================================================================
+
+
+====================================================================================================
+COMPARISON REPORT: 2025-12-31 15:34:48
+GOOD URL: https://cloudphone.tatateleservices.com/file/recording?callId=1761822657.124382&type=rec&token=UTRKclV0SllIRGpvZGY0RW9hek9ERHNYcDRvR2prSWFiQnFDYlljb1c5WHVHR3pKajgrRHY0ZlYyM2ZHa2JLSjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+BAD URL:  https://cloudphone.tatateleservices.com/file/recording?callId=1758962164.1076239&type=rec&token=MytLVkZzVHR2WmFKQWNnMVpsY0RTTldpK2pLdHFwZ0JnY3hPMGt1VTJ4YlNqeHl5S0VvOXFlZ282WCtHV2F4Rzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+====================================================================================================
+
+--- CSAT SCORES ---
+GOOD CALL:
+1. Score: 9/10
+2. Reason: Agent clarified confusion, provided status, and offered a proactive solution.
+3. Tone: Professional
+
+BAD CALL:
+1. Score: 4/10
+2. Reason: Caller failed to clarify service, leading to customer confusion and repeated denial of need.
+3. Tone: Professional
+
+--- COMPARISON ANALYSIS ---
++---------------------------+-------------------------------------+-------------------------------------+
+| Evaluation Variable       | GOOD CALL (File 1)                  | BAD CALL (File 2)                   |
++===========================+=====================================+=====================================+
+| Agent Tone & Energy       | Professional, calm, empathetic, and | Initially polite, but becomes       |
+|                           | solution-oriented. (0:05, 0:17,     | somewhat robotic and insistent,     |
+|                           | 0:51, 1:51)                         | lacking genuine engagement. (0:03,  |
+|                           |                                     | 0:11, 0:31)                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Confidence          | High, clear communication, and      | Appears to follow a script, which   |
+|                           | takes ownership of the problem.     | leads to a lack of natural          |
+|                           | (0:05-0:08, 0:17-0:20, 0:51-0:54)   | confidence when faced with customer |
+|                           |                                     | disinterest. (0:11-0:14)            |
++---------------------------+-------------------------------------+-------------------------------------+
+| Listening Quality         | Actively listens, clarifies         | Poor. Misses direct cues and        |
+|                           | customer's statements, and ensures  | statements from the customer, such  |
+|                           | full understanding. (0:17, 0:21,    | as "don't need a manager." (0:24,   |
+|                           | 0:39, 0:57)                         | 0:39, 0:47, 0:52)                   |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Empathy          | Acknowledges the customer's issue   | Lacks empathy. Does not acknowledge |
+|                           | (non-response from the US contact)  | the customer's current self-        |
+|                           | and validates her efforts.          | management or the lack of immediate |
+|                           | (1:30-1:34)                         | need for the service. (0:39-0:41,   |
+|                           |                                     | 0:52-0:53)                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Discovery & Understanding | Clearly understands the complexity  | Very limited. Asks only surface-    |
+|                           | of multiple WhatsApp numbers and    | level questions and fails to        |
+|                           | the need for a collaborative        | uncover any specific pain points or |
+|                           | solution. (0:17-0:20, 0:32-0:34,    | needs beyond generic assumptions.   |
+|                           | 0:51-0:54)                          | (0:19-0:23, 1:04-1:05)              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Customer         | Smoothly integrates customer's      | Fails to effectively address the    |
+| Corrections               | clarifications about different      | customer's correction about not     |
+|                           | WhatsApp numbers and communication  | needing a manager, instead          |
+|                           | methods. (0:21-0:25)                | continuing with unrelated           |
+|                           |                                     | questions. (0:39-0:41, 0:52-0:53)   |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Handling        | Not explicitly present as an        | Fails to handle the customer's      |
+|                           | objection, but the agent            | direct objection ("requirement to   |
+|                           | proactively addresses the non-      | nahi hai manager ki" (0:40)),       |
+|                           | response from the US contact as a   | ignoring it and continuing to ask   |
+|                           | problem to be solved. (1:30-1:34)   | generic questions. (0:40-0:43,      |
+|                           |                                     | 0:52-0:53)                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pricing Objection         | Not applicable.                     | Not applicable.                     |
+| Response                  |                                     |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Financial        | Not applicable.                     | Not applicable.                     |
+| Constraints               |                                     |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Solution Orientation      | Immediately suggests a conference   | Attempts to offer a solution        |
+|                           | call and readily agrees to the      | (account management service)        |
+|                           | customer's suggestion of a Google   | without first understanding the     |
+|                           | Meet for better engagement.         | customer's actual problem or need.  |
+|                           | (0:51-0:54, 1:51-1:59, 2:02-2:10)   | (0:34-0:36)                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Conversation Control      | Maintains control of the            | Struggles to control the            |
+|                           | conversation, guiding it towards a  | conversation and direct it          |
+|                           | solution while allowing the         | productively after the customer     |
+|                           | customer to express her concerns.   | states she doesn't need the         |
+|                           | (0:05-0:08, 0:17-0:20, 0:51-0:54)   | service. (0:39-0:43, 0:52-0:53)     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pacing of Call            | Appropriate and unhurried, allowing | Rushed, pushing through questions   |
+|                           | for clear communication and         | despite clear signals of the        |
+|                           | understanding. (Throughout)         | customer's lack of interest.        |
+|                           |                                     | (Throughout)                        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Escalation Handling       | Willing to escalate the             | Not applicable.                     |
+|                           | communication method (to a          |                                     |
+|                           | conference call/Google Meet) to     |                                     |
+|                           | effectively resolve the issue.      |                                     |
+|                           | (0:56-0:57, 1:58-1:59, 2:02-2:10)   |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Upsell / Add-on Handling  | Not applicable.                     | Attempts to upsell account          |
+|                           |                                     | management but without establishing |
+|                           |                                     | value or addressing the customer's  |
+|                           |                                     | immediate needs. (0:34-0:36)        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Trust Impact     | Positive. The customer feels heard, | Negative. The customer likely feels |
+|                           | understood, and confident that a    | misunderstood and potentially       |
+|                           | solution is being pursued.          | annoyed by the agent's persistence  |
+|                           | (2:12-2:13)                         | despite their stated disinterest.   |
+|                           |                                     | (0:52-0:53, 1:39-1:40)              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Mindset             | Proactive, helpful, and focused on  | Script-bound and sales-focused      |
+|                           | solving the customer's problem.     | rather than genuinely customer-     |
+|                           | (Throughout)                        | centric. (Throughout)               |
++---------------------------+-------------------------------------+-------------------------------------+
+| Problem Ownership         | Takes ownership of ensuring         | Does not take ownership of the      |
+|                           | successful communication with the   | customer's situation (as the        |
+|                           | third party. (0:51-0:54, 1:51-1:59) | customer doesn't perceive a         |
+|                           |                                     | problem), merely tries to sell a    |
+|                           |                                     | service.                            |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Alignment        | Aligns with the customer's          | Fails to align with the customer's  |
+|                           | preferred communication method      | current situation or stated needs.  |
+|                           | (Google Meet) to ensure effective   | (0:39-0:41, 0:52-0:53)              |
+|                           | collaboration. (2:02-2:10)          |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Framing         | Not applicable.                     | Does not reframe the customer's     |
+|                           |                                     | objection ("no requirement for a    |
+|                           |                                     | manager") into an opportunity to    |
+|                           |                                     | discuss the benefits of the         |
+|                           |                                     | service.                            |
++---------------------------+-------------------------------------+-------------------------------------+
+| Trust Signals             | Clear communication, active         | Lacks trust signals due to poor     |
+|                           | listening, and a proactive approach | listening and persistence in        |
+|                           | to offering solutions. (Throughout) | selling a service not immediately   |
+|                           |                                     | needed.                             |
++---------------------------+-------------------------------------+-------------------------------------+
+| Cost Sensitivity          | Not applicable.                     | Not applicable.                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Decision Momentum         | Moves the conversation towards      | The call loses momentum as the      |
+|                           | concrete next steps and a clear     | customer clearly states they don't  |
+|                           | resolution. (0:51-0:54, 1:51-1:59,  | need the service, with the agent    |
+|                           | 2:02-2:10)                          | struggling to revive it.            |
+|                           |                                     | (0:39-0:41, 0:52-0:53)              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Overall Call Outcome      | Positive, with clear next steps     | Negative, as the customer clearly   |
+|                           | identified and a satisfied          | states no current requirement,      |
+|                           | customer.                           | leading to a vague "call back       |
+|                           |                                     | later" conclusion.                  |
++---------------------------+-------------------------------------+-------------------------------------+
+
+--- MISSING ELEMENTS IN BAD CALL ---
+1.  **Acknowledging Current State:** The agent fails to acknowledge and validate the customer's statement that they are currently managing their Amazon account themselves.
+2.  **Probing for Future Needs/Pain Points:** Instead of pushing the service directly, the agent misses the opportunity to probe for potential future challenges or growth areas where their service could eventually be beneficial.
+3.  **Open-Ended Discovery Questions:** The agent primarily asks yes/no or confirmation questions, rather than open-ended questions that could uncover underlying needs or motivations.
+4.  **Active Listening to Disinterest:** The agent does not actively listen to or respond to the customer's explicit statements of disinterest (e.g., "abhi requirement to nahi hai manager ki").
+5.  **Establishing Value Proposition Early:** The agent attempts to sell the service without first establishing a clear value proposition tailored to the customer's current situation or potential future needs.
+
+--- WINNING PHRASES MAPPING ---
+1.  "तो आप मुझे जो WhatsApp पर कांटेक्ट करती हैं, ये वो कौन सा नंबर है?" (0:17)
+    -> **Where to use in Bad Call:** After the customer clarifies they are managing their Amazon account themselves (around 0:39-0:41 or 0:52-0:53).
+    -> **Expected Impact:** This demonstrates active listening and a genuine attempt to understand the customer's current setup. It shifts from a sales pitch to a more consultative approach, potentially uncovering specific aspects of their current management that could be improved or areas where they might need help.
+
+2.  "और फिर एक कॉन्फ्रेंस कॉल कर लेंगे।" (1:58)
+    -> **Where to use in Bad Call:** After the customer states they are managing things themselves and mentions their daily order volume (around 1:09).
+    -> **Expected Impact:** This shows proactive problem-solving. Instead of pushing for a manager, the agent could suggest a quick, low-commitment conference call to simply *share insights* on how others manage similar order volumes or discuss general best practices, thereby building trust without directly selling.
+
+3.  "ऐसा हुआ तो हम Google Meet के थ्रू कनेक्ट हो जाएंगे, जिससे कि वो भी गाइड तो सकें Google Meet के लिंक पर और हम भी कनेक्ट हो सकें सो दैट कि हम face-to-face बैठकर बात भी कर पाएं।" (2:02)
+    -> **Where to use in Bad Call:** When suggesting the conference call (as per the previous point) or if the customer expresses any hesitation about a direct call.
+    -> **Expected Impact:** This phrase offers flexibility and a more personal, collaborative approach. It frames the interaction as a shared learning or problem-solving session rather than a hard sell, potentially making the customer more amenable to engaging and sharing more information. The "face-to-face" aspect (even virtual) helps build rapport and trust.
+
+====================================================================================================
+
+====================================================================================================
+COMPARISON REPORT: 2026-01-05 15:29:18
+GOOD URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764066854.224153&type=rec&token=a1JqVGw1SGQ1ZGlWM1g2WHdPejJ6MlZlZFNzOGszd05zSzRtNzJuOFpQQnBHOWx2b1lkaGNRNzQrZldNQ0tFYjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+BAD URL:  https://cloudphone.tatateleservices.com/file/recording?callId=1763973455.9098&type=rec&token=MG0rRlJLSmY3MUpQWlBiZ2JGVjV3SVIvbVMxbnZjaU8wem0vaXkrR3c2Y0Fvb0ZyR1FOQ2Vjc1lWVUQzUmRmQzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+====================================================================================================
+
+--- CSAT SCORES ---
+GOOD CALL: 1. Score: 8/10
+2. Reason: Agent offered viable alternatives and proactive follow-up, despite not supporting initial platform request.
+3. Tone: Helpful
+BAD CALL:  Score: 3/10
+Reason: Agent's repeated confusion about names and past interactions led to high customer effort.
+Tone: Confused
+
+--- COMPARISON ANALYSIS ---
++---------------------------+-------------------------------------+-------------------------------------+
+| Evaluation Variable       | GOOD CALL (File 1)                  | BAD CALL (File 2)                   |
++===========================+=====================================+=====================================+
+| ---                       | ---                                 | ---                                 |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Agent Tone & Energy**   | Professional, enthusiastic, and     | Confused, hesitant, slightly        |
+|                           | consistently helpful.               | disoriented, and low energy.        |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Agent Confidence**      | High confidence in product          | Low confidence, struggling to       |
+|                           | knowledge and proposed solutions.   | recall or verify basic information. |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Listening Quality**     | Excellent; agent actively listens,  | Poor; agent repeatedly mishears or  |
+|                           | understands customer's current      | misunderstands names and context,   |
+|                           | situation and future goals.         | leading to confusion.               |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Customer Empathy**      | Demonstrates empathy by             | No empathy shown; the conversation  |
+|                           | acknowledging customer's existing   | is solely focused on clarifying     |
+|                           | efforts and offering tailored       | identity rather than customer's     |
+|                           | support.                            | needs.                              |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Discovery &             | Proactively discovers customer's    | Fails completely to discover        |
+| Understanding**           | current selling platforms and       | customer's needs due to getting     |
+|                           | desired expansion.                  | stuck on identity verification.     |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Handling Customer       | N/A (no major corrections needed    | Struggles to process customer       |
+| Corrections**             | from customer).                     | corrections regarding names and     |
+|                           |                                     | previous meetings, prolonging       |
+|                           |                                     | confusion.                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Objection Handling**    | Proactively addresses potential     | N/A (no business objections were    |
+|                           | issues with specific platforms      | reached; call was stuck on          |
+|                           | (BlinqIt) by explaining limitations | identity).                          |
+|                           | and offering viable alternatives.   |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Pricing Objection       | N/A (pricing was not discussed in   | N/A (pricing was not discussed).    |
+| Response**                | this segment).                      |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Handling Financial      | N/A (financial constraints were not | N/A (financial constraints were not |
+| Constraints**             | discussed).                         | discussed).                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Solution Orientation**  | Highly solution-oriented; offers a  | Not solution-oriented; the call     |
+|                           | range of marketplace solutions and  | gets bogged down in confusion       |
+|                           | a clear next step (Google Meet).    | without addressing any business     |
+|                           |                                     | problem.                            |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Conversation Control**  | Agent maintains clear control,      | Agent loses control of the          |
+|                           | guiding the conversation towards    | conversation, allowing it to derail |
+|                           | understanding needs and providing   | into a lengthy identity crisis.     |
+|                           | solutions.                          |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Pacing of Call**        | Well-paced and efficient, moving    | Slow, repetitive, and disjointed    |
+|                           | logically towards a clear outcome.  | due to constant back-and-forth      |
+|                           |                                     | about identity.                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Escalation Handling**   | N/A (no escalation needed, agent    | Handles indirectly by stating he'll |
+|                           | could handle the query).            | connect the customer with someone   |
+|                           |                                     | else, but it feels like offloading  |
+|                           |                                     | rather than proper escalation.      |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Upsell / Add-on         | Naturally transitions to offering   | N/A (no opportunity for upsell/add- |
+| Handling**                | broader services like marketing and | on due to call's breakdown).        |
+|                           | advertising on various platforms.   |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Customer Trust Impact** | Builds strong customer trust        | Significantly erodes customer trust |
+|                           | through professionalism, clear      | due to confusion, lack of           |
+|                           | communication, and a strategic      | preparation, and inability to       |
+|                           | approach.                           | recall past interactions.           |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Agent Mindset**         | Proactive, resourceful, focused on  | Reactive, confused, and primarily   |
+|                           | delivering value and a positive     | focused on clarifying internal      |
+|                           | customer experience.                | information rather than customer    |
+|                           |                                     | value.                              |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Problem Ownership**     | Takes ownership of the customer's   | Avoids ownership by constantly      |
+|                           | selling challenges and proposes a   | asking for clarification and        |
+|                           | comprehensive plan to assist.       | ultimately passing the buck to      |
+|                           |                                     | another person.                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Customer Alignment**    | Quickly aligns with the customer's  | Fails to align with the customer's  |
+|                           | expressed goal of expanding sales   | purpose for calling due to a        |
+|                           | channels and offers relevant        | fundamental misunderstanding of     |
+|                           | support.                            | identity and context.               |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Objection Framing**     | Frames platform limitations         | N/A (no business objections were    |
+|                           | transparently as a reason to pivot  | handled).                           |
+|                           | to more effective solutions.        |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Trust Signals**         | Provides clear, consistent          | Provides inconsistent information;  |
+|                           | information; offers concrete next   | struggles with recall; offers vague |
+|                           | steps; speaks with authority.       | next steps, generating distrust.    |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Cost Sensitivity**      | N/A (cost was not discussed).       | N/A (cost was not discussed).       |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Decision Momentum**     | Creates clear decision momentum     | Stalls all decision momentum,       |
+|                           | with a proposed Google Meet to      | leaving the customer without a      |
+|                           | outline a plan.                     | clear path forward.                 |
++---------------------------+-------------------------------------+-------------------------------------+
+| **Overall Call Outcome**  | Positive; customer's needs are      | Negative; no resolution, customer's |
+|                           | understood, a clear plan is         | time is wasted, and the impression  |
+|                           | established, and trust is built.    | is unprofessional.                  |
++---------------------------+-------------------------------------+-------------------------------------+
+
+--- MISSING ELEMENTS IN BAD CALL ---
+1.  **Preparation/Contextual Knowledge:** The agent in the bad call clearly lacked any prior knowledge or a quick review of the customer's previous interactions (e.g., onboarding with "Anshul/Adarsh").
+2.  **Effective Identity Verification:** The agent failed to correctly identify the customer or their company's previous engagement, leading to a prolonged and unproductive discussion about names.
+3.  **Customer Need Elicitation:** The call never progressed to understanding *why* the customer was calling beyond the initial confusion, completely missing the opportunity to discover their actual business needs.
+4.  **Solution Provision:** Since the customer's problem was never properly identified, no relevant solutions or value could be offered during the call.
+5.  **Clear Next Steps & Ownership:** The call ended vaguely with the agent stating he would connect the customer to someone else, without a concrete plan or taking ownership of the follow-up.
+
+--- WINNING PHRASES MAPPING ---
+1.  "what the best we can do is just schedule a Google Meet so that we can have a proper discussion about everything like your queries I will be like answering and we can have your planning as well."
+    *   **Where to use in Bad Call:** At the point where the agent is confused about the previous meeting or client identity.
+    *   **Expected Impact:** This would immediately pivot the conversation from confusion to a structured, solution-oriented approach, demonstrating professionalism and a clear path forward, even if initial context is missing. It implies taking ownership and a willingness to resolve the issue systematically.
+
+2.  "Because we can't provide any actual services not there. Because the client has not acknowledged for like actual inventory. So therefore it is not possible to help on BlinqIt and Vep. But we are working on marketplaces because they help you to like build a brand and provide you end to end everything."
+    *   **Where to use in Bad Call:** If the customer had mentioned a specific platform they wanted to use (like BlinqIt in the good call) and the agent needed to explain why it might not be suitable *from their side*.
+    *   **Expected Impact:** This demonstrates transparency and expertise. It explains *why* something isn't possible, rather than just saying "no," and then immediately pivots to a viable alternative, showing a solution-oriented mindset.
+
+3.  "Yeah, Amazon, Flipkart, JioMart, or Myntra, any market place, we can provide you."
+    *   **Where to use in Bad Call:** After identifying the customer's core business need (e.g., selling products online).
+    *   **Expected Impact:** This immediately shows the breadth of the agent's company's capabilities and reassures the customer that they can assist with their primary objective, building confidence and moving the conversation towards concrete solutions.
+
+--- CLEAN TRANSCRIPT: GOOD CALL ---
+[00:03] Customer: Hello.
+[00:05] Agent: Yeah, good afternoon. Neeti, ma Aakarsh baat kar raha hu Gono per se. Fir se shuru kiya tha na aapko yaad hoga.
+[00:10] Customer: Right. Actually, Aakarsh, can I give you a call tomorrow because actually there were a couple of questions. We just had a meeting today and I was there were a couple of questions which we had. So probably that and I just lost your number somehow, the personal number. So I could not connect to you. The other way I would call you just obviously the same number. Could you send me the number so that I can arrange a call back tomorrow?
+[00:37] Agent: This is the calling number, this is my IR number. Okay, you can.
+[00:40] Customer: Just one thing. Can you just tell me one thing, ki agar hum if we want to sell our product, it is already there on the Amazon and we have sold like 40 to 50 things, what do you say, the items like in a couple of. So we wanted to sell it on Blinqet and we had a portal there. So would you be able to help us out with that Blinqet thing?
+[01:05] Agent: No, Blinqet and why we are like, there are two points. If you want to sell online, quick commerce is definitely a good space to sell but the main challenge was sellers, like, face there na. For that particular thing, your product should be available on those particular pin codes. Okay, and as a company, we are not providing any services on Blinqet and Zop. Because we can't provide any SEO services there. Because the client has not in their inventory. So therefore it is not possible to help on Blinqet and Zop. But they're working on marketplaces because they help you to build a brand and provide you end to end everything.
+[01:43] Customer: Okay, okay. So what exactly you are saying is you would be able to help us out with marketing and advertising on the Amazon itself?
+[01:53] Agent: Yeah, Amazon, Flipkart, this will be different. Amazon, Flipkart, JioMart or Myntra, any marketplace.
+[01:59] Customer: Do you have a wing who would be able to help us out with selling on these local portals, the domestic ones?
+[02:06] Agent: Like domestic one, like which one? Amazon, Flipkart or any more?
+[02:09] Customer: Yeah, yeah, yeah. See, Amazon.
+[02:12] Agent: Also if you want to sell your products on like global as well. Okay, on Amazon Canada portal, we can help you there as well.
+[02:22] Customer: Okay. So yeah, we had a couple of questions regarding the same actually. So can I call you back at around maybe I'll call you like we can schedule a call. One I'll inform you one hour prior so that what you're also okay.
+[02:38] Agent: What the best we can do, we can just schedule a Google Meet. That we can have a proper discussion about everything like your queries I will be answering and we can have your planning as well. What is the planning, how we are planning for it.
+[02:51] Customer: Okay, yeah, yeah. Alright. So I'll confirm you by like 10 o'clock tomorrow morning.
+[02:59] Agent: Sure, what the best we can do, I'm texting you from the number over WhatsApp. Okay, and you can just.
+[03:04] Customer: Oh, that will be nice.
+[03:06] Agent: Sure. Alright. Thank you.
+[03:07] Customer: Take care. Thank you.
+
+--- CLEAN TRANSCRIPT: BAD CALL ---
+[00:01] Agent: Hello.
+[00:02] Agent: Hello Aakash?
+[00:05] Agent: Main Aakash bol raha hoon.
+[00:07] Customer: Bataiye.
+[00:09] Agent: Main ek minute call merge kar raha hoon, theek hai?
+[00:11] Customer: Kar lo.
+[00:19] Agent: Hello.
+[00:22] Agent: Sir Aakash client se baat karaiye.
+[00:25] Customer: Aakash Mishra.
+[00:27] Customer: Aakash baat kar raha hoon sir.
+[00:31] Agent: Main Sarika Enterprise se baat kar raha hoon. Humari meeting hui thi onboarding ke time pe. Mere se bhi hui thi aapki aur mere father se bhi hui thi.
+[00:41] Agent: I think aapka naam kya hai sir?
+[00:45] Customer: Mera naam Aakash Mishra hai.
+[00:47] Agent: Aakash, Aakash, I think aapki na meri jo mera Sanjeev se baat ki thi. I think aapki baat jo hai na Anshul se aapki baat hui thi. Theek hai? Aur meeting hui thi aapki Mr. Adarsh ke saath.
+[00:58] Customer: Adarsh ke saath hui thi.
+[01:00] Agent: Adarsh ke saath hui thi na aapki Adarsh Thakur jo the.
+[01:04] Customer: Adarsh Thakur ke saath.
+[01:05] Agent: Kya naam aapka Aakash, Aakash Mishra bol raha tha unhone apna naam.
+[01:09] Customer: Nahi Mishra toh sir mai Aakash Mishra mera naam hai. But mujhe jitna maine suna Sanjeev the.
+[01:13] Agent: Jo discussion hua tha wo Anshul ke naam aapka hua tha na Anshul sales person hai na aapka?
+[01:18] Customer: Anshul different hai, Adarsh different hai.
+[01:20] Agent: Toh Anshul ke saath jo meeting kari hogi wo unhone ki hogi. Isliye aapko Adarsh naam yaad hoga unka.
+[01:26] Customer: Acha.
+[01:27] Customer: Aapki meeting hui thi?
+[01:30] Agent: Main wohi, wohi main keh raha tha. Subah maine bataya tha Sanjeev ko ki mera toh discussion Adarsh janta hi nahi. Theek hai, jo unhone ne discussion bataya Sarika Enterprise toh mera toh koi client hai hi nahi. Isliye maine bol diya Sanjeev ko.
+[01:43] Agent: Theek hai? Jaise aapka client se meeting onboarding ke time pe na Anshul, Anshul ke saath usne baat karai thi jo team head jo karte hai matlab jo bhi hai. So mere ko pata nahi, aapko saari baatein pata nahi hai ki wo kya hai.
+[01:59] Agent: Nahi, aap sahi keh rahe ho sir unka naam Mr. Adarsh hai.
+[02:05] Customer: Acha.
+[02:06] Agent: Bilkul.
+[02:07] Agent: Chaliye theek hai toh main unse connect karta hoon fir.
+[02:09] Customer: Inka bhi naam Adarsh Mishra hai kya?
+[02:11] Agent: Nahi nahi, unka naam Adarsh hai, Adarsh A D A R S H. Mera Aakash naam hai.
+[02:17] Customer: Acha.
+[02:18] Customer: Main aur woh Mishra? Woh Mishra hai? Woh Adarsh Thakur?
+[02:24] Agent: Theek hai.
+[02:25] Agent: Chaliye theek hai toh main unse baat kar leta hoon. Okay sir. Thank you.
+[02:28] Customer: Thank you.
+[02:30] Customer: Okay.
+
+====================================================================================================
+
