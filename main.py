@@ -2,7 +2,7 @@ import os
 import time
 import requests
 import google.generativeai as genai
-from dotenv import load_dotenv
+from dotenv import load_dotenv  
 from tabulate import tabulate 
 from prompts import (
     CSAT_SCORING_PROMPT, 
@@ -47,7 +47,7 @@ def extract_section(text, start_tag, end_tag=None):
     except:
         return "Section not found."
 
-def format_to_grid_table(raw_table_text):
+def format_to_grid_table(raw_table_text, headers):
     lines = raw_table_text.strip().split('\n')
     table_data = []
     for line in lines:
@@ -56,19 +56,26 @@ def format_to_grid_table(raw_table_text):
             if len(cells) >= 2: 
                 table_data.append(cells)
     
-    headers = ["Evaluation Variable", "GOOD CALL (File 1)", "BAD CALL (File 2)"]
-    table_data = [row for row in table_data if "Variable" not in row[0]]
+    # Filter out redundant header rows if AI generated them
+    table_data = [row for row in table_data if row[0] not in headers[0]]
     
     return tabulate(table_data, headers=headers, tablefmt="grid", maxcolwidths=[25, 35, 35])
 
 def save_comparison_report(good_url, bad_url, good_csat, bad_csat, raw_comparison, t_good, t_bad):
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
     
-    raw_table = extract_section(raw_comparison, "[TABLE_DATA]", "[MISSING_ELEMENTS]")
+    # Extract sections
+    comp_data = extract_section(raw_comparison, "[TABLE_DATA]", "[POSITIVE_CONTEXT_TABLE]")
+    pos_context_data = extract_section(raw_comparison, "[POSITIVE_CONTEXT_TABLE]", "[MISSING_ELEMENTS]")
     missing = extract_section(raw_comparison, "[MISSING_ELEMENTS]", "[WINNING_PHRASES]")
     winning = extract_section(raw_comparison, "[WINNING_PHRASES]")
 
-    grid_table = format_to_grid_table(raw_table)
+    # Format Tables
+    comp_headers = ["Evaluation Variable", "GOOD CALL (File 1)", "BAD CALL (File 2)"]
+    pos_headers = ["Context Variable", "GOOD CALL (Evidence/Freq)", "BAD CALL (Evidence/Freq)"]
+    
+    comparison_table = format_to_grid_table(comp_data, comp_headers)
+    pos_context_table = format_to_grid_table(pos_context_data, pos_headers)
 
     report = f"""
 ====================================================================================================
@@ -82,7 +89,10 @@ GOOD CALL: {good_csat.strip()}
 BAD CALL:  {bad_csat.strip()}
 
 --- COMPARISON ANALYSIS ---
-{grid_table}
+{comparison_table}
+
+--- POSITIVE CONTEXT STRINGS & FREQUENCY ---
+{pos_context_table}
 
 --- MISSING ELEMENTS IN BAD CALL ---
 {missing}
@@ -100,7 +110,7 @@ BAD CALL:  {bad_csat.strip()}
 \n"""
     with open(COMPARISON_LOG_FILE, "a", encoding="utf-8") as f:
         f.write(report)
-    print(f"[SUCCESS] Bordered report with clean transcripts saved.")
+    print(f"[SUCCESS] Detailed report with Positive Context Table saved to {COMPARISON_LOG_FILE}")
 
 def run_dual_analysis(good_url, bad_url):
     path_good = download_audio(good_url, "good")
@@ -117,15 +127,17 @@ def run_dual_analysis(good_url, bad_url):
         gem_bad = upload_to_gemini(path_bad)
 
         # 1. Scoring
+        print("[INFO] Scoring calls...")
         csat_good = model.generate_content([CSAT_SCORING_PROMPT, gem_good]).text
         csat_bad = model.generate_content([CSAT_SCORING_PROMPT, gem_bad]).text
 
-        # 2. Strict Clean Transcription
-        print("[INFO] Generating clean transcripts (removing fillers)...")
+        # 2. Transcription
+        print("[INFO] Transcribing...")
         t_good = model.generate_content([TRANSCRIPTION_PROMPT, gem_good]).text
         t_bad = model.generate_content([TRANSCRIPTION_PROMPT, gem_bad]).text
 
-        # 3. Comparison
+        # 3. Deep Comparison (Analysis + Positive Contexts)
+        print("[INFO] Performing deep comparison & context extraction...")
         comparison_raw = model.generate_content([
             "File 1 is GOOD, File 2 is BAD.", gem_good, gem_bad, COMPARISON_PROMPT
         ]).text
@@ -133,10 +145,8 @@ def run_dual_analysis(good_url, bad_url):
         save_comparison_report(good_url, bad_url, csat_good, csat_bad, comparison_raw, t_good, t_bad)
 
     finally:
-        # Cleanup local
         for p in [path_good, path_bad]:
             if os.path.exists(p): os.remove(p)
-        # Cleanup Cloud
         if gem_good: genai.delete_file(gem_good.name)
         if gem_bad: genai.delete_file(gem_bad.name)
 

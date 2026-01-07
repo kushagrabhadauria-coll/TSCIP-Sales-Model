@@ -27,21 +27,28 @@ TRANSCRIPTION_PROMPT = """
 You are a professional transcriber. Transcribe this audio with HIGH precision.
 
 STRICT RULES:
-1. FORMAT: Always use '[MM:SS] Role: Text' (e.g., [00:12] Agent: Hello).
-2. CLEANUP: Remove all fillers like 'uh', 'um', 'ji', 'haan', 'acha' (when used as filler), and stutters/repetitions.
-3. DIARIZATION: Correctly identify the 'Agent' and the 'Customer'. 
-   - Note: The person calling and introducing themselves/the company is the Agent.
-4. LANGUAGE: Maintain the original language (English/Hindi) but keep the sentences grammatically clean.
-5. NO MARKDOWN: Do not use bold (**) or italics. Just plain text.
+1. FORMAT: Always use '[MM:SS] Role: Text'.
+2. CLEANUP: Remove all fillers (uh, um, ji, haan, acha) and stutters.
+3. DIARIZATION: Identify 'Agent' and 'Customer'.
+4. LANGUAGE: Maintain original language (English/Hinglish) but clean sentences.
+5. NO MARKDOWN: Plain text only.
 """
 
 COMPARISON_PROMPT = """
-You are comparing two calls: File 1 (Good Call) and File 2 (Bad Call). 
-Follow the structure below EXACTLY. Use the bracketed tags to separate sections.
+You are comparing File 1 (Good) and File 2 (Bad). Follow this structure EXACTLY.
 
 [TABLE_DATA]
-List the comparison rows using the '|' separator. 
 Variables: "Agent Tone & Energy", "Agent Confidence", "Listening Quality", "Customer Empathy", "Discovery & Understanding", "Handling Customer Corrections", "Objection Handling", "Pricing Objection Response", "Handling Financial Constraints", "Solution Orientation", "Conversation Control", "Pacing of Call", "Escalation Handling", "Upsell / Add-on Handling", "Customer Trust Impact", "Agent Mindset", "Problem Ownership", "Customer Alignment", "Objection Framing", "Trust Signals", "Cost Sensitivity", "Decision Momentum", "Overall Call Outcome".
+Format: Variable | Good Call Description | Bad Call Description
+
+[POSITIVE_CONTEXT_TABLE]
+Scan both calls for these specific Positive Context Variables:
+"Permission to Proceed", "Mutual Agreement", "Closing Confirmation", "Polite Conclusion", "Intent to Re-engage", "Agreement to Collaboration", "Direct Positive Feedback", "Agreement on Fundamentals", "Call-back Request", "Flexibility Acknowledgment", "Confirmation of Interest", "Openness to Expansion", "Direct Confirmation of Service Need", "Future Openness", "Future Outlook", "Clear Intent to Start", "Strategic Thinking", "Direct Request for Information", "High Performance Metric", "Significant Catalog Size", "Market Viability", "Manufacturer Status", "Business Scalability", "Clear Product Identity", "Possession of Essentials", "Commitment to Quality", "Established Foundation", "Validation of Identity", "Brand Identification", "Pre-established Trust", "Validation of Authority", "Acceptance of Technology", "Direct Price Inquiry", "Technical Acknowledgment", "Price Discussion", "Specific Price Points", "Validation of Scope", "Confirmation of Solution", "Network Expansion", "Willingness for Deep Dive", "Agreement to Next Steps".
+
+INSTRUCTIONS:
+- Only include rows where the variable was actually found in at least one call.
+- Format: Variable | Good Call (Sentence, Frequency, Justification) | Bad Call (Sentence, Frequency, Justification)
+- If not found, write "Not Present".
 
 [MISSING_ELEMENTS]
 List 5 specific things missing from the Bad Call.
