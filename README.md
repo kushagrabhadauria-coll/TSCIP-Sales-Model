@@ -2,7 +2,7 @@ Setup Instructions
 
 1. Clone the repository:
 
-    git clone https://github.com/kushagrabhadauria-lab/tscip_pipeline
+    git https://github.com/kushagrabhadauria-coll/TSCIP-Sales-Model
     cd tscip_pipeline
 
 2. Install dependencies:
