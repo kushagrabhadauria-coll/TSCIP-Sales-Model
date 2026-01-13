@@ -1,59 +1,191 @@
-# prompts.py
-
-ANALYSIS_SYSTEM_PROMPT = """
-You are an expert sales analyst. Analyze the provided call and return ONLY valid JSON.
-Extract:
-- call_type (Sales / Support / Complaint / Inquiry)
-- transcript_summary (Strictly 2 sentences max, very crisp)
-"""
-
-FEEDBACK_SUCCESS_PROMPT = """
-Analyze this GOOD {call_type} call. Provide 3 specific reasons for success and 1 standout technique.
-"""
-
-FEEDBACK_FAILURE_PROMPT = """
-Analyze this BAD {call_type} call. Provide 3 friction points and 1 critical missed opportunity.
-"""
-
 CSAT_SCORING_PROMPT = """
-Analyze the call and provide a CSAT Scorecard. 
-Output ONLY the following 3 lines:
-1. Score: [X]/10
-2. Reason: [Crisp justification < 15 words]
-3. Tone: [1-word descriptor]
+Analyze this call and give ONLY:
+
+Score: X/10
+Reason: <max 15 words>
+Tone: <1 word>
 """
+
 
 TRANSCRIPTION_PROMPT = """
-You are a professional transcriber. Transcribe this audio with HIGH precision.
+You are a professional transcriber.
 
-STRICT RULES:
-1. FORMAT: Always use '[MM:SS] Role: Text'.
-2. CLEANUP: Remove all fillers (uh, um, ji, haan, acha) and stutters.
-3. DIARIZATION: Identify 'Agent' and 'Customer'.
-4. LANGUAGE: Maintain original language (English/Hinglish) but clean sentences.
-5. NO MARKDOWN: Plain text only.
+RULES:
+1. Format strictly: Role: Text
+2. Remove fillers (uh, um, haan, acha, ji)
+3. Diarize as Agent / Customer
+4. Preserve English + Hinglish
+5. Plain text only (no markdown)
 """
 
-COMPARISON_PROMPT = """
-You are comparing File 1 (Good) and File 2 (Bad). Follow this structure EXACTLY.
+
+EXTRACT_CONTEXT_PROMPT = """
+Identify presence of the following variables in the call.
+
+For EACH variable found, return:
+Variable | Sentence | Frequency
+
+Frequency means number of times it appears in this call.
+
+Variables:
+Permission to Proceed, Mutual Agreement, Closing Confirmation, Polite Conclusion,
+Intent to Re-engage, Agreement to Collaboration, Direct Positive Feedback,
+Agreement on Fundamentals, Call-back Request, Flexibility Acknowledgment,
+Confirmation of Interest, Openness to Expansion, Direct Confirmation of Service Need,
+Future Openness, Future Outlook, Clear Intent to Start, Strategic Thinking,
+Direct Request for Information, High Performance Metric, Significant Catalog Size,
+Market Viability, Manufacturer Status, Business Scalability, Clear Product Identity,
+Possession of Essentials, Commitment to Quality, Established Foundation,
+Validation of Identity, Brand Identification, Pre-established Trust,
+Validation of Authority, Acceptance of Technology, Direct Price Inquiry,
+Technical Acknowledgment, Price Discussion, Specific Price Points,
+Validation of Scope, Confirmation of Solution, Network Expansion,
+Willingness for Deep Dive, Agreement to Next Steps
+"""
+
+
+FINAL_SYNTHESIS_PROMPT = """
+You are a senior sales QA auditor.
+
+You are analyzing MULTIPLE calls from:
+1. ONE GOOD AGENT
+2. ONE BAD AGENT
+
+STRICT THINKING RULES:
+• Think at AGENT LEVEL, not call level
+• Identify CONSISTENT BEHAVIORS
+• Do NOT mention URLs or individual calls
+• Always justify frequency or assessment with a short behavioral reason
+• Be crisp, factual, and audit-style
+
+--------------------------------------------------
+
+[CSAT_SUMMARY]
+Provide ONE aggregated CSAT per agent.
+
+Format strictly:
+
+GOOD AGENT:
+Score: X/10
+Reason: <overall performance reason>
+Tone: <dominant tone>
+
+BAD AGENT:
+Score: X/10
+Reason: <overall performance reason>
+Tone: <dominant tone>
+
+--------------------------------------------------
 
 [TABLE_DATA]
-Variables: "Agent Tone & Energy", "Agent Confidence", "Listening Quality", "Customer Empathy", "Discovery & Understanding", "Handling Customer Corrections", "Objection Handling", "Pricing Objection Response", "Handling Financial Constraints", "Solution Orientation", "Conversation Control", "Pacing of Call", "Escalation Handling", "Upsell / Add-on Handling", "Customer Trust Impact", "Agent Mindset", "Problem Ownership", "Customer Alignment", "Objection Framing", "Trust Signals", "Cost Sensitivity", "Decision Momentum", "Overall Call Outcome".
-Format: Variable | Good Call Description | Bad Call Description
+Create a comparison table with 3 columns:
+
+Evaluation Variable | GOOD AGENT | BAD AGENT
+
+For EACH cell:
+• Start with assessment: Strong / Moderate / Weak
+• Then add a SHORT justification (max 15 words)
+
+Variables MUST appear in this order:
+
+Agent Tone & Energy,
+Agent Confidence,
+Listening Quality,
+Customer Empathy,
+Discovery & Understanding,
+Handling Customer Corrections,
+Objection Handling,
+Objection Framing,
+Handling Financial Constraints,
+Pricing Objection Response,
+Solution Orientation,
+Conversation Control,
+Pacing of Call,
+Escalation Handling,
+Upsell / Add-on Handling,
+Customer Trust Impact,
+Trust Signals,
+Agent Mindset,
+Problem Ownership,
+Customer Alignment,
+Cost Sensitivity,
+Decision Momentum,
+Overall Call Outcome
+
+--------------------------------------------------
 
 [POSITIVE_CONTEXT_TABLE]
-Scan both calls for these specific Positive Context Variables:
-"Permission to Proceed", "Mutual Agreement", "Closing Confirmation", "Polite Conclusion", "Intent to Re-engage", "Agreement to Collaboration", "Direct Positive Feedback", "Agreement on Fundamentals", "Call-back Request", "Flexibility Acknowledgment", "Confirmation of Interest", "Openness to Expansion", "Direct Confirmation of Service Need", "Future Openness", "Future Outlook", "Clear Intent to Start", "Strategic Thinking", "Direct Request for Information", "High Performance Metric", "Significant Catalog Size", "Market Viability", "Manufacturer Status", "Business Scalability", "Clear Product Identity", "Possession of Essentials", "Commitment to Quality", "Established Foundation", "Validation of Identity", "Brand Identification", "Pre-established Trust", "Validation of Authority", "Acceptance of Technology", "Direct Price Inquiry", "Technical Acknowledgment", "Price Discussion", "Specific Price Points", "Validation of Scope", "Confirmation of Solution", "Network Expansion", "Willingness for Deep Dive", "Agreement to Next Steps".
+Create a 3-column table:
 
-INSTRUCTIONS:
-- Only include rows where the variable was actually found in at least one call.
-- Format: Variable | Good Call (Sentence, Frequency, Justification) | Bad Call (Sentence, Frequency, Justification)
-- If not found, write "Not Present".
+Context Variable | GOOD AGENT | BAD AGENT
+
+For EACH agent cell:
+• Format strictly as:
+  Frequency (Total Count) – Short behavioral summary
+• If absent:
+  "Not Present (0) – Behavior not observed across calls"
+
+Variables MUST appear in this order:
+
+Permission to Proceed,
+Validation of Identity,
+Validation of Authority,
+Brand Identification,
+Pre-established Trust,
+Direct Request for Information,
+Agreement on Fundamentals,
+Strategic Thinking,
+Market Viability,
+Manufacturer Status,
+Business Scalability,
+High Performance Metric,
+Significant Catalog Size,
+Possession of Essentials,
+Established Foundation,
+Mutual Agreement,
+Direct Positive Feedback,
+Commitment to Quality,
+Acceptance of Technology,
+Technical Acknowledgment,
+Clear Product Identity,
+Direct Confirmation of Service Need,
+Direct Price Inquiry,
+Price Discussion,
+Specific Price Points,
+Validation of Scope,
+Confirmation of Solution,
+Confirmation of Interest,
+Openness to Expansion,
+Willingness for Deep Dive,
+Network Expansion,
+Clear Intent to Start,
+Agreement to Collaboration,
+Intent to Re-engage,
+Call-back Request,
+Agreement to Next Steps,
+Future Openness,
+Future Outlook,
+Flexibility Acknowledgment,
+Closing Confirmation,
+Polite Conclusion
+
+--------------------------------------------------
 
 [MISSING_ELEMENTS]
-List 5 specific things missing from the Bad Call.
+List 5 SYSTEMIC failures found repeatedly in BAD AGENT calls.
+
+Rules:
+• Must be behavioral
+• Must explain impact
+• No generic statements
+
+--------------------------------------------------
 
 [WINNING_PHRASES]
-1. Extract 3 "Winning Phrases" from the GOOD call.
-2. Format: "Winning Phrase" -> "Where to use in Bad Call" -> "Expected Impact".
+Extract 5 phrases used by GOOD AGENT.
+
+Format strictly:
+"Winning Phrase"
+→ Where to use in Bad Agent call
+→ Expected Impact on conversation
 """

@@ -3259,3 +3259,1721 @@ BAD CALL:  1. Score: 2/10
 
 ====================================================================================================
 
+
+====================================================================================================
+COMPARISON REPORT #1: 2026-01-08 12:43:58
+GOOD URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764677140.2065693&type=rec&token=K0YxM29LM1hkUnZrcWZiYXl2a0JUTTE5emNjWWF3cE5EdXhlNjJsaEV0SGowUC9McFlMeUdpcDVwb3dxSDEwNTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+BAD URL:  https://cloudphone.tatateleservices.com/file/recording?callId=1764583885.70929&type=rec&token=b2cyUVRxZWJlOERTS09IaDJkN3lubW1YZzBiVUZCUzNHU1NpMEhsS0E0R1RxckZsdEUvTDllTGFYOVlFSmQzUjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+====================================================================================================
+
+--- CSAT SCORES ---
+GOOD CALL: Score: 9/10
+Reason: Agent handled delay professionally, clarified needs, and set clear next steps.
+Tone: Professional
+BAD CALL:  Score: 4/10
+Reason: Failed to address customer's current solution (ChatGPT) or elaborate service value.
+Tone: Neutral
+
+--- COMPARISON ANALYSIS ---
++---------------------------+-------------------------------------+-------------------------------------+
+| Evaluation Variable       | GOOD CALL                           | BAD CALL                            |
++===========================+=====================================+=====================================+
+| Format: Variable          | Good Call Description               | Bad Call Description                |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Tone & Energy       | The agent maintains a friendly,     | The agent's tone is monotonous,     |
+|                           | polite, and engaging tone           | robotic, and lacks natural          |
+|                           | throughout the call. Her energy is  | inflection or enthusiasm, making    |
+|                           | consistent and professional.        | the call sound scripted and         |
+|                           |                                     | unengaging.                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Confidence          | The agent sounds confident in her   | The agent appears to lack           |
+|                           | knowledge and in guiding the        | confidence, often hesitating and    |
+|                           | conversation, clearly stating next  | delivering information in a flat,   |
+|                           | steps and managing expectations.    | unconvincing manner, especially     |
+|                           |                                     | when moving beyond direct           |
+|                           |                                     | questions.                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Listening Quality         | The agent actively listens,         | The agent's listening appears       |
+|                           | referencing previous discussions    | passive, as evidenced by generic    |
+|                           | ("Saturday discussion") and         | questions and a tendency to lecture |
+|                           | acknowledging the customer's        | on optimization even after the      |
+|                           | statements to ensure continuity.    | customer describes their current    |
+|                           |                                     | (and partially effective) method.   |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Empathy          | The agent expresses empathy and     | There is a notable absence of       |
+|                           | understanding, particularly         | empathy; the agent focuses solely   |
+|                           | regarding the delay ("sorry for the | on information gathering and        |
+|                           | delay") and offers flexibility.     | pitching a service without          |
+|                           |                                     | acknowledging the customer's        |
+|                           |                                     | perspective or situation.           |
++---------------------------+-------------------------------------+-------------------------------------+
+| Discovery & Understanding | The agent demonstrates prior        | The agent asks generic discovery    |
+|                           | knowledge of the customer's context | questions without delving deeper    |
+|                           | (previous discussion, creative      | into the customer's specific        |
+|                           | content) and probes for specific    | business (Spices and Sprinklers) or |
+|                           | needs ("something specifically that | understanding their current         |
+|                           | you want to tell me, or you want a  | processes before pitching.          |
+|                           | feedback").                         |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Customer         | The agent effectively clarifies the | Not present. The agent does not     |
+| Corrections               | context of the call by referencing  | encounter or handle any direct      |
+|                           | a previous discussion, aligning     | customer corrections.               |
+|                           | both parties.                       |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Handling        | Not explicitly present, as the call | The agent fails to effectively      |
+|                           | is a follow-up.                     | handle the customer's implicit      |
+|                           |                                     | objection of "karke to seekh hi     |
+|                           |                                     | rahe hain" (we are learning by      |
+|                           |                                     | doing), instead launching into a    |
+|                           |                                     | generic explanation of why          |
+|                           |                                     | optimization is important rather    |
+|                           |                                     | than addressing the customer's      |
+|                           |                                     | current method.                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pricing Objection         | Not present.                        | Not present.                        |
+| Response                  |                                     |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Financial        | Not present.                        | Not present.                        |
+| Constraints               |                                     |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Solution Orientation      | The agent quickly offers a clear    | The agent explains the *importance* |
+|                           | plan: review the creative and then  | of optimization and keywords but    |
+|                           | schedule a follow-up discussion,    | fails to offer a concrete, tailored |
+|                           | showing a proactive approach to     | solution or next step based on the  |
+|                           | resolution.                         | customer's unique situation and     |
+|                           |                                     | current methods.                    |
++---------------------------+-------------------------------------+-------------------------------------+
+| Conversation Control      | The agent maintains control by      | The agent struggles to control the  |
+|                           | setting expectations for the        | conversation, particularly after    |
+|                           | follow-up and guiding the customer  | the customer reveals using ChatGPT, |
+|                           | towards a suitable time for re-     | leading to a monologue about        |
+|                           | engagement.                         | general optimization rather than a  |
+|                           |                                     | directed sales process.             |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pacing of Call            | The call flows at a natural,        | The pacing is slow, deliberate, and |
+|                           | conversational pace, allowing for   | feels unnatural, contributing to    |
+|                           | clear communication and             | the robotic and unengaging nature   |
+|                           | understanding.                      | of the conversation.                |
++---------------------------+-------------------------------------+-------------------------------------+
+| Escalation Handling       | Not present.                        | Not present.                        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Upsell / Add-on Handling  | Not present; the call is a follow-  | The call itself is an attempt to    |
+|                           | up for an existing discussion.      | upsell account management services, |
+|                           |                                     | but it's executed as a generic      |
+|                           |                                     | pitch rather than a strategic add-  |
+|                           |                                     | on based on discovered needs.       |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Trust Impact     | The agent builds trust by           | The generic, scripted approach and  |
+|                           | demonstrating recall of past        | lack of genuine engagement likely   |
+|                           | interactions, taking ownership of   | erode customer trust, making the    |
+|                           | the next steps, and showing         | customer feel like just another     |
+|                           | flexibility.                        | number.                             |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Mindset             | The agent displays a helpful,       | The agent operates from a           |
+|                           | customer-centric mindset, focused   | transactional, script-driven        |
+|                           | on delivering on commitments and    | mindset, prioritizing information   |
+|                           | ensuring customer satisfaction.     | gathering and a generic pitch over  |
+|                           |                                     | understanding and serving the       |
+|                           |                                     | individual customer.                |
++---------------------------+-------------------------------------+-------------------------------------+
+| Problem Ownership         | The agent takes clear ownership of  | The agent tries to *create* a       |
+|                           | the next action ("I will give you a | problem for the customer (lack of   |
+|                           | call after I review") and the       | optimization) rather than taking    |
+|                           | timeline.                           | ownership of a problem the customer |
+|                           |                                     | already perceives.                  |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Alignment        | Both the agent and customer are     | There is a misalignment; the agent  |
+|                           | aligned on the purpose of the call: | pushes a generic account management |
+|                           | to follow up on a previous          | service, while the customer is      |
+|                           | discussion and review creative      | content with his current, self-     |
+|                           | content.                            | taught methods (including ChatGPT). |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Framing         | Not present.                        | Not present.                        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Trust Signals             | The agent uses strong trust signals | The agent lacks specific trust      |
+|                           | by referencing specific past        | signals, relying on a generic       |
+|                           | interactions and discussions        | statement about past interest       |
+|                           | ("Saturday discussion,"             | rather than demonstrating detailed  |
+|                           | "creative").                        | knowledge of the customer.          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Cost Sensitivity          | Not present.                        | Not present.                        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Decision Momentum         | The call concludes with clear       | There is no decision momentum; the  |
+|                           | decision momentum, as a specific    | call ends vaguely with a general    |
+|                           | time for the next call is           | offer for future contact, leaving   |
+|                           | established and agreed upon.        | no concrete next steps.             |
++---------------------------+-------------------------------------+-------------------------------------+
+| Overall Call Outcome      | Successful, with clear next steps   | Unsuccessful, as no value is        |
+|                           | and a positive customer experience. | clearly established, no commitment  |
+|                           |                                     | is secured, and the call ends       |
+|                           |                                     | without a concrete path forward.    |
++---------------------------+-------------------------------------+-------------------------------------+
+
+--- POSITIVE CONTEXT STRINGS & FREQUENCY ---
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Context Variable          | GOOD CALL (Sentence, Freq, Justification)   | BAD CALL (Sentence, Freq, Justification)   |
++===========================+=============================================+============================================+
+| Format: Variable          | Good Call (Sentence, Frequency,             | Bad Call (Sentence, Frequency,             |
+|                           | Justification)                              | Justification)                             |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Mutual Agreement          | "aap mujhe ek suitable time bata            | Not Present                                |
+|                           | dijiye main uske accordingly kar            |                                            |
+|                           | lungi" (1, 0:21-0:24, Agent and             |                                            |
+|                           | customer agree on a flexible time           |                                            |
+|                           | for the next step)                          |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Closing Confirmation      | "Okay, no issue. I'll uh second             | Not Present                                |
+|                           | half of the day kar lete hai." (1,          |                                            |
+|                           | 1:01-1:03, Agent and customer               |                                            |
+|                           | confirm the time for the follow-up          |                                            |
+|                           | call)                                       |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Polite Conclusion         | "Thank you so much Dipsy, have a            | "Theek hai sir then koi issue nahi         |
+|                           | great day." (1, 1:05-1:06, Agent            | hai in future koi requirement ho           |
+|                           | concludes the call politely and             | please aapko main." (1, 2:09-2:13,         |
+|                           | professionally)                             | Agent offers a generic, polite             |
+|                           |                                             | closing statement for future needs)        |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Intent to Re-engage       | "I will give you a call after I             | Not Present                                |
+|                           | review... some days" (1, 0:12-0:13,         |                                            |
+|                           | Agent explicitly states intent to           |                                            |
+|                           | call back after reviewing the               |                                            |
+|                           | content)                                    |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement to              | "aap mujhe ek suitable time bata            | Not Present                                |
+| Collaboration             | dijiye main uske accordingly kar            |                                            |
+|                           | lungi" (1, 0:21-0:24, Agent                 |                                            |
+|                           | expresses willingness to work with          |                                            |
+|                           | the customer's schedule for the             |                                            |
+|                           | next discussion)                            |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement on Fundamentals | "Saturday, hamara discussion hua            | Not Present                                |
+|                           | na, ki agar ke baat karte hai fir           |                                            |
+|                           | hum like aage ke hamara jo brand            |                                            |
+|                           | store and etc content tha." (1,             |                                            |
+|                           | 0:31-0:38, Agent refers to a                |                                            |
+|                           | previous discussion, indicating an          |                                            |
+|                           | established understanding of the            |                                            |
+|                           | call's purpose)                             |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Call-back Request         | "aap mujhe ek suitable time bata            | Not Present                                |
+|                           | dijiye" (1, 0:21-0:22, Agent                |                                            |
+|                           | requests the customer to provide a          |                                            |
+|                           | convenient time for a call back)            |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Flexibility               | "Okay, no issue. I'll uh second             | Not Present                                |
+| Acknowledgment            | half of the day kar lete hai." (1,          |                                            |
+|                           | 1:01-1:03, Agent acknowledges and           |                                            |
+|                           | accommodates a slight delay while           |                                            |
+|                           | proposing a flexible alternative)           |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Confirmation of Interest  | "Saturday, hamara discussion hua            | "sir aapne apne e-commerce business        |
+|                           | na" (1, 0:31-0:32, Agent refers to          | ke liye interest show kiya tha" (1,        |
+|                           | a previous discussion, implying             | 0:09-0:11, Agent confirms that the         |
+|                           | confirmed interest from the                 | customer had previously shown              |
+|                           | customer)                                   | interest in their e-commerce               |
+|                           |                                             | business)                                  |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Clear Intent to Start     | Not Present                                 | "kar raha hu, karna chah raha hu"          |
+|                           |                                             | (2, 0:22-0:23, Customer expresses          |
+|                           |                                             | active involvement and desire to           |
+|                           |                                             | grow his business)                         |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Strategic Thinking        | Not Present                                 | "optimization bahut main hai,"             |
+|                           |                                             | "relevant keyword aap use ni               |
+|                           |                                             | karoge" (2, 1:17-1:21, 1:40-1:41,          |
+|                           |                                             | Agent discusses strategic elements         |
+|                           |                                             | like optimization and keyword              |
+|                           |                                             | relevance)                                 |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Request for        | "kuch hai specifically that you             | "bataenge like aap na kya category         |
+| Information               | want to tell me, or you want a              | mein business kar rahe hain abhi"          |
+|                           | feedback" (1, 0:26-0:28, Agent              | (1, 0:26-0:28, Agent asks about the        |
+|                           | directly asks the customer what             | category of the customer's                 |
+|                           | specific input or feedback they are         | business). "konse platform par kar         |
+|                           | seeking)                                    | rahe hain abhi business" (1,               |
+|                           |                                             | 0:36-0:37, Agent asks about the            |
+|                           |                                             | platforms where the customer               |
+|                           |                                             | conducts business). "listing is            |
+|                           |                                             | khud se kar rahe hain sir ya fir           |
+|                           |                                             | koi kisi aur se karwa rahe hain"           |
+|                           |                                             | (1, 0:46-0:49, Agent asks if the           |
+|                           |                                             | customer handles listings                  |
+|                           |                                             | personally or through a third              |
+|                           |                                             | party).                                    |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Clear Product Identity    | Not Present                                 | "Spices and sprinklers hain" (1,           |
+|                           |                                             | 0:32-0:33, Customer clearly                |
+|                           |                                             | identifies his product category)           |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Validation of Identity    | "Yeah hi Dipsy, how are you?" (1,           | "Hello, good afternoon, sir,               |
+|                           | 0:03, Customer validates the                | Vikrant baat kar raha hu,                  |
+|                           | agent's identity by name)                   | GoNukkar.com se." (1, 0:01-0:05,           |
+|                           |                                             | Agent identifies himself and his           |
+|                           |                                             | company)                                   |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Brand Identification      | "Brand store and etc content" (1,           | "GoNukkar.com se" (1, 0:04-0:05,           |
+|                           | 0:36-0:38, Agent mentions 'brand            | Agent clearly identifies their             |
+|                           | store' in the context of their              | brand as GoNukkar.com)                     |
+|                           | content)                                    |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Pre-established Trust     | "Saturday, hamara discussion hua            | Not Present                                |
+|                           | na" (1, 0:31-0:32, Agent refers to          |                                            |
+|                           | a previous discussion, implying             |                                            |
+|                           | existing rapport and trust)                 |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Acceptance of Technology  | Not Present                                 | "filhal to main ChatGPT ka sahara          |
+|                           |                                             | leta hu" (1, 1:57-1:58, Customer           |
+|                           |                                             | states his use of ChatGPT for              |
+|                           |                                             | listings, indicating acceptance of         |
+|                           |                                             | AI technology)                             |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement to Next Steps   | "aap mujhe ek suitable time bata            | Not Present                                |
+|                           | dijiye main uske accordingly kar            |                                            |
+|                           | lungi" (1, 0:21-0:24, Agent                 |                                            |
+|                           | confirms readiness to proceed based         |                                            |
+|                           | on customer's availability). "I'll          |                                            |
+|                           | second half of the day kar lete             |                                            |
+|                           | hain" (1, 1:02-1:03, Agent and              |                                            |
+|                           | customer agree on a specific                |                                            |
+|                           | timeframe for the next                      |                                            |
+|                           | interaction).                               |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+
+--- MISSING ELEMENTS IN BAD CALL ---
+1.  **Personalized Context and Recall**: The agent in the bad call immediately dives into generic questions after stating the customer "showed interest," failing to provide any specific context from that prior interaction.
+2.  **Genuine Curiosity and Probing**: After the customer mentions "Spices and Sprinklers," the agent doesn't ask any follow-up questions to understand the unique aspects, challenges, or goals related to this specific product category.
+3.  **Adaptability to Customer's Current Methods**: The agent continues to lecture about optimization and keywords even after the customer explicitly states he uses ChatGPT for these tasks, showing a lack of listening and inability to tailor the pitch.
+4.  **Clear, Tailored Value Proposition**: The agent explains *what* optimization is but fails to articulate a specific value proposition for *this* customer's business, especially given his current methods and "learning by doing" approach.
+5.  **Defined Next Steps or Call to Action**: The call ends with a vague "in future koi requirement ho," instead of a concrete next step like scheduling a tailored demo, sending a customized proposal, or arranging a follow-up call with a specific agenda.
+
+--- WINNING PHRASES MAPPING ---
+1.  "Kuch hai specifically that you want to tell me, or you want a feedback?"
+    -> "Where to use in Bad Call": After the customer mentions his business (e.g., "Spices and Sprinklers") and current methods (e.g., "doing it myself," "using ChatGPT").
+    -> "Expected Impact": This phrase shifts the focus to the customer's immediate needs and concerns, encouraging them to share specific problems or areas where they might need assistance. It demonstrates active listening and a genuine desire to understand, allowing the agent to tailor their offering rather than relying on a generic script.
+2.  "aap mujhe ek suitable time bata dijiye main uske accordingly kar lungi."
+    -> "Where to use in Bad Call": After briefly explaining a potential service that aligns with a customer-expressed need or after getting a positive response to a discovery question.
+    -> "Expected Impact": This phrase empowers the customer by giving them control over scheduling the next interaction, increasing their commitment and making the process feel collaborative rather than forced. It creates clear decision momentum and moves the conversation toward a concrete, agreed-upon next step.
+3.  "Saturday, hamara discussion hua na, ki agar ke baat karte hai fir hum like aage ke hamara jo brand store and etc content tha."
+    -> "Where to use in Bad Call": At the beginning of the call, instead of the generic "sir aapne apne e-commerce business ke liye interest show kiya tha."
+    -> "Expected Impact": By referencing a specific past interaction, the agent immediately establishes context and shows that they remember the customer individually. This builds rapport, trust, and makes the customer feel valued, setting a more personal and productive tone for the entire conversation from the outset.
+
+(Transcripts saved to transcripts.txt)
+====================================================================================================
+
+
+====================================================================================================
+COMPARISON REPORT #2: 2026-01-08 12:45:27
+GOOD URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764669530.194451&type=rec&token=WVVzMWRFNlIxc1djbFp4MzhHQzBORjd3dHhpZmhnVDhZQWExVjV4U3k5bXIxZDhWeHRGdGJHbW03Z1ZSc3d1bzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+BAD URL:  https://cloudphone.tatateleservices.com/file/recording?callId=1764567970.11598&type=rec&token=NDJ6cFAzR1FCTm5UNmxSSmdYQUl4eGRmMFgxRUNjQjBNUDN2VkxscEpDR1JXRlJ3bWZHZ1I5TXZpM2RudVlqVDo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+====================================================================================================
+
+--- CSAT SCORES ---
+GOOD CALL: Score: 10/10
+Reason: Agent patiently clarified all customer queries, resolving confusion effectively.
+Tone: Helpful
+BAD CALL:  Score: 7/10
+Reason: Agent adapted to send information digitally, moving from initial customer hesitation to a clear next step.
+Tone: Cooperative
+
+--- COMPARISON ANALYSIS ---
++---------------------------+-------------------------------------+-------------------------------------+
+| Evaluation Variable       | GOOD CALL                           | BAD CALL                            |
++===========================+=====================================+=====================================+
+| Format: Variable          | Good Call Description               | Bad Call Description                |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Tone & Energy       | The agent maintains a professional, | The agent's tone is somewhat        |
+|                           | clear, and helpful tone throughout  | robotic and script-driven, lacking  |
+|                           | the call, fostering a collaborative | natural conversational flow or      |
+|                           | environment.                        | enthusiasm.                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Confidence          | The agent confidently explains      | The agent sounds hesitant and often |
+|                           | complex details regarding services  | reads from a script, struggling to  |
+|                           | and pricing, demonstrating          | provide spontaneous explanations or |
+|                           | expertise and clarity.              | address direct questions without    |
+|                           |                                     | referring to a pre-planned flow.    |
++---------------------------+-------------------------------------+-------------------------------------+
+| Listening Quality         | The agent actively listens to       | The agent demonstrates poor         |
+|                           | customer clarifications and         | listening, often ignoring the       |
+|                           | questions, responding directly and  | customer's direct requests for      |
+|                           | confirming understanding.           | information and instead pushing     |
+|                           |                                     | their own agenda (e.g., scheduling  |
+|                           |                                     | a meeting).                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Discovery & Understanding | While primarily a clarification     | The agent attempts some discovery   |
+|                           | call, the agent ensures they        | questions (e.g., about the          |
+|                           | understand the customer's initial   | customer's business/product) but    |
+|                           | query and patiently elaborates on   | fails to adapt the conversation     |
+|                           | the specifics of the service.       | based on the customer's responses   |
+|                           |                                     | or preferences.                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Customer         | The agent confirms and builds upon  | Not Present.                        |
+| Corrections               | the customer's understanding of     |                                     |
+|                           | technical terms and service         |                                     |
+|                           | components, integrating corrections |                                     |
+|                           | smoothly.                           |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Handling        | The agent skillfully addresses the  | The agent avoids directly           |
+|                           | customer's need for clarification   | addressing the customer's           |
+|                           | on plan inclusions by providing     | "objection" (request for details)   |
+|                           | detailed, transparent explanations  | by pivoting to other questions or   |
+|                           | and breaking down cost components.  | pushing for a different interaction |
+|                           |                                     | method (Google Meet).               |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pricing Objection         | The agent proactively breaks down   | Not Present.                        |
+| Response                  | the cost structure of different     |                                     |
+|                           | service components (banners,        |                                     |
+|                           | infographics) to justify the        |                                     |
+|                           | overall pricing, ensuring           |                                     |
+|                           | transparency.                       |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Financial        | While not explicitly discussed, the | Not Present.                        |
+| Constraints               | agent's detailed breakdown of       |                                     |
+|                           | service components and their        |                                     |
+|                           | individual costs provides the       |                                     |
+|                           | customer with the necessary         |                                     |
+|                           | information to understand and       |                                     |
+|                           | manage potential financial          |                                     |
+|                           | decisions.                          |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Solution Orientation      | The agent focuses on providing a    | The agent prioritizes scheduling a  |
+|                           | clear, detailed explanation of the  | meeting over immediately providing  |
+|                           | service plan, which helps the       | information or addressing the       |
+|                           | customer understand the proposed    | customer's expressed need for       |
+|                           | solution and its components.        | details, making the call less       |
+|                           |                                     | solution-oriented for the customer. |
++---------------------------+-------------------------------------+-------------------------------------+
+| Conversation Control      | The conversation is well-balanced;  | The agent attempts to control the   |
+|                           | the customer initiates with a       | conversation by adhering to a       |
+|                           | query, and the agent provides       | script and pushing for a meeting,   |
+|                           | detailed responses, with both       | but the customer's attempts to gain |
+|                           | parties contributing to reaching    | information lead to a disjointed    |
+|                           | mutual understanding.               | and unbalanced discussion.          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pacing of Call            | The call maintains a good,          | The agent's desire to move to the   |
+|                           | unhurried pace, allowing for        | next step (scheduling a Google      |
+|                           | thorough explanations and           | Meet) makes the call feel somewhat  |
+|                           | opportunities for the customer to   | rushed, preventing deeper           |
+|                           | ask clarifying questions.           | engagement or immediate information |
+|                           |                                     | delivery.                           |
++---------------------------+-------------------------------------+-------------------------------------+
+| Upsell / Add-on Handling  | The agent clearly explains that     | Not Present.                        |
+|                           | additional A+ content or brand      |                                     |
+|                           | store features would be add-ons,    |                                     |
+|                           | linking potential future needs to   |                                     |
+|                           | their associated costs.             |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Trust Impact     | The agent builds trust through      | The agent likely erodes trust by    |
+|                           | transparency, detailed              | not directly providing requested    |
+|                           | explanations, and patiently         | information and by pushing for a    |
+|                           | addressing all customer queries,    | meeting, making the customer feel   |
+|                           | confirming understanding at each    | unheard and potentially suspecting  |
+|                           | step.                               | an ulterior motive.                 |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Mindset             | The agent demonstrates a helpful,   | The agent exhibits a script-driven  |
+|                           | informative, and precise mindset,   | mindset, primarily focused on       |
+|                           | focused on clarifying all aspects   | moving the customer to the next     |
+|                           | of the service for the customer.    | stage of the sales funnel (a        |
+|                           |                                     | meeting) rather than genuinely      |
+|                           |                                     | assisting or educating them during  |
+|                           |                                     | the current interaction.            |
++---------------------------+-------------------------------------+-------------------------------------+
+| Problem Ownership         | The agent takes full ownership of   | The agent shifts the responsibility |
+|                           | ensuring the customer understands   | of understanding to a future        |
+|                           | the plan details and resolves any   | meeting rather than attempting to   |
+|                           | ambiguities by providing            | resolve the customer's immediate    |
+|                           | comprehensive answers.              | need for information.               |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Alignment        | The agent successfully aligns with  | The agent fails to align with the   |
+|                           | the customer's need for clarity     | customer's immediate need for       |
+|                           | regarding the service plan's        | detailed information, instead       |
+|                           | inclusions and exclusions, ensuring | pushing for a different interaction |
+|                           | mutual understanding.               | that the customer is not yet ready  |
+|                           |                                     | for.                                |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Framing         | The agent interprets the customer's | The customer's request for details  |
+|                           | inquiry as a request for            | is implicitly framed by the agent   |
+|                           | clarification and addresses it with | as a hurdle to overcome in order to |
+|                           | direct, factual information.        | schedule a meeting, rather than a   |
+|                           |                                     | valid need to be fulfilled.         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Trust Signals             | Clear, detailed explanations,       | The absence of direct answers,      |
+|                           | patient listening, and frequent     | coupled with a persistent push for  |
+|                           | verbal affirmations (e.g., "ji,"    | a meeting, creates an environment   |
+|                           | "hanji," "yes") serve as strong     | lacking strong trust signals.       |
+|                           | trust signals.                      |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Cost Sensitivity          | The agent demonstrates cost         | Not Present.                        |
+|                           | sensitivity by breaking down the    |                                     |
+|                           | cost components and explaining      |                                     |
+|                           | *why* certain services cost what    |                                     |
+|                           | they do, linking value to price.    |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Decision Momentum         | The call concludes with a clear     | The decision momentum stalls as the |
+|                           | understanding and agreement on the  | customer is still seeking basic     |
+|                           | plan details, moving the customer   | information and is reluctant to     |
+|                           | towards an informed decision.       | commit to the agent's proposed next |
+|                           |                                     | step (a Google Meet).               |
++---------------------------+-------------------------------------+-------------------------------------+
+| Overall Call Outcome      | A successful clarification call,    | The call ends with a tentative      |
+|                           | leading to mutual understanding and | agreement for a Google Meet, but    |
+|                           | customer satisfaction with the      | the customer is still requesting    |
+|                           | information provided.               | basic information via WhatsApp,     |
+|                           |                                     | indicating an incomplete and less   |
+|                           |                                     | effective outcome.                  |
++---------------------------+-------------------------------------+-------------------------------------+
+
+--- POSITIVE CONTEXT STRINGS & FREQUENCY ---
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Context Variable          | GOOD CALL (Sentence, Freq, Justification)   | BAD CALL (Sentence, Freq, Justification)   |
++===========================+=============================================+============================================+
+| Mutual Agreement          | "Theek hai, isme confusion dena."           | "Theek hai, mai Google Meet kar            |
+|                           | (1:56, 1, Agent and customer agree          | lunga aapke sath." (1:07, 1,               |
+|                           | there is no further confusion.)             | Customer agrees to a Google Meet at        |
+|                           |                                             | a later time.)                             |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Closing Confirmation      | "Okay, okay, okay, okay, mam."              | Not Present.                               |
+|                           | (2:23-2:25, 1, Agent confirms the           |                                            |
+|                           | call is concluding.)                        |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Polite Conclusion         | "Thank you so much." (2:26, 1,              | "Okay sir. Okay sir, thank you."           |
+|                           | Agent uses a polite closing.)               | (1:23-1:24, 1, Agent uses a polite         |
+|                           |                                             | closing.)                                  |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Intent to Re-engage       | "main ek baar sir ko bhi ye dikha           | "main aapko proposal share kar deta        |
+|                           | deta hu hai na." (2:15-2:16, 1,             | hoon." (1:17-1:18, 1, Agent offers         |
+|                           | Customer expresses intent to share          | to send a proposal.)                       |
+|                           | information with their superior.)           |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement on Fundamentals | "Yes, yes, yes." (0:50, 1, Agent            | Not Present.                               |
+|                           | confirms understanding of                   |                                            |
+|                           | customer's explanation of A+                |                                            |
+|                           | content.)                                   |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Flexibility               | "But if in case Nitin Sir ka koi            | Not Present.                               |
+| Acknowledgment            | plan change hota hai aur product            |                                            |
+|                           | leke aate hai toh wo uske upar              |                                            |
+|                           | depend karta hai." (1:45-1:50, 1,           |                                            |
+|                           | Agent acknowledges that future              |                                            |
+|                           | plans might change.)                        |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Openness to Expansion     | "usme hum wo baat bhi humpe depend          | Not Present.                               |
+|                           | karta hai ki hum isme A+ aur kitna          |                                            |
+|                           | add on karana chahte hai."                  |                                            |
+|                           | (1:37-1:42, 1, Agent explains that          |                                            |
+|                           | adding more A+ content is an                |                                            |
+|                           | option.)                                    |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Confirmation of    | The call opens with the customer            | Not Present.                               |
+| Service Need              | inquiring about specifics of a              |                                            |
+|                           | service, implicitly confirming              |                                            |
+|                           | their need for details on the plan.         |                                            |
+|                           | (0:02-0:08)                                 |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Future Outlook            | "par ye matlab ki pura jo plan hai,         | Not Present.                               |
+|                           | ye six months ke liye ho jayega             |                                            |
+|                           | na?" (1:30-1:33, 1, Customer                |                                            |
+|                           | clarifies the duration of the               |                                            |
+|                           | plan.)                                      |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Strategic Thinking        | "main ek baar sir ko bhi ye dikha           | Not Present.                               |
+|                           | deta hu hai na." (2:15-2:16, 1,             |                                            |
+|                           | Customer plans to present the               |                                            |
+|                           | information to a superior for               |                                            |
+|                           | strategic decision-making.)                 |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Request for        | Customer initiates the call asking          | "Sir mujhe aap detail bhej dijiye."        |
+| Information               | for clarification on what's                 | (0:19, 1, Customer directly                |
+|                           | included in a service plan.                 | requests information.)                     |
+|                           | (0:02-0:08)                                 |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Technical Acknowledgment  | "A+ content", "Brand Store",                | Not Present.                               |
+|                           | "Banners", "Infographics" are all           |                                            |
+|                           | acknowledged and discussed in               |                                            |
+|                           | detail. (0:17-0:25, 4, Agent uses           |                                            |
+|                           | and explains technical terms                |                                            |
+|                           | relevant to the service.)                   |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Price Discussion          | "36,000" (0:10-0:11, 1, Agent               | Not Present.                               |
+|                           | mentions the total price of the             |                                            |
+|                           | plan.)                                      |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Specific Price Points     | "36,000" (0:10-0:11, 1, Agent               | Not Present.                               |
+|                           | states the plan's total price.)             |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Validation of Scope       | "isme included nahi hai." (0:08, 1,         | Not Present.                               |
+|                           | Agent clarifies what is not                 |                                            |
+|                           | included in the plan.)                      |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Confirmation of Solution  | "isme sari services include hongi,          | Not Present.                               |
+|                           | but ye dono isme include nahi hai,          |                                            |
+|                           | iske alag se charges haan."                 |                                            |
+|                           | (1:11-1:15, 1, Agent confirms what          |                                            |
+|                           | is and isn't included in the                |                                            |
+|                           | solution.)                                  |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Acceptance of Technology  | Not Present.                                | "Theek hai, mai Google Meet kar            |
+|                           |                                             | lunga aapke sath." (1:07, 1,               |
+|                           |                                             | Customer agrees to use Google              |
+|                           |                                             | Meet.)                                     |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Willingness for Deep Dive | Not Present.                                | "Sir, agar like available hain aap         |
+|                           |                                             | to ek Google Meet schedule karen,          |
+|                           |                                             | to better main aapko cheezen               |
+|                           |                                             | explain kar paunga, dikha paunga."         |
+|                           |                                             | (0:50-0:55, 1, Agent offers a              |
+|                           |                                             | Google Meet for a more detailed            |
+|                           |                                             | explanation.)                              |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement to Next Steps   | "main ek baar sir ko bhi ye dikha           | "Theek hai, mai Google Meet kar            |
+|                           | deta hu hai na." (2:15-2:16, 1,             | lunga aapke sath." (1:07, 1,               |
+|                           | Customer specifies their next               | Customer agrees to a future                |
+|                           | action.)                                    | action.)                                   |
++---------------------------+---------------------------------------------+--------------------------------------------+
+
+--- MISSING ELEMENTS IN BAD CALL ---
+1.  **Lack of immediate value delivery:** The agent did not provide any upfront information or a brief overview of what Goonukka.com offers when the customer asked for details. Instead, the agent immediately shifted to discovery questions.
+2.  **Failure to acknowledge customer's preferred communication method:** The customer explicitly requested that details be sent to them, but the agent ignored this and repeatedly pushed for a Google Meet.
+3.  **No clear, concise value proposition:** The agent never articulated Goonukka.com's core service or how it would benefit the customer's e-commerce business, leaving the customer to guess or continuously ask for information.
+4.  **Absence of rapport-building:** The conversation was purely transactional, with the agent sticking to a script and not engaging in any casual or empathetic dialogue to build a connection with the customer.
+5.  **Inability to adapt to customer cues:** Despite the customer's clear disinterest in an immediate Google Meet and desire for preparatory information, the agent persisted with the meeting proposal, failing to adapt the sales process to the customer's needs.
+
+--- WINNING PHRASES MAPPING ---
+1.  "Actually kya hota hai, jo humara... usme jo used hota hai, wo banners aur infographics hote hain." (0:14-0:22)
+    -> **Where to use in Bad Call:** When the customer asks, "Sir mujhe aap detail bhej dijiye," (0:19) or when the agent first introduces the service.
+    -> **Expected Impact:** This phrase directly explains *what* the service involves in a clear, component-based manner, providing immediate value and clarity to the customer instead of just asking questions or pushing for a meeting. It would help the customer understand the tangible aspects of the service upfront.
+
+2.  "uss according uski costing hoti hai." (0:30-0:31)
+    -> **Where to use in Bad Call:** If a price were to be discussed, or even when explaining the value of the service in relation to its complexity.
+    -> **Expected Impact:** This phrase implies that the pricing is logical and directly proportional to the work or value provided. If the agent had used this when discussing the benefits of their e-commerce solutions, it could have preemptively justified potential costs and linked value to the service, building trust and transparency.
+
+3.  "No issues. That's very nice ki aapne ek baar clear kar liya because main sir is time bhi yahi hoti rehti toh kya fayda tha phir." (1:59-2:05)
+    -> **Where to use in Bad Call:** After the customer clarifies their business type (0:28) or after any customer statement that helps the agent understand their needs.
+    -> **Expected Impact:** This phrase demonstrates empathy, validates the customer's need for clarity, and subtly reinforces the importance of clear communication *now* to avoid future misunderstandings. It would shift the agent from a transactional to a more supportive role, fostering rapport and making the customer feel heard and valued.
+
+(Transcripts saved to transcripts.txt)
+====================================================================================================
+
+
+====================================================================================================
+COMPARISON REPORT #3: 2026-01-08 12:48:20
+GOOD URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764681053.879084&type=rec&token=OWZqMTVoNkgxdGt4QkdCL2duKzdzcXhUYmF2RHVpRTdMYUQrMzBIVWttdXd2d2k2NmV0UXlvSDQ4ck0xYWkwUTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+BAD URL:  https://cloudphone.tatateleservices.com/file/recording?callId=1764571674.1038547&type=rec&token=S2dNdWp1aEZJbnpjU05LRG1JM3AvS0s0ZFJBdEI0S3ZXeU51WFVKbHlyTklYN0hONmdjOEJ3MXJhRGZsQjVVKzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+====================================================================================================
+
+--- CSAT SCORES ---
+GOOD CALL: 1. Score: 9/10
+2. Reason: Agent identified customer's need, clarified service, and provided clear next steps.
+3. Tone: Helpful
+BAD CALL:  Score: 2/10
+Reason: Agent failed to provide clear, comprehensive cost calculations; customer was clearly frustrated.
+Tone: Frustrated
+
+--- COMPARISON ANALYSIS ---
++---------------------------+-------------------------------------+-------------------------------------+
+| Evaluation Variable       | GOOD CALL                           | BAD CALL                            |
++===========================+=====================================+=====================================+
+| Format: Variable          | Good Call Description               | Bad Call Description                |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Tone & Energy       | Professional and composed. The      | Varied but often submissive and     |
+|                           | agent maintained a calm and helpful | defensive. The agent struggled to   |
+|                           | demeanor throughout the call, even  | maintain authority and clarity,     |
+|                           | when the customer was initially     | frequently sounding overwhelmed by  |
+|                           | confused. (e.g., "Yeah, hi. Good    | the customer's rapid-fire questions |
+|                           | evening, ma'am. I'm Khushi Sharma   | and interruptions. (e.g., "Ha,      |
+|                           | this side from Go Nukkad." at 0:09, | aapki voice break kar rahi hai,     |
+|                           | "Okay, okay." at 1:29).             | sir." at 0:46, "Bilkul, kuch nahi   |
+|                           |                                     | hai, sir, aap note karo." at 1:43,  |
+|                           |                                     | "Sir, Akash ka naam kya tha?" at    |
+|                           |                                     | 8:49).                              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Confidence          | High. The agent confidently         | Low. The agent frequently           |
+|                           | explained services, clarified       | hesitated, gave vague answers       |
+|                           | confusion, and stated requirements  | (especially regarding pricing and   |
+|                           | (e.g., GST). (Frequency: Many       | costs), and allowed the customer to |
+|                           | instances; Justification: "In Go    | control the conversation and        |
+|                           | Nukkad, ma'am, we provide complete  | dictate the agenda. (Frequency:     |
+|                           | account management services." at    | Many instances; Justification:      |
+|                           | 0:41, "Okay, without GST number,    | "Sir, wo toh depend karega na kitna |
+|                           | ma'am, you can't work on e-commerce | stock rakh paayenge." at 2:48,      |
+|                           | marketplace." at 1:47).             | "Sir, main karoonga abhi na. Ek     |
+|                           |                                     | dedicated professional." at 8:27,   |
+|                           |                                     | "Sir, Akash ka naam kya tha?" at    |
+|                           |                                     | 8:49 indicated a lack of            |
+|                           |                                     | focus/preparedness).                |
++---------------------------+-------------------------------------+-------------------------------------+
+| Listening Quality         | Good. The agent listened to         | Poor. The agent frequently got      |
+|                           | customer's confusion and questions, | interrupted and struggled to        |
+|                           | rephrasing or clarifying as needed. | complete sentences, also forgetting |
+|                           | (Frequency: Multiple;               | the customer's name at the end.     |
+|                           | Justification: Agent clarifies      | (Frequency: Many instances;         |
+|                           | "Meesho" vs "Go Nukkad" confusion   | Justification: Customer interrupts  |
+|                           | based on customer's statements at   | agent multiple times, e.g., at      |
+|                           | 0:41, 0:51, 0:58).                  | 0:17, 0:40, 4:43. Agent asks "Sir,  |
+|                           |                                     | Akash ka naam kya tha?" at 8:49,    |
+|                           |                                     | showing they weren't listening or   |
+|                           |                                     | tracking basic information).        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Empathy          | Present. The agent considered the   | Minimal until very late. The agent  |
+|                           | customer's language preference and  | did not seem to fully grasp the     |
+|                           | patiently addressed their           | customer's frustration with vague   |
+|                           | confusion. (Frequency: 2;           | pricing and cost breakdowns until   |
+|                           | Justification: "You are comfortable | the very end, and even then,        |
+|                           | with Hindi or English?" at 1:21,    | offered a generic agreement rather  |
+|                           | patiently clarifying confusion      | than a solution. (Frequency: 1;     |
+|                           | about "Meesho" vs "Go Nukkad" at    | Justification: "Jee, bilkul. Main   |
+|                           | 0:41 and 0:51).                     | toh khud is baat se." at 8:17, but  |
+|                           |                                     | this was after significant customer |
+|                           |                                     | frustration).                       |
++---------------------------+-------------------------------------+-------------------------------------+
+| Discovery & Understanding | Good. The agent clearly stated the  | Poor. The agent struggled to        |
+|                           | purpose of the call, linked it to   | understand the specific details the |
+|                           | the customer's query, and asked     | customer needed (e.g., exact cost   |
+|                           | pertinent questions (e.g., GST).    | breakdown for returns, total costs  |
+|                           | (Frequency: 3; Justification: "I    | for a specific product price point) |
+|                           | got your query that you are         | and failed to proactively discover  |
+|                           | interested for your business." at   | the customer's core financial       |
+|                           | 0:19, "I want to sell in my         | constraints. (Frequency: Many       |
+|                           | product, right, ma'am?" at 1:04,    | missed opportunities;               |
+|                           | "Okay, ma'am, do you have GST       | Justification: Customer repeatedly  |
+|                           | number?" at 1:42).                  | asks for clear cost breakdown,      |
+|                           |                                     | e.g., "Us 199 ke andar mere ko kya  |
+|                           |                                     | jodna padega, ye bataiye ki jo      |
+|                           |                                     | aapki un commission charge." at     |
+|                           |                                     | 4:36, "Mere ko ye baat bataye ki    |
+|                           |                                     | aapka usmein kya rehta hai." at     |
+|                           |                                     | 7:12, to which agent gives vague    |
+|                           |                                     | answers).                           |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Customer         | Excellent. The agent clearly and    | Not Present.                        |
+| Corrections               | patiently corrected the customer's  |                                     |
+|                           | misunderstanding about Meesho vs.   |                                     |
+|                           | Go Nukkad. (Frequency: 3;           |                                     |
+|                           | Justification: "In Go Nukkad,       |                                     |
+|                           | ma'am, we provide complete account  |                                     |
+|                           | management services." at 0:41,      |                                     |
+|                           | "Nahi, ma'am, main Go Nukkad se     |                                     |
+|                           | baat kar rahi hoon." at 0:51,       |                                     |
+|                           | "Aapne jo query to dali thi, aapne  |                                     |
+|                           | Go Nukkad ki website pe generate    |                                     |
+|                           | kari thi..." at 0:58).              |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Handling        | Not Present.                        | Poor. The agent failed to           |
+|                           |                                     | effectively address the customer's  |
+|                           |                                     | repeated objections about pricing,  |
+|                           |                                     | return costs, and promotions, often |
+|                           |                                     | responding with vague information   |
+|                           |                                     | or shifting responsibility.         |
+|                           |                                     | (Frequency: Many instances;         |
+|                           |                                     | Justification: Customer's repeated  |
+|                           |                                     | concerns about "35" pricing from    |
+|                           |                                     | 0:27, return costs at 2:32, 2:53,   |
+|                           |                                     | 4:43, promotional activities at     |
+|                           |                                     | 4:07, were not resolved             |
+|                           |                                     | satisfactorily, leading to customer |
+|                           |                                     | frustration).                       |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pricing Objection         | Not Present.                        | Ineffective. The agent was          |
+| Response                  |                                     | repeatedly unable to provide clear, |
+|                           |                                     | direct answers to pricing           |
+|                           |                                     | questions, leading to customer      |
+|                           |                                     | frustration and repeated inquiries. |
+|                           |                                     | (Frequency: Many instances;         |
+|                           |                                     | Justification: "Sir, wo toh depend  |
+|                           |                                     | karega na kitna stock rakh          |
+|                           |                                     | paayenge." at 2:48 instead of clear |
+|                           |                                     | pricing. "Final calculation nikala  |
+|                           |                                     | jayega." at 7:15. Customer stating  |
+|                           |                                     | "totally loss mein hai" at 6:00,    |
+|                           |                                     | indicates agent failed to address   |
+|                           |                                     | the core pricing concern).          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Financial        | Not Present.                        | Poor. The agent failed to           |
+| Constraints               |                                     | acknowledge or address the          |
+|                           |                                     | customer's explicit concerns about  |
+|                           |                                     | total costs, potential losses from  |
+|                           |                                     | returns, and the need for a         |
+|                           |                                     | comprehensive cost breakdown to     |
+|                           |                                     | determine profitability.            |
+|                           |                                     | (Frequency: Many instances;         |
+|                           |                                     | Justification: Customer stating     |
+|                           |                                     | "totally loss mein hai" at 6:00,    |
+|                           |                                     | "mere ko bhi toh saari poori        |
+|                           |                                     | calculation nikalni padegi na." at  |
+|                           |                                     | 7:29, "mere ko kya cost banega" at  |
+|                           |                                     | 7:51).                              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Solution Orientation      | Good. The agent clearly explained   | Weak. The agent explained some      |
+|                           | what Go Nukkad does, listed         | processes but struggled to connect  |
+|                           | platforms, and offered guidance on  | them directly to the customer's     |
+|                           | how to obtain a GST number.         | core problem of understanding total |
+|                           | (Frequency: 5; Justification: "In   | costs and profitability, often      |
+|                           | Go Nukkad, ma'am, we provide        | giving fragmented or vague          |
+|                           | complete account management         | solutions. (Frequency: Multiple     |
+|                           | services." at 0:41, listing         | attempts but weak; Justification:   |
+|                           | platforms at 1:10, advising to      | Explaining Amazon FBA and           |
+|                           | "contact your CA" for GST at 1:57,  | warehouses at 2:24, but without     |
+|                           | explaining "He will help you in     | linking it to the customer's profit |
+|                           | getting GST number." at 2:02).      | concern. Explaining defect returns  |
+|                           |                                     | give 50% refund at 5:46, which the  |
+|                           |                                     | customer immediately perceives as a |
+|                           |                                     | loss, indicating a poorly framed    |
+|                           |                                     | solution).                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Conversation Control      | Good. The agent maintained control  | Poor. The customer largely dictated |
+|                           | by guiding the conversation, asking | the flow of conversation,           |
+|                           | relevant questions, and providing   | frequently interrupting and         |
+|                           | clear information. (Frequency: Many | redirecting the agent, who          |
+|                           | instances; Justification: Agent's   | struggled to set the agenda or      |
+|                           | structured introduction and purpose | provide structured information.     |
+|                           | statement at 0:09 and 0:16. Agent   | (Frequency: Many instances;         |
+|                           | asking about GST at 1:42 and then   | Justification: Customer             |
+|                           | providing next steps at 2:06).      | interruptions throughout, e.g.,     |
+|                           |                                     | 0:17, 0:40, 4:43. Agent's           |
+|                           |                                     | submissive tone "Bilkul, kuch nahi  |
+|                           |                                     | hai, sir, aap note karo." at 1:43). |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pacing of Call            | Appropriate. The agent paused to    | Too fast and reactive. The agent    |
+|                           | confirm understanding and checked   | often rushed or reacted to the      |
+|                           | for language preference, allowing   | customer's rapid-fire questions     |
+|                           | the customer to absorb information. | without taking a moment to          |
+|                           | (Frequency: 2; Justification: "You  | structure responses or guide the    |
+|                           | are comfortable with Hindi or       | conversation effectively.           |
+|                           | English?" at 1:21, confirming       | (Frequency: Many instances;         |
+|                           | understanding by asking "right,     | Justification: Agent's struggle to  |
+|                           | ma'am?" at 1:04).                   | answer complex pricing questions    |
+|                           |                                     | directly, being constantly          |
+|                           |                                     | interrupted by the customer without |
+|                           |                                     | effective intervention).            |
++---------------------------+-------------------------------------+-------------------------------------+
+| Escalation Handling       | Not Present.                        | Attempted but ineffectual. The      |
+|                           |                                     | agent briefly asked for a minute,   |
+|                           |                                     | potentially to seek help or gather  |
+|                           |                                     | information, but quickly returned   |
+|                           |                                     | to the same struggles, and ended up |
+|                           |                                     | forgetting the customer's name.     |
+|                           |                                     | (Frequency: 1; Justification:       |
+|                           |                                     | "Mujhe ek minute dijiyega." at      |
+|                           |                                     | 8:37, but the call quickly resumed  |
+|                           |                                     | the same problematic pattern,       |
+|                           |                                     | culminating in forgetting the       |
+|                           |                                     | customer's name at 8:49).           |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Trust Impact     | Positive. The agent's               | Negative. The agent's vagueness,    |
+|                           | professionalism, clear              | inability to provide clear pricing, |
+|                           | explanations, and guidance built    | and ultimate confusion about the    |
+|                           | trust. (Frequency: Many instances;  | customer's name likely eroded any   |
+|                           | Justification: Agent's consistent   | potential trust. (Frequency: Many   |
+|                           | clarity and helpfulness, e.g.,      | instances; Justification:           |
+|                           | explaining GST requirement at 1:47  | Customer's explicit mention of      |
+|                           | and advising on how to get it at    | "hidden charges" at 7:31. Agent     |
+|                           | 1:57, creates trust).               | asking "Sir, Akash ka naam kya      |
+|                           |                                     | tha?" at 8:49 significantly         |
+|                           |                                     | diminishes trust and                |
+|                           |                                     | professionalism).                   |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Mindset             | Service-oriented and helpful. The   | Reactive and defensive. The agent   |
+|                           | agent focused on understanding the  | was primarily reacting to customer  |
+|                           | customer's needs and providing      | demands and objections rather than  |
+|                           | clear next steps. (Frequency: Many  | proactively guiding them or         |
+|                           | instances; Justification: "How can  | articulating a clear value          |
+|                           | I help you, ma'am?" at 0:32,        | proposition. (Frequency: Many       |
+|                           | focusing on the customer's query    | instances; Justification: "Sir, wo  |
+|                           | and needs).                         | toh depend karega na kitna stock    |
+|                           |                                     | rakh paayenge." at 2:48, agent      |
+|                           |                                     | putting responsibility of video on  |
+|                           |                                     | customer "Wo aapki choice hai,      |
+|                           |                                     | sir." at 5:41).                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Problem Ownership         | Good. The agent took ownership of   | Poor. The agent seemed to avoid     |
+|                           | clarifying the service and guiding  | taking ownership of providing       |
+|                           | the customer on the initial         | clear, comprehensive cost           |
+|                           | requirements. (Frequency: 2;        | breakdowns, often pushing the onus  |
+|                           | Justification: Agent takes          | back on the customer or promising a |
+|                           | ownership of explaining Go Nukkad's | future calculation. (Frequency:     |
+|                           | services at 1:10 and guiding on GST | Many instances; Justification:      |
+|                           | at 1:57).                           | "Sir, wo toh depend karega na..."   |
+|                           |                                     | at 2:48. "Wo aapki choice hai,      |
+|                           |                                     | sir." for making videos at 5:41.    |
+|                           |                                     | "Final calculation nikala jayega."  |
+|                           |                                     | at 7:15, deferring the immediate    |
+|                           |                                     | need).                              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Alignment        | Good. The agent ensured alignment   | Poor. Despite the customer          |
+|                           | by confirming the customer's        | repeatedly stating his need for     |
+|                           | interest and addressing their       | clear cost structures to calculate  |
+|                           | specific query directly.            | profitability, the agent failed to  |
+|                           | (Frequency: 2; Justification: "I    | align by providing the necessary    |
+|                           | want to sell in my product, right,  | detailed information. (Frequency:   |
+|                           | ma'am?" at 1:04, "That's why I had  | Many missed opportunities;          |
+|                           | the message here." at 1:39, showing | Justification: Customer explicitly  |
+|                           | the agent is aligned with           | states "mere ko bhi toh saari poori |
+|                           | customer's goal).                   | calculation nikalni padegi na." at  |
+|                           |                                     | 7:29 and "tabhi hi main apni        |
+|                           |                                     | costing ko karunga" at 7:59, but    |
+|                           |                                     | the agent fails to align with this  |
+|                           |                                     | fundamental need).                  |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Framing         | Not Present.                        | Poor. The agent allowed the         |
+|                           |                                     | customer to frame objections (e.g., |
+|                           |                                     | about costs, returns leading to     |
+|                           |                                     | loss) without reframing them to     |
+|                           |                                     | highlight value or solutions.       |
+|                           |                                     | (Frequency: Multiple;               |
+|                           |                                     | Justification: Customer frames      |
+|                           |                                     | returns as "totally loss mein hai"  |
+|                           |                                     | at 6:00, and "hidden charges" at    |
+|                           |                                     | 7:31, which the agent fails to      |
+|                           |                                     | effectively reframe into a positive |
+|                           |                                     | or manageable aspect).              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Trust Signals             | Strong. The agent's clear           | Weak to negative. The agent's       |
+|                           | communication, direct answers, and  | vagueness, inability to provide     |
+|                           | professional conduct served as      | specific numbers, and occasional    |
+|                           | strong trust signals. (Frequency:   | forgetfulness undermined trust.     |
+|                           | Many instances; Justification:      | (Frequency: Many instances;         |
+|                           | Clear introduction at 0:09,         | Justification: Vague pricing "80-90 |
+|                           | accurate summary of services at     | ya aisi kuch hai" at 3:34, agent    |
+|                           | 1:10, and precise next steps at     | asking "Sir, Akash ka naam kya      |
+|                           | 2:06 are strong trust signals).     | tha?" at 8:49 completely erodes     |
+|                           |                                     | trust).                             |
++---------------------------+-------------------------------------+-------------------------------------+
+| Cost Sensitivity          | Not Present.                        | Poorly handled. The agent failed to |
+|                           |                                     | adequately address the customer's   |
+|                           |                                     | high cost sensitivity, leading to   |
+|                           |                                     | prolonged discussions and           |
+|                           |                                     | dissatisfaction regarding pricing,  |
+|                           |                                     | commissions, and return charges.    |
+|                           |                                     | (Frequency: Many instances;         |
+|                           |                                     | Justification: Customer's repeated  |
+|                           |                                     | questions about how costs impact    |
+|                           |                                     | his profitability, "kis ke upar     |
+|                           |                                     | rebate padta hai?" at 4:45, "50%... |
+|                           |                                     | totally loss mein hai" at 5:59,     |
+|                           |                                     | "kya cost banega" at 7:51).         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Decision Momentum         | Positive. The agent created clear   | Negative. The call ended without a  |
+|                           | next steps and positive closure,    | clear path forward or resolution,   |
+|                           | setting the stage for future        | leaving the customer with           |
+|                           | engagement. (Frequency: 1;          | unanswered questions and an         |
+|                           | Justification: "Once you get GST    | impression of unaddressed concerns. |
+|                           | number, then next time we'll call." | (Frequency: 1; Justification: The   |
+|                           | at 2:06, giving a clear path        | call ends after the agent           |
+|                           | forward).                           | acknowledges competing offers and   |
+|                           |                                     | the customer's repeated demands for |
+|                           |                                     | cost breakdown are unmet,           |
+|                           |                                     | indicating no decision momentum).   |
++---------------------------+-------------------------------------+-------------------------------------+
+| Overall Call Outcome      | Successful. The agent effectively   | Unsuccessful. The call was          |
+|                           | addressed the customer's initial    | prolonged, frustrating, and ended   |
+|                           | query, provided necessary           | without clearly addressing the      |
+|                           | information, and established clear  | customer's core financial and       |
+|                           | next steps, leading to a polite and | operational concerns, likely        |
+|                           | positive conclusion. (Frequency: 1; | leaving the customer disengaged and |
+|                           | Justification: Customer ends the    | unconvinced. (Frequency: 1;         |
+|                           | call with "Yeah, sure, sure. Thank  | Justification: Customer's repeated  |
+|                           | you so much." at 2:09, indicating   | frustration and the agent's         |
+|                           | satisfaction and readiness for next | inability to provide clear cost     |
+|                           | steps).                             | calculations, coupled with the      |
+|                           |                                     | agent forgetting the customer's     |
+|                           |                                     | name, suggest a negative outcome    |
+|                           |                                     | and no clear path forward).         |
++---------------------------+-------------------------------------+-------------------------------------+
+
+--- POSITIVE CONTEXT STRINGS & FREQUENCY ---
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Context Variable         | GOOD CALL (Sentence, Freq, Justification)   | BAD CALL (Sentence, Freq, Justification)   |
++==========================+=============================================+============================================+
+| Format: Variable         | Good Call (Sentence, Frequency,             | Bad Call (Sentence, Frequency,             |
+|                          | Justification)                              | Justification)                             |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Polite Conclusion        | "Yeah, sure, sure. Thank you so             | Not Present.                               |
+|                          | much. Okay, ma'am. Thank you so             |                                            |
+|                          | much. Have a good day." (1, The             |                                            |
+|                          | agent and customer exchange polite          |                                            |
+|                          | thanks and goodbyes at the end of           |                                            |
+|                          | the call.)                                  |                                            |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Intent to Re-engage      | "Once you get GST number, then next         | Not Present.                               |
+|                          | time we'll call." (1, The agent             |                                            |
+|                          | clearly states the next step                |                                            |
+|                          | involves calling the customer again         |                                            |
+|                          | after a specific action.)                   |                                            |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Confirmation of Interest | "That's why I had the message               | Not Present.                               |
+|                          | here." (1, The agent directly links         |                                            |
+|                          | her call to the customer's stated           |                                            |
+|                          | interest in selling products,               |                                            |
+|                          | confirming their shared purpose.)           |                                            |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Confirmation of   | "I think I can sell my product in           | Not Present.                               |
+| Service Need             | Meesho." (1, The customer                   |                                            |
+|                          | explicitly states their intention           |                                            |
+|                          | and desired outcome, which the              |                                            |
+|                          | agent then confirms.)                       |                                            |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement to Next Steps  | "Once you get GST number, then next         | Not Present.                               |
+|                          | time we'll call." (1, The agent             |                                            |
+|                          | outlines a clear and agreed-upon            |                                            |
+|                          | next action for both parties.)              |                                            |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Brand Identification     | "I'm Khushi Sharma this side from           | "I am Jabrej from Jabrej Fashions."        |
+|                          | Go Nukkad." (1, Agent clearly               | (1, Customer clearly identifies            |
+|                          | identifies herself and her                  | himself and his business name.)            |
+|                          | company.)                                   |                                            |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Price Inquiry     | Not Present.                                | "Aur kya charge kar rahe hain mujhe        |
+|                          |                                             | bataiye." (4, Customer directly            |
+|                          |                                             | asks for pricing details on                |
+|                          |                                             | multiple occasions, e.g., 0:10,            |
+|                          |                                             | 1:26, 2:45, 4:34, 7:12).                   |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Technical Acknowledgment | Not Present.                                | "Ha, aapki voice break kar rahi            |
+|                          |                                             | hai, sir." (1, Agent acknowledges a        |
+|                          |                                             | technical issue with the call              |
+|                          |                                             | quality.)                                  |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Price Discussion         | Not Present.                                | "Aapne sir mere ko 35 bataya tha."         |
+|                          |                                             | (1, Customer refers to a previously        |
+|                          |                                             | discussed price point, initiating a        |
+|                          |                                             | price discussion.)                         |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Specific Price Points    | Not Present.                                | "Within 3 months plus 18% GST              |
+|                          |                                             | lagega." (7, Specific monetary             |
+|                          |                                             | values or percentages are mentioned        |
+|                          |                                             | in the discussion about charges,           |
+|                          |                                             | e.g., 1:12, 1:31, 1:52, 3:30, 4:34,        |
+|                          |                                             | 6:17, 6:27, 6:32).                         |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Validation of Scope      | "in Go Nukkad we provide complete           | "Ha, 3 month ka, 3 platform ka."           |
+|                          | account management services on              | (1, Agent confirms the duration and        |
+|                          | e-commerce marketplaces just like           | number of platforms covered by the         |
+|                          | Amazon, Flipkart, Meesho,                   | service.)                                  |
+|                          | ShopClues, Amazon.in, JioMart,              |                                            |
+|                          | etc." (1, Agent clearly defines the         |                                            |
+|                          | range of services and platforms             |                                            |
+|                          | covered.)                                   |                                            |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Request for       | Not Present.                                | "kya-kya cheezein karoge?" (4,             |
+| Information              |                                             | Customer asks for specific details         |
+|                          |                                             | about the services provided, e.g.,         |
+|                          |                                             | 1:01, 1:37, 2:00, 4:07, 4:84).             |
++--------------------------+---------------------------------------------+--------------------------------------------+
+| Customer Alignment       | Not Present.                                | "Toh main ye baat poochh raha tha          |
+|                          |                                             | ki sir, Amazon pe meri cheez ki            |
+|                          |                                             | value kitni hai." (2, Customer             |
+|                          |                                             | states his goal of understanding           |
+|                          |                                             | the product's value to align with          |
+|                          |                                             | his business strategy, e.g., 4:23,         |
+|                          |                                             | 7:42, 7:58).                               |
++--------------------------+---------------------------------------------+--------------------------------------------+
+
+--- MISSING ELEMENTS IN BAD CALL ---
+1.  **Proactive Cost Breakdown:** The agent in the Bad Call failed to proactively provide a clear, itemized breakdown of all potential costs (commissions, shipping, returns, one-time fees, etc.) early in the conversation. The customer had to repeatedly extract vague answers.
+2.  **Effective Conversation Control:** The agent consistently lost control of the conversation, allowing the customer to interrupt, dictate the agenda, and ask the same questions repeatedly without a clear structure or a guided flow.
+3.  **Specific Examples and Scenarios:** When discussing returns or promotions, the agent in the Bad Call failed to provide concrete examples or hypothetical scenarios tailored to the customer's product (shoes), which could have clarified complex cost implications.
+4.  **Strong Value Proposition:** The agent struggled to articulate a compelling value proposition that justified the costs and differentiated their service, especially when the customer brought up competing offers.
+5.  **Personalized Engagement/Active Listening:** The agent's ultimate forgetfulness of the customer's name at the end ("Sir, Akash ka naam kya tha?") signifies a severe lack of personalized engagement and active listening throughout the call, making the customer feel unheard and undervalued.
+
+--- WINNING PHRASES MAPPING ---
+1.  "I got your query that you are interested for your business. That's why I'm calling you right now." -> "Where to use in Bad Call": At the very beginning, after initial greetings, to set the purpose of the call clearly and link it directly to the customer's past action or expressed interest. -> "Expected Impact": Would have immediately established the call's purpose, validated the customer's previous engagement, and created a more structured starting point, potentially reducing initial confusion and customer impatience.
+2.  "In Go Nukkad, ma'am, we provide complete account management services on e-commerce marketplaces just like Amazon, Flipkart, Meesho, ShopClues, Amazon.in, JioMart, etc." -> "Where to use in Bad Call": Early in the conversation (e.g., around 1:00 or 1:20 mark), when the customer is repeatedly asking "kya-kya cheezein karoge?" and about Amazon services. -> "Expected Impact": Would have provided a comprehensive overview of the service scope and platforms upfront, addressing multiple customer questions at once and demonstrating competence, which was sorely lacking. This could have reduced the need for repeated questions and given the customer a clearer picture.
+3.  "Once you get GST number, then next time we'll call." -> "Where to use in Bad Call": At any point where a critical prerequisite or a clear barrier to moving forward is identified (e.g., if the customer couldn't provide a specific piece of information or was stuck on a non-negotiable point). -> "Expected Impact": Provides a clear, actionable next step and maintains a professional stance. In the Bad Call, where discussions went in circles, this would have been a valuable phrase to pause, resolve a prerequisite (like getting a detailed cost calculation from a specialist), and then re-engage, rather than continuing a frustrating, unproductive loop.
+
+(Transcripts saved to transcripts.txt)
+====================================================================================================
+
+
+====================================================================================================
+COMPARISON REPORT #4: 2026-01-08 12:50:29
+GOOD URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764655955.828742&type=rec&token=SXZlc0pvZ01Xa3NRZkNBcUtwVnZFUEVSeEhCZDlQTUVZNmtWekIzc1VMYUNtTmQxNUZqTlZIMVMzV2tndTZyazo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+BAD URL:  https://cloudphone.tatateleservices.com/file/recording?callId=1764573603.46856&type=rec&token=UkgreFpaVlg5MVQxZjZrb3V5RE1HWDZ2WnBHd1ZjcHRJUUptVUJTUUxTTFVobjRoVGpQTkx5OFhOZFZiczROdTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+====================================================================================================
+
+--- CSAT SCORES ---
+GOOD CALL: Score: 9/10
+Reason: Agent addressed concerns, proactively offered solution, and committed to a timeline.
+Tone: Reassuring
+BAD CALL:  1. Score: 9/10
+2. Reason: Agent clearly confirmed next steps and provided helpful email guidance.
+3. Tone: Professional
+
+--- COMPARISON ANALYSIS ---
++---------------------------+-------------------------------------+-------------------------------------+
+| Evaluation Variable       | GOOD CALL                           | BAD CALL                            |
++===========================+=====================================+=====================================+
+| Format: Variable          | Good Call Description               | Bad Call Description                |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Tone & Energy       | The agent maintains a positive,     | The agent's tone is hesitant and    |
+|                           | reassuring, and energetic tone      | somewhat apologetic, lacking        |
+|                           | throughout the call, fostering      | urgency and confidence.             |
+|                           | confidence.                         |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Confidence          | The agent demonstrates high         | The agent shows low confidence,     |
+|                           | confidence by offering guarantees   | deflecting responsibility and       |
+|                           | and clear commitments to fulfilling | delaying immediate action.          |
+|                           | the request.                        |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Listening Quality         | The agent actively listens to       | The agent listens but fails to      |
+|                           | customer's concerns and specific    | grasp the customer's urgency or     |
+|                           | requirements, clarifying details    | effectively respond to their        |
+|                           | like cost components.               | implied need for immediate action.  |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Empathy          | While not explicitly stated, the    | Empathy is lacking; the agent does  |
+|                           | agent's reassurances and commitment | not acknowledge or validate the     |
+|                           | to timely delivery implicitly       | customer's desire for prompt        |
+|                           | address customer's underlying       | resolution.                         |
+|                           | concerns.                           |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Discovery & Understanding | The agent effectively discovers the | The agent fails to deeply           |
+|                           | customer's core need (delivery cost | understand the customer's immediate |
+|                           | clarity, timely action) and         | need for action, focusing instead   |
+|                           | understands the pricing model.      | on internal processes and delays.   |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Customer         | The agent proactively clarifies     | The agent struggles to handle the   |
+| Corrections               | information and provides accurate   | customer's implied correction about |
+|                           | details, preventing potential       | the timeline, leading to            |
+|                           | misunderstandings.                  | frustration.                        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Handling        | The agent effectively addresses     | The agent inadvertently creates an  |
+|                           | potential objections (e.g., product | objection (delay in service) by not |
+|                           | cost, delivery timeline) with       | being able to fulfill the           |
+|                           | direct solutions and reassurances.  | customer's immediate request.       |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pricing Objection         | The agent provides a competitive    | The agent only briefly mentions a   |
+| Response                  | price point, justifying it by       | cost limitation ("3000 में          |
+|                           | stating "₹60-₹70 काफी कम होता है    | पार्टिसिपेट नहीं हो पाएगा") without |
+|                           | मार्केट के बेसिस पर", making it an  | further explanation or alternative  |
+|                           | attractive offer.                   | solutions.                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Financial        | The agent effectively mitigates     | Not explicitly relevant, but the    |
+| Constraints               | cost concerns by explaining the     | agent's inability to provide        |
+|                           | all-inclusive nature of the         | immediate service could be seen as  |
+|                           | competitive price.                  | a constraint.                       |
++---------------------------+-------------------------------------+-------------------------------------+
+| Solution Orientation      | The agent is highly solution-       | The agent is process-oriented       |
+|                           | oriented, focusing on "how" to get  | rather than solution-oriented,      |
+|                           | the job done efficiently and        | focusing on internal steps that     |
+|                           | effectively for the customer.       | cause delay rather than finding an  |
+|                           |                                     | immediate solution.                 |
++---------------------------+-------------------------------------+-------------------------------------+
+| Conversation Control      | The agent maintains good control of | The customer has to take control    |
+|                           | the conversation, guiding it        | and push for a timeline, as the     |
+|                           | towards a clear agreement and next  | agent struggles to provide a        |
+|                           | steps.                              | definitive next step.               |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pacing of Call            | The call is well-paced, moving      | The pacing is slow and creates      |
+|                           | efficiently towards a resolution    | delays, causing friction and        |
+|                           | without being rushed or delayed.    | requiring the customer to prompt    |
+|                           |                                     | action.                             |
++---------------------------+-------------------------------------+-------------------------------------+
+| Escalation Handling       | Not an escalation call, but the     | Not an escalation call, but the     |
+|                           | agent's confidence and reassurances | agent's hesitancy and delays could  |
+|                           | prevent any need for escalation.    | potentially lead to customer        |
+|                           |                                     | frustration and future escalation.  |
++---------------------------+-------------------------------------+-------------------------------------+
+| Upsell / Add-on Handling  | Not applicable in this call, as the | Not applicable.                     |
+|                           | focus is on fulfilling the specific |                                     |
+|                           | customer request.                   |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Trust Impact     | The agent's clear commitments,      | The agent's delays and lack of      |
+|                           | guarantees, and solution-oriented   | immediate commitment erode customer |
+|                           | approach build high customer trust. | trust and cause frustration.        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Mindset             | The agent demonstrates a proactive, | The agent displays a reactive,      |
+|                           | problem-solving, and customer-      | process-bound, and internally-      |
+|                           | centric mindset.                    | focused mindset, prioritizing       |
+|                           |                                     | internal steps over customer        |
+|                           |                                     | urgency.                            |
++---------------------------+-------------------------------------+-------------------------------------+
+| Problem Ownership         | The agent takes full ownership of   | The agent deflects ownership by     |
+|                           | the customer's request, committing  | citing the need to check emails and |
+|                           | to ensure its completion.           | pushing back the timeline.          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Alignment        | The agent aligns perfectly with the | The agent is misaligned with the    |
+|                           | customer's need for efficiency,     | customer's urgency and immediate    |
+|                           | competitive pricing, and timely     | need for action.                    |
+|                           | delivery.                           |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Framing         | The agent re-frames potential       | The agent's response about checking |
+|                           | objections (e.g., cost) into        | emails and delays itself becomes an |
+|                           | advantages (e.g., market-           | implicit objection to the           |
+|                           | competitive, all-inclusive).        | customer's request.                 |
++---------------------------+-------------------------------------+-------------------------------------+
+| Trust Signals             | The agent provides strong trust     | The agent offers weak trust         |
+|                           | signals by offering personal        | signals, as their commitments are   |
+|                           | guarantees ("मेरी गारंटी है") and   | conditional and delayed.            |
+|                           | clear explanations.                 |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Cost Sensitivity          | The agent demonstrates sensitivity  | The agent's brief mention of the    |
+|                           | to cost by highlighting the         | 3000-rupee limitation shows a lack  |
+|                           | competitive nature of their         | of sensitivity or ability to        |
+|                           | pricing.                            | navigate cost-related discussions   |
+|                           |                                     | effectively.                        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Decision Momentum         | The agent maintains strong decision | The agent stalls decision momentum, |
+|                           | momentum, leading to a quick        | forcing the customer to push for an |
+|                           | agreement on next steps.            | outcome and timeline.               |
++---------------------------+-------------------------------------+-------------------------------------+
+| Overall Call Outcome      | The call results in a positive      | The call ends with uncertainty and  |
+|                           | outcome with clear next steps and   | a deferred action, leaving the      |
+|                           | customer satisfaction.              | customer without an immediate       |
+|                           |                                     | resolution.                         |
++---------------------------+-------------------------------------+-------------------------------------+
+
+--- POSITIVE CONTEXT STRINGS & FREQUENCY ---
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Context Variable          | GOOD CALL (Sentence, Freq, Justification)   | BAD CALL (Sentence, Freq, Justification)   |
++===========================+=============================================+============================================+
+| Mutual Agreement          | "ठीक है डन" (1, 0:52, Confirmation          | "ठीक है, ठीक है सर। मैं आपको 3:30          |
+|                           | of a decision.)                             | बजे कॉल कर लेता हूं।" (1,                  |
+|                           |                                             | 0:45-0:47, Agreement on a call-back        |
+|                           |                                             | time, although not for immediate           |
+|                           |                                             | action.)                                   |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Closing Confirmation      | "ठीक है" (1, 1:09, Acknowledging            | "ठीक है, ठीक है सर। मैं आपको कॉल           |
+|                           | the agreed-upon next step.)                 | करता हूं फिर 3:30।" (1, 1:02-1:04,         |
+|                           |                                             | Confirmation of a call-back plan.)         |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Polite Conclusion         | "धन्यवाद।" (1, 0:53, Polite closing         | "मैं आपको कॉल करता हूं फिर 3:30।"          |
+|                           | from the customer.)                         | (1, 1:03-1:04, Polite way of ending        |
+|                           |                                             | the current conversation with a            |
+|                           |                                             | future commitment.)                        |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Intent to Re-engage       | "आप मुझे जीएसटी नोट करा दीजिए सो            | "मैं आपको कॉल करता हूं फिर 3:30।"          |
+|                           | दैट आज इस घंटे के अंदर रीजन होता है         | (1, 1:03-1:04, Agent's explicit            |
+|                           | अगर जो मैं अब कर दूं तो कल आपको इस          | intention to re-engage at a                |
+|                           | टाइम तक पहुंच जाएगा।" (1,                   | specific time.)                            |
+|                           | 1:13-1:20, The agent outlines the           |                                            |
+|                           | path to re-engage with the delivery         |                                            |
+|                           | process.)                                   |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement to              | "आप मुझे जीएसटी नोट करा दीजिए" (1,          | "हां मैं देख के आपको करता हूं, ठीक         |
+| Collaboration             | 1:13-1:14, Agent requesting                 | है कॉल।" (1, 0:33-0:34, Agent              |
+|                           | specific information from the               | agreeing to perform an action after        |
+|                           | customer to proceed.)                       | checking details, indicating a             |
+|                           |                                             | collaborative step.)                       |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement on Fundamentals | "हां मैंने देख ली मैम" (1, 0:04,            | "कल हमारी बात हुई थी लिस्टिंग को           |
+|                           | Customer confirming they have seen          | लेकर सर।" (1, 0:09-0:10, Customer          |
+|                           | the information.)                           | establishing common ground based on        |
+|                           |                                             | a previous discussion.)                    |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Call-back Request         | Not Present                                 | "मुझे बता दीजिए मैं कॉल करता हूं           |
+|                           |                                             | आपको।" (1, 0:37-0:38, Agent                |
+|                           |                                             | offering to call back.)                    |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Flexibility               | "आज कर देंगे तो कल आपको इस टाइम तक          | Not Present                                |
+| Acknowledgment            | पहुंच जाएगा।" (1, 1:18-1:20, Agent          |                                            |
+|                           | indicating flexibility in timing            |                                            |
+|                           | for delivery based on when the              |                                            |
+|                           | customer provides information.)             |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Confirmation of Interest  | "आप मुझे वीएसटी नोट करा दीजिए" (1,          | "कल हमारी बात हुई थी लिस्टिंग को           |
+|                           | 1:13-1:14, Agent's instruction              | लेकर सर।" (1, 0:09-0:10, The               |
+|                           | implies the customer is interested          | customer is calling back to                |
+|                           | and ready to proceed.)                      | continue the discussion about              |
+|                           |                                             | listing, showing interest.)                |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Future Openness           | "आज कर देंगे तो कल आपको इस टाइम तक          | "आज भी करा सकते हैं?" (1,                  |
+|                           | पहुंच जाएगा।" (1, 1:18-1:20, Agent          | 0:35-0:36, Customer inquiring about        |
+|                           | providing a clear timeline for              | immediate action, indicating               |
+|                           | future delivery.)                           | openness to a quick resolution.)           |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Future Outlook            | "आज कर देंगे तो कल आपको इस टाइम तक          | "मैं आपको 3:30 बजे कॉल करूंगा।" (1,        |
+|                           | पहुंच जाएगा।" (1, 1:18-1:20, Agent          | 0:46-0:47, Agent providing a               |
+|                           | projects a positive and prompt              | specific future action.)                   |
+|                           | future outcome.)                            |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Clear Intent to Start     | "आप मुझे जीएसटी नोट करा दीजिए" (1,          | "मैं देख के आपको करता हूं।" (1,            |
+|                           | 1:13-1:14, Agent clearly states the         | 0:33, Agent stating their intention        |
+|                           | first step required from the                | to start after reviewing                   |
+|                           | customer to initiate the process.)          | information, albeit with delay.)           |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Strategic Thinking        | "ये कौन सा काम है लंच तक हो जाएगा,          | "मैं पहले ही कर लूंगा आपको थोड़ा           |
+|                           | ठीक है।" (1, 1:25-1:26, Agent               | फ्री हो जाऊं अभी, ठीक है।" (1,             |
+|                           | considering the timeline and                | 0:47-0:50, Agent planning to get           |
+|                           | planning to complete the task by            | their work done earlier when they          |
+|                           | lunch.)                                     | are free.)                                 |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Request for        | "आप मुझे जीएसटी नोट करा दीजिए" (1,          | "मैंने आपका मेल देखा नहीं, मैं चेक         |
+| Information               | 1:13-1:14, Agent directly requests          | करके बताता हूं।" (1, 0:28-0:31,            |
+|                           | specific information needed to              | Agent indicating the need to check         |
+|                           | proceed.)                                   | mail for information.)                     |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| High Performance Metric   | "₹60-₹70 काफी कम होता है मार्केट के         | Not Present                                |
+|                           | बेसिस पर" (1, 0:46-0:49, Agent              |                                            |
+|                           | highlighting the competitive                |                                            |
+|                           | advantage of their pricing.)                |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Market Viability          | "₹60-₹70 काफी कम होता है मार्केट के         | Not Present                                |
+|                           | बेसिस पर" (1, 0:46-0:49, Agent              |                                            |
+|                           | reinforcing the competitive nature          |                                            |
+|                           | and attractiveness of their offer           |                                            |
+|                           | in the market.)                             |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Clear Product Identity    | "जो मेरा हमारा क्वेश्चन है वो हमारा         | "लिस्टिंग को लेकर सर" (1, 0:10,            |
+|                           | एक मेरी गारंटी है" (1, 0:10-0:12,           | Customer clearly identifies the            |
+|                           | Agent referring to their offering           | service they are discussing.)              |
+|                           | as a "question" that comes with a           |                                            |
+|                           | guarantee, though the exact product         |                                            |
+|                           | isn't named, the service is clear.)         |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Commitment to Quality     | "मेरी गारंटी है आप बता दोगी बट मुझे         | Not Present                                |
+|                           | मेरे तो मार्कशीट बनता है" (1,               |                                            |
+|                           | 0:12-0:16, Agent provides a                 |                                            |
+|                           | personal guarantee of                       |                                            |
+|                           | quality/delivery.)                          |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Validation of Identity    | "हलो, मैं गुरप्रीत बोल रही हूं" (1,         | "विभांश बात कर रहा हूं गोनूपुर से।"        |
+|                           | 0:00, Agent introducing herself.)           | (1, 0:04-0:05, Agent clearly               |
+|                           |                                             | identifying himself and his                |
+|                           |                                             | location.)                                 |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Brand Identification      | Not Present                                 | "गोनुपुर से" (1, 0:05, Agent               |
+|                           |                                             | identifying the brand/company they         |
+|                           |                                             | represent.)                                |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Pre-established Trust     | "क्योंकि मैम मेरी अच्छी जान पहचान           | Not Present                                |
+|                           | है" (1, 0:17-0:18, Agent leverages          |                                            |
+|                           | existing relationships to build             |                                            |
+|                           | trust.)                                     |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Validation of Authority   | "मैं करा दूंगी" (1, 0:24, Agent             | "विभांश बात कर रहा हूं" (1, 0:04,          |
+|                           | confidently states her ability to           | Agent identifying himself and thus         |
+|                           | perform the service.)                       | implying his authority to handle           |
+|                           |                                             | the call.)                                 |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Price Inquiry      | "अच्छा सिर्फ डिलीवरी कॉस्ट होती है          | Not Present                                |
+|                           | ना?" (1, 0:32-0:33, Customer                |                                            |
+|                           | directly asks about the components          |                                            |
+|                           | of the cost.)                               |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Price Discussion          | "₹60-₹70" (1, 0:46, Specific price          | "इसमें 3000 में पार्टिसिपेट नहीं हो        |
+|                           | range is discussed in relation to           | पाएगा हमारे" (1, 0:23-0:25, Agent          |
+|                           | market rates.)                              | briefly mentions a price point in          |
+|                           |                                             | the context of a limitation.)              |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Specific Price Points     | "₹60-₹70" (1, 0:46, A numerical             | "3000" (1, 0:23, A specific                |
+|                           | range for the cost is provided.)            | numerical value for a financial            |
+|                           |                                             | constraint.)                               |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Validation of Scope       | "मतलब ये प्रोडक्ट प्रोडक्ट में भी"          | "लिस्टिंग को लेकर सर" (1, 0:10,            |
+|                           | (1, 0:39-0:40, Customer clarifying          | Customer specifies the scope of            |
+|                           | what the service includes.)                 | their previous discussion.)                |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Confirmation of Solution  | "मैं करा दूंगी" (1, 0:24, Agent             | "मैं उसको कर दूंगा रिमेनिंग।" (1,          |
+|                           | definitively confirms she can               | 0:20-0:21, Agent offers a                  |
+|                           | provide the solution.)                      | conditional confirmation of                |
+|                           |                                             | completing the remaining work.)            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Willingness for Deep Dive | "ये कौन सा काम है लंच तक हो जाएगा,          | Not Present                                |
+|                           | ठीक है।" (1, 1:25-1:26, Agent is            |                                            |
+|                           | willing to delve into the task and          |                                            |
+|                           | complete it within a specific               |                                            |
+|                           | timeframe.)                                 |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement to Next Steps   | "डन डन मैं कर देता हूं।" (1, 1:24,          | "मैं आपको 3:30 बजे कॉल करूंगा।" (1,        |
+|                           | Agent confirms they will proceed            | 0:46-0:47, Agent agrees to the next        |
+|                           | with the next step.)                        | step of calling back at a specific         |
+|                           |                                             | time.)                                     |
++---------------------------+---------------------------------------------+--------------------------------------------+
+
+--- MISSING ELEMENTS IN BAD CALL ---
+1.  **Urgency Acknowledgment and Immediate Action**: The agent failed to acknowledge the customer's implicit urgency and did not offer to take immediate action, instead deferring the task.
+2.  **Proactive Problem Solving**: Instead of stating "मैं चेक करके बताता हूं" and delaying, the agent could have offered to check while the customer was on the line or provided an alternative immediate solution.
+3.  **Clear Commitment and Ownership**: The agent did not take clear ownership of the task nor provided a confident commitment to resolve it quickly.
+4.  **Empathy and Validation**: No phrases were used to acknowledge the customer's situation or validate their desire for prompt service.
+5.  **Alternative Solutions/Workarounds**: When the immediate request couldn't be met (checking mail for a previous conversation), no alternative was offered (e.g., "Can you briefly remind me of the details while I check?").
+
+--- WINNING PHRASES MAPPING ---
+1.  "मेरी गारंटी है आप बता दोगी बट मुझे मेरे तो मार्कशीट बनता है"
+    -> **Where to use in Bad Call**: When the customer expresses concern about the agent's ability to help immediately or follow up effectively.
+    -> **Expected Impact**: This phrase projects confidence and personal accountability. In the bad call, it could have reassured the customer that despite the delay, the agent would personally ensure the task is completed, building trust.
+
+2.  "नहीं नहीं नहीं, बिल्कुल नहीं, मैं करा दूंगी, डोंट वरी अबाउट दैट।"
+    -> **Where to use in Bad Call**: When the customer asks if something can be done "आज भी" (today) and the agent is hesitating or causing delay.
+    -> **Expected Impact**: This direct and firm reassurance would immediately alleviate customer anxiety and project a solution-oriented mindset. It turns a "no" or a "later" into a confident "yes, I'll handle it."
+
+3.  "₹60-₹70 काफी कम होता है मार्केट के बेसिस पर"
+    -> **Where to use in Bad Call**: When the agent mentions the "3000 में पार्टिसिपेट नहीं हो पाएगा" and could use a strong value proposition or competitive framing.
+    -> **Expected Impact**: This phrase helps to re-frame a potential cost objection into a value proposition. Even if the customer can't participate at 3000, presenting the *value* of the service (e.g., "our service, even at a higher price point, offers competitive advantages like X and Y, making it a valuable investment") would be more effective than a simple statement of limitation.
+
+(Transcripts saved to transcripts.txt)
+====================================================================================================
+
+
+====================================================================================================
+COMPARISON REPORT #5: 2026-01-08 12:52:16
+GOOD URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764655117.140414&type=rec&token=UnFYS3N6VUI0MmZCemNEOUIwQkdCNUpNOVRoN2JFRXJNTlV0MkZmUng1VzRobUl4eEdFY2VtUkhoeVJxTlk2Vzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+BAD URL:  https://cloudphone.tatateleservices.com/file/recording?callId=1764575297.47725&type=rec&token=ZklOMVlOVHo5WENCWmEwMWVIWktBVjN1b0hXekcwNDNnMStGTkM2UXdMalk1UHJycWVoMExPQk5wSWdOSk5aOTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+====================================================================================================
+
+--- CSAT SCORES ---
+GOOD CALL: 1. Score: 9/10
+2. Reason: Agent clearly clarified listing/SKU count and next steps. Customer expressed satisfaction.
+3. Tone: Helpful
+BAD CALL:  1. Score: 9/10
+2. Reason: Expert provided clear, detailed explanation of complex calculations.
+3. Tone: Informative
+
+--- COMPARISON ANALYSIS ---
++---------------------------+-------------------------------------+-------------------------------------+
+| Evaluation Variable       | GOOD CALL                           | BAD CALL                            |
++===========================+=====================================+=====================================+
+| Agent Tone & Energy       | Professional, calm, reassuring, and | Slightly robotic, transactional,    |
+|                           | consistent. Maintains a positive    | and lacks engagement. Tone drops    |
+|                           | and helpful demeanor throughout.    | towards the end when the customer   |
+|                           |                                     | might have disconnected.            |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Confidence          | High confidence. The agent clearly  | Moderate. The agent relies heavily  |
+|                           | understands the services and        | on a pre-shared screenshot and      |
+|                           | process, handles objections and     | calculation. Appears less confident |
+|                           | corrections smoothly, and provides  | in spontaneous explanation or       |
+|                           | clear next steps.                   | handling potential customer         |
+|                           |                                     | questions beyond the script.        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Listening Quality         | Excellent. The agent actively       | Minimal. The agent primarily        |
+|                           | listens to customer corrections     | presents information from a         |
+|                           | (e.g., product vs. listing,         | screenshot. There's little          |
+|                           | variants, combo offers) and         | indication of active listening or   |
+|                           | addresses them directly and         | probing for understanding beyond    |
+|                           | clearly.                            | asking if the customer saw the      |
+|                           |                                     | screenshot.                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Empathy          | Present. The agent anticipates      | Not present. The agent's focus is   |
+|                           | potential customer concerns (e.g.,  | on delivering calculated figures,   |
+|                           | "5-7 कम ही है, 7 से कम नहीं है")    | with no overt expressions of        |
+|                           | and addresses them proactively,     | understanding the customer's        |
+|                           | making the customer feel understood | business challenges or financial    |
+|                           | and reassured.                      | concerns.                           |
++---------------------------+-------------------------------------+-------------------------------------+
+| Discovery & Understanding | Good. The agent proactively         | Low. The agent jumps straight into  |
+|                           | clarifies nuances of the customer's | cost calculation based on a pre-    |
+|                           | needs regarding SKUs, listings, and | calculated screenshot, without re-  |
+|                           | Amazon processes, demonstrating an  | confirming the customer's specific  |
+|                           | effort to fully understand the      | needs or context for the            |
+|                           | scope.                              | calculation.                        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Customer         | Excellent. The agent immediately    | Not present (no clear customer      |
+| Corrections               | acknowledges and clarifies customer | corrections were made; the agent    |
+|                           | corrections, such as the            | only presented information).        |
+|                           | distinction between "products" and  |                                     |
+|                           | "listings" or the nature of SKUs    |                                     |
+|                           | vs. variants.                       |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Handling        | Proactive and effective. The agent  | Not present (no objections were     |
+|                           | addresses potential concerns about  | raised by the customer due to the   |
+|                           | SKU numbers and the impact of combo | one-sided presentation).            |
+|                           | offers on SKU count, providing      |                                     |
+|                           | clear explanations.                 |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Handling Financial        | Not explicitly discussed, but the   | The agent presents financial        |
+| Constraints               | agent's clarification of SKU count  | figures but doesn't handle any      |
+|                           | and simple listing process          | *constraints* as none were          |
+|                           | indirectly addresses cost-          | verbalized by the customer. The     |
+|                           | efficiency by streamlining the      | focus is purely on the numbers.     |
+|                           | work.                               |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Solution Orientation      | High. The agent is focused on       | Low. The agent is focused on        |
+|                           | outlining the process, next steps,  | explaining a calculation from a     |
+|                           | and what will be delivered          | screenshot, rather than discussing  |
+|                           | (listings, proposal, timeline for   | a comprehensive solution or next    |
+|                           | Amazon).                            | steps.                              |
++---------------------------+-------------------------------------+-------------------------------------+
+| Conversation Control      | Excellent. The agent guides the     | Poor. The agent presents            |
+|                           | conversation, sets expectations for | information and then loses          |
+|                           | next steps, and ensures all         | connection/control, ending the call |
+|                           | necessary information is exchanged. | abruptly without a clear closure.   |
++---------------------------+-------------------------------------+-------------------------------------+
+| Pacing of Call            | Well-paced. The conversation flows  | Rushed and one-sided. The agent     |
+|                           | naturally, with appropriate pauses  | quickly goes through the numbers    |
+|                           | for customer input and clear        | without allowing for much customer  |
+|                           | explanations.                       | interaction or digestion of         |
+|                           |                                     | information.                        |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Trust Impact     | Positive. The agent's clarity,      | Negative. The disjointed            |
+|                           | confidence, and solution-oriented   | presentation, lack of interaction,  |
+|                           | approach build trust. The customer  | and abrupt ending would likely      |
+|                           | clearly agrees to move forward.     | erode trust and leave the customer  |
+|                           |                                     | confused or dissatisfied.           |
++---------------------------+-------------------------------------+-------------------------------------+
+| Agent Mindset             | Collaborative and service-oriented. | Transactional and presentation-     |
+|                           | The agent aims to clarify,          | focused. The agent seems to view    |
+|                           | reassure, and move towards a        | the call as a one-way information   |
+|                           | successful partnership.             | dump rather than an interactive     |
+|                           |                                     | discussion.                         |
++---------------------------+-------------------------------------+-------------------------------------+
+| Problem Ownership         | High. The agent takes ownership of  | Low. The agent presents external    |
+|                           | the process, next steps, and        | calculations (screenshot from       |
+|                           | ensuring the customer's             | expert) but doesn't take ownership  |
+|                           | understanding.                      | of solving the customer's           |
+|                           |                                     | underlying problem or guiding them  |
+|                           |                                     | through the next steps.             |
++---------------------------+-------------------------------------+-------------------------------------+
+| Customer Alignment        | Strong. The agent ensures the       | Weak. There's no clear alignment    |
+|                           | customer is aligned on the scope of | established. The agent just         |
+|                           | work (SKUs, listings) and the next  | delivers information, and the call  |
+|                           | steps.                              | ends before alignment can be        |
+|                           |                                     | confirmed.                          |
++---------------------------+-------------------------------------+-------------------------------------+
+| Objection Framing         | Proactive. The agent frames         | Not present (no objections were     |
+|                           | potential concerns (like SKU        | discussed).                         |
+|                           | numbers) in a way that minimizes    |                                     |
+|                           | them and reinforces the simplicity  |                                     |
+|                           | of the solution.                    |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Trust Signals             | Clear and numerous. These include   | Minimal. The agent primarily relies |
+|                           | confirming understanding, outlining | on a pre-shared screenshot, which   |
+|                           | clear next steps, explaining        | while factual, isn't enough to      |
+|                           | processes, and offering a proposal. | build rapport or trust without      |
+|                           |                                     | further engagement.                 |
++---------------------------+-------------------------------------+-------------------------------------+
+| Cost Sensitivity          | Implicit. By clarifying the scope   | High (but poorly handled). The      |
+|                           | and simple nature of the listing    | agent directly discusses specific   |
+|                           | process, the agent indirectly       | cost breakdowns but without         |
+|                           | addresses cost efficiency without   | understanding the customer's        |
+|                           | discussing specific figures.        | specific financial situation or     |
+|                           |                                     | offering any flexibility.           |
++---------------------------+-------------------------------------+-------------------------------------+
+| Decision Momentum         | Excellent. The call concludes with  | None. The call ends abruptly with   |
+|                           | clear agreement on next steps,      | no clear decision or path forward.  |
+|                           | information exchange, and a start   |                                     |
+|                           | date, indicating strong decision    |                                     |
+|                           | momentum.                           |                                     |
++---------------------------+-------------------------------------+-------------------------------------+
+| Overall Call Outcome      | Successful. The agent clarifies the | Unsuccessful. The agent fails to    |
+|                           | service, sets expectations, and     | engage the customer, delivers       |
+|                           | establishes clear next steps for    | information in a one-sided manner,  |
+|                           | onboarding the customer.            | and the call ends with no           |
+|                           |                                     | resolution or next steps.           |
++---------------------------+-------------------------------------+-------------------------------------+
+
+--- POSITIVE CONTEXT STRINGS & FREQUENCY ---
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Context Variable          | GOOD CALL (Sentence, Freq, Justification)   | BAD CALL (Sentence, Freq, Justification)   |
++===========================+=============================================+============================================+
+| Mutual Agreement          | Good Call ("ठीक है, ठीक है, फिर ठीक         | Not Present                                |
+|                           | है." (1, Customer agrees to SKU             |                                            |
+|                           | count); "डन डन डन" (2, Agent                |                                            |
+|                           | confirms understanding and                  |                                            |
+|                           | agreement on next steps))                   |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Intent to Re-engage       | Good Call ("मैं आपको पहले ईमेल आईडी         | Not Present                                |
+|                           | तो आपने मुझे भेज दिया, मैं उसका             |                                            |
+|                           | प्रपोजल भेज देती हूं" (1, Agent             |                                            |
+|                           | commits to sending a proposal))             |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement to              | Good Call ("आप मुझे अपना जीएसटी             | Not Present                                |
+| Collaboration             | नंबर भेज दीजिए और ईमेल आईडी" (1,            |                                            |
+|                           | Agent directs next steps for                |                                            |
+|                           | collaboration))                             |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement on Fundamentals | Good Call ("हां पांच सात ही करनी है         | Not Present                                |
+|                           | ज्यादा होंगी भी नहीं" (1, Agent             |                                            |
+|                           | confirms and agrees on the number           |                                            |
+|                           | of listings))                               |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Flexibility               | Good Call ("जो हमारा अमेज़न का है वो         | Not Present                                |
+| Acknowledgment            | थोड़ा लेट होगा लेकिन ये लिस्टिंग हो          |                                            |
+|                           | जाएगी" (1, Agent acknowledges and           |                                            |
+|                           | manages expectations for a slight           |                                            |
+|                           | delay on one part of the service))          |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Confirmation of Interest  | Good Call ("ठीक है, ठीक है, फिर ठीक         | Not Present                                |
+|                           | है." (1, Customer confirms interest         |                                            |
+|                           | and understanding after                     |                                            |
+|                           | clarifications))                            |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Confirmation of    | Good Call ("हाँ हां जी जी, सो मैंने         | Not Present                                |
+| Service Need              | बात करी थी जसप्रीत जी से कि कह रहे          |                                            |
+|                           | थे कि ठीक है वो शूट आउट में से मैं          |                                            |
+|                           | ही करा लेता हूँ पांच सात लिस्टिंग           |                                            |
+|                           | अकाउंट क्रिएट करना" (1, Agent               |                                            |
+|                           | confirms the customer's expressed           |                                            |
+|                           | need for listing))                          |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Future Outlook            | Good Call ("कल से काम शुरू हो               | Not Present                                |
+|                           | जाएगा" (1, Agent provides a clear           |                                            |
+|                           | timeline for work commencement))            |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Clear Intent to Start     | Good Call ("कल से आपके मेरी टीम काम         | Not Present                                |
+|                           | शुरू कर देगी" (1, Agent clearly             |                                            |
+|                           | states when the team will start             |                                            |
+|                           | work))                                      |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Strategic Thinking        | Good Call ("ऐसा करते हैं सर, इसमें          | Not Present                                |
+|                           | हम क्या करेंगे सर Amazon पे इतना            |                                            |
+|                           | हमारा जो ब्रांड का काम होगा ना वो           |                                            |
+|                           | कटेंगे" (1, Customer proposes a             |                                            |
+|                           | strategic approach to Amazon work))         |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Direct Request for        | Good Call ("आप मुझे अपना जीएसटी             | Not Present                                |
+| Information               | नंबर भेज दीजिए" (1, Agent asks for          |                                            |
+|                           | necessary information))                     |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Significant Catalog Size  | Good Call ("पांच सात लिस्टिंग" (3,          | Not Present                                |
+|                           | Agent and customer refer to 5-7             |                                            |
+|                           | listings))                                  |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Clear Product Identity    | Good Call ("क्लीनिक प्रोडक्ट है,            | Not Present                                |
+|                           | होम केयर प्रोडक्ट है इसमें वेरिएशन          |                                            |
+|                           | तो नहीं होगा" (1, Agent identifies          |                                            |
+|                           | product type and its implication            |                                            |
+|                           | for variations))                            |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Possession of Essentials  | Good Call ("पहले ईमेल आईडी तो आपने          | Not Present                                |
+|                           | मुझे भेज दिया" (1, Agent                    |                                            |
+|                           | acknowledges receipt of email ID))          |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Established Foundation    | Good Call ("हां हां जी जी, सो मैंने         | Not Present                                |
+|                           | बात करी थी जसप्रीत जी से" (1, Agent         |                                            |
+|                           | references a previous conversation,         |                                            |
+|                           | implying an established                     |                                            |
+|                           | relationship/context))                      |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Brand Identification      | Good Call ("ब्रांड का काम होगा ना           | Not Present                                |
+|                           | वो कटेंगे" (1, Customer references          |                                            |
+|                           | "brand work"); "जो हमारा अमेज़न का           |                                            |
+|                           | है वो थोड़ा लेट होगा" (1, Agent              |                                            |
+|                           | references Amazon specific work))           |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Pre-established Trust     | Good Call ("मैंने बात करी थी                | Not Present                                |
+|                           | जसप्रीत जी से" (1, Agent refers to          |                                            |
+|                           | a previous contact/referral))               |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Price Discussion          | Not Present                                 | Bad Call ("25 रुपए का रेफरल फी, 21         |
+|                           |                                             | रुपए का क्लोजिंग फीस" (2, Agent            |
+|                           |                                             | discusses specific fee amounts);           |
+|                           |                                             | "54 रुपए है Amazon का फुलफिलमेंट           |
+|                           |                                             | कॉस्ट" (1, Agent refers to a               |
+|                           |                                             | specific cost); "₹371 नेट मिल रहा          |
+|                           |                                             | है" (1, Agent gives net profit             |
+|                           |                                             | figure))                                   |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Specific Price Points     | Not Present                                 | Bad Call ("25 रुपए", "21 रुपए", "54        |
+|                           |                                             | रुपए", "371 रुपए" (multiple                |
+|                           |                                             | instances, indicating specific             |
+|                           |                                             | figures being shared))                     |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Validation of Scope       | Good Call ("मतलब हमारे केवल पांच            | Not Present                                |
+|                           | सात ही SKU होंगे जोकि लिस्टिंग              |                                            |
+|                           | होगी" (1, Customer confirms the             |                                            |
+|                           | scope); "हां पांच सात ही करनी है            |                                            |
+|                           | ज्यादा होंगी भी नहीं" (1, Agent             |                                            |
+|                           | confirms))                                  |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Confirmation of Solution  | Good Call ("और मैं उसके साथ वो भी           | Not Present                                |
+|                           | शेयर कर दूंगी" (1, Agent confirms           |                                            |
+|                           | sharing details))                           |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+| Agreement to Next Steps   | Good Call ("जीएसटी नंबर भेज                 | Not Present                                |
+|                           | दीजिए... मैं आपको पहले ईमेल आईडी तो         |                                            |
+|                           | आपने मुझे भेज दिया मैं उसका प्रपोजल         |                                            |
+|                           | भेज देती हूं और मैं आप के साथ वो भी         |                                            |
+|                           | शेयर कर दूंगी" (1, Agent outlines           |                                            |
+|                           | clear next steps))                          |                                            |
++---------------------------+---------------------------------------------+--------------------------------------------+
+
+--- MISSING ELEMENTS IN BAD CALL ---
+**
+1.  **Clear Call Purpose/Agenda:** The agent immediately dives into numbers without setting an agenda or confirming the customer's understanding of why these numbers are being presented now.
+2.  **Customer Engagement/Interaction:** The agent fails to ask probing questions, confirm understanding, or invite feedback from the customer, leading to a one-sided monologue.
+3.  **Active Listening and Responsiveness:** The agent doesn't seem to actively listen for cues or allow the customer to interject, resulting in a disconnected experience.
+4.  **Defined Next Steps and Call Closure:** The call ends abruptly with the agent asking if the customer is still there, indicating a complete lack of a planned closing or clear next steps.
+5.  **Reassurance and Empathy:** The agent provides raw data without any reassuring language or showing empathy for the customer's potential financial concerns or decision-making process.
+
+**
+
+--- WINNING PHRASES MAPPING ---
+**
+1.  "पांच सात कम ही है, सात से कम नहीं है"
+    *   **Where to use in Bad Call:** When presenting the calculated net profit.
+    *   **Expected Impact:** Instead of just stating the number, frame it positively. For example, "₹371 आपको नेट मिल रहा है, जो कि आपकी इस प्रोडक्ट पर एक अच्छा रिटर्न है।" This adds reassurance and value rather than just a dry number.
+2.  "जो हमारा अमेज़न का है वो थोड़ा लेट होगा लेकिन ये लिस्टिंग हो जाएगी"
+    *   **Where to use in Bad Call:** At the beginning or end of the detailed cost breakdown.
+    *   **Expected Impact:** This phrase manages expectations and prioritizes achievable outcomes. In the Bad Call, the agent could say, "यह जो मैंने आपको कैलकुलेशन बताई है, यह अभी Amazon Fulfilment की है, लेकिन हम आपके लिए यह प्रक्रिया बहुत आसान बना देंगे, ताकि आपका प्रोडक्ट जल्द से जल्द बिकने लगे।" This shifts focus from just numbers to the solution and manages complexity.
+3.  "मेरी टीम काम शुरू कर देगी वेलकम कॉल पे, उसके बाद अकाउंट मैनेजर असाइन होगा फिर आपका काम शुरू हो जाएगा"
+    *   **Where to use in Bad Call:** After presenting the cost breakdown, instead of asking "आवाज आ रही है सर?".
+    *   **Expected Impact:** This phrase outlines a clear, structured onboarding process, building confidence and setting a positive expectation. In the Bad Call, after explaining the costs, the agent could immediately pivot to, "यह कैलकुलेशन आपको मिली है, अब अगला कदम होगा कि हमारी टीम आपसे संपर्क करेगी और आपके पूरे प्रोसेस को आसान बनाएगी।" This provides a path forward instead of an abrupt silence.
+
+(Transcripts saved to transcripts.txt)
+====================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

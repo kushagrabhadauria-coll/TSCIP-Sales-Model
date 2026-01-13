@@ -4,3 +4,8 @@ requests
 pandas
 openpyxl
 tabulate
+pandas 
+openpyxl
+
+
+# pip install -r requirements.txt

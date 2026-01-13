@@ -1,0 +1,286 @@
+
+--- GOOD CALL 1 ---
+URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764677140.2065693&type=rec&token=K0YxM29LM1hkUnZrcWZiYXl2a0JUTTE5emNjWWF3cE5EdXhlNjJsaEV0SGowUC9McFlMeUdpcDVwb3dxSDEwNTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Role: Hello
+Role: Yeah, hi Divy, how are you?
+Role: I'm good.
+Role: This side from GoNuts.
+Role: Hey Divyanshu, please. Sorry. I'll give you a call within some days. I apologize for the delay. But give me some time.
+Role: No, no issue. aap mujhe ek suitable time bata dijiye, main uske accordingly connect kar loongi.
+Role: What is it, what is it regarding? Kuch hai specifically that you want to share or you want a feedback to share?
+Role: Nahi nahi, Saturday hamara discussion hua tha. You are saying ki baith ke baat karte hain fir hum aage ke hamara jo brand store and display content tha.
+Role: Haan toh accha uske liye.
+Role: Yeah.
+Role: But pehle mere ko hi, I have not seen that creative yet.
+Role: Abhi nahi, I am.
+Role: Nahi ma'am, uska email aake I have seen it. Ye confirm kiya tha, you didn't even bola tha. Maine nahi dekha hai. Main tabhi hi sirf baith ke reply karti hu.
+Role: So today I think at least let's close it up.
+Role: Ok, no issue. I will connect with them.
+Role: Thank you so much Divy.
+Role: Thank you so much Divy. Have a great day.
+Role: You too.
+
+--- GOOD CALL 2 ---
+URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764669530.194451&type=rec&token=WVVzMWRFNlIxc1djbFp4MzhHQzBORjd3dHhpZmhnVDhZQWExVjV4U3k5bXIxZDhWeHRGdGJHbW03Z1ZSc3d1bzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Caller: Hello
+Agent: Actually, jo aap keh rahe hai na, isme ki brand store aur A+ content isme included nahi hai. So humara 36000 hai.
+Caller: Hmm
+Agent: Actually kya hota hai, jo humara A+ content hota hai and the brand store, isme jo used hota hai, woh banners aur infographics hote hai. Aur per banner aur infographics ki costing hi agar jo mai baat karu banane ki to 250 to 300 hoti hai. Us according iski costing hoti hai. Jaise ki agar jo humari ek A+ listing me hame paanch se cheh banner used hote hai, jo ki isme lagaye jate hai.
+Caller: Haanji. Matlab A+ content toh wohi hogi na jaise jo hum normal listing ko open karte hai, description me jaake jo extra 4-5 photos ya I don't know hoti hai.
+Agent: Yes, yes, yes.
+Caller: Yeah. A+ toh woh ho gaya aur brand store toh woh ho gaya, jo hum brand store pe click karte hai toh hume banners vagerah second me show hote hai, items hoti hai.
+Agent: Yes. Yes. Yes. Woh humare 10 to 15.
+Caller: Yeah.
+Agent: 10 to 15 banners usme lagte hai. Toh woh uske charges hote hai.
+Caller: Okay. Theek hai. Toh jo 36 wala jo aapka plan hai isme saari services include hongi but ye dono isme include nahi hai iske alag se charges hai.
+Agent: Nahi, ji, ji, ji, ji, yes.
+Caller: Theek hai. Aur advertisement pe jo bhi spend karna hai woh alag hota hai na isme.
+Agent: Woh totally aapke upar hai aap kitna budget leke chalna chahte hai isme.
+Caller: Haanji, haanji. Toh ye matlab ki pura jo plan hai ye six months ke liye ho jayega na?
+Agent: Yes.
+Caller: Theek hai. Chaliye.
+Agent: Isme hum woh baaki hum pe depend karta hai ki hum isme A+ aur kitna add on karana chahte hai. Abhi humara jo discussion hua tha woh five ke liye hua tha. But if in case Nitin sir ka koi plan change hota hai aur product leke aate hai toh woh uske upar depend karta hai.
+Caller: Haan woh to amount to aapne daal hi diya hai usko to hum calculate kar hi lenge. Ji, ji, so. Theek hai na isme confusion the na? Toh wohi mujhe.
+Agent: Koi baat nahi. No issues. It's very nice ki aapne ek baar clear kar liya because mai sir is time bhi hoti rehti toh kya fayda tha?
+Caller: Bilkul, bilkul, bilkul. Ki kaam toh hume karna hi hai na? Ab ye cheeze toh clear karke hume chalni padengi. Chaliye. Koi baat nahi, hum theek hai. Mai ek baar sir ko bhi ye dikha deta hu hai na? Okay.
+Agent: Hello?
+Caller: Okay, okay, okay, okay, ma'am. Thank you so much.
+
+--- GOOD CALL 3 ---
+URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764681053.879084&type=rec&token=OWZqMTVoNkgxdGt4QkdCL2duKzdzcXhUYmF2RHVpRTdMYUQrMzBIVWttdXd2d2k2NmV0UXlvSDQ4ck0xYWkwUTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Role: Hello?
+Yes ma'am.
+How can I help you?
+I have some issue with Go Nukkad.
+Ma'am, in Go Nukkad we provide complete account management services.
+Meesho nahi hai aapka?
+Go Nukkad nahi hai.
+Ma'am, main Go Nukkad se baat kar rahi hu. We provide account management services.
+Go Nukkad kya hai? Go Nukkad matlab?
+aapke jo query thi, aapne Go Nukkad ki website pe generate kari thi. I want to sell in my product, right ma'am?
+Okay.
+Yeah, so see, in Go Nukkad we provide complete account management services on e-commerce marketplaces just like Amazon, Flipkart, Meesho, Shop, Amazon.
+You can help me in that.
+Are you comfortable with Hindi or English?
+English.
+Okay, okay.
+Tell me.
+I think I can sell my product in Meesho.
+Okay. That's why I came with the message.
+Okay, ma'am, do you have GST number?
+No, I have no.
+Okay. Without GST number ma'am you can't work on any e-commerce marketplace.
+Okay, okay. With GST, I will get GST number.
+You have to contact your CA.
+Yeah.
+Can you help me in getting GST number?
+Yeah, sure, sure. Thank you so much. Okay.
+
+--- GOOD CALL 4 ---
+URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764655955.828742&type=rec&token=SXZlc0pvZ01Xa3NRZkNBcUtwVnZFUEVSeEhCZDlQTUVZNmtWekIzc1VMYUNtTmQxNUZqTlZIMVMzV2tndTZyazo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Role: I got you ma'am.
+Role: Aapne dekh liya?
+Role: Ha maine dekh liya aapko.
+Role: Haan bolo ma'am.
+Role: Ye jo ek usme main add nahi kar raha ki wo mera, hamara question hai wo hamara, meri guarantee hai aap main dal dungi but mujhe mere to banta hai isliye. Kyunki usme meri achi jaan pehchan hai wo main kara sakti hu.
+Role: nahi nahi nahi bilkul nahi main karwa dungi don't worry about that.
+Role: validation hota hai kya?
+Role: Nahi mission nahi hota sir.
+Role: Achha sirf delivery cost hoti hai na.
+Role: ji bas delivery cost hoti hai.
+Role: Everything ma'am.
+Role: Ha matlab reproduction date pe bhi.
+Role: so the product maximum eight ho raha hai.
+Role: matlab 60-70 rupees kafi kam market basis ka kind of.
+Role: Theek hai.
+Role: Aap log ko lekin karana padega.
+Role: bharosa rakhiye sir. bharosa rakhiye. Kyunki main market place ka dikha ki main management mein mujhe bhi show karna padega. Wo realitivity sir keh rahe hain product. product ka pata hai.
+Role: Done ma'am koi baat nahi. theek hai.
+Role: Aap mujhe
+Role: ha bolo
+Role: aap mujhe kar dijiye so that wo 24 ghante ke andar me reason hota hai agar jo main ab kar dungi to kal aapko is time tak to milega. 2 baje aur aapko parso delivery.
+Role: Done done aur ek kaam na lunch kar raha hai na theek hai.
+Role: kya ho ja abhi.
+Role: iske baad main bol kar ke kam bana hai to main lunch ke pehle theek hai na.
+Role: theek hai.
+Role: ho jayega.
+Role: theek hai.
+
+--- GOOD CALL 5 ---
+URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764655117.140414&type=rec&token=UnFYS3N6VUI0MmZCemNEOUIwQkdCNUpNOVRoN2JFRXJNTlV0MkZmUng1VzRobUl4eEdFY2VtUkhoeVJxTlk2Vzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Customer: Hello?
+Amit: Hello?
+Customer: Amit ji, I am Himanshi talking.
+Amit: Yes Himanshi ji.
+Customer: Yes ji. So I talked to Jaspreet ji and he said that okay, I will make the listing, five-seven listings account created, this is what has to be done and we will do it.
+Amit: Only listing has to be done, ma'am, just five-seven listings.
+Customer: Just five-seven listings, will they be done?
+Amit: No, they will not. Actually, five are less. Less than five is not possible. Six-seven is okay.
+Customer: Okay. Not products, I am talking about listings. It will also have variants, then...
+Amit: It means, no...
+Customer: Variants are not done, are they?
+Amit: Just one-one single SKU, right?
+Customer: Suppose...
+Amit: Suppose we will mostly offer combos because due to low MRP, we will have to give combos.
+Customer: No, it means how many SKUs will be there? I am trying to know that.
+Amit: SKUs are five-seven SKUs there, there is no variation in the product.
+Customer: So it means we will have only five-seven SKUs, there will be listing.
+Amit: Yes, there is no clinic product, home care product, so there won't be variations in that.
+Customer: No, see, if we also make combo offers, then the SKU count is there.
+Amit: Okay, so it will be there, one-two will be there. No, if you combine all, it will be six-seven, just six-seven.
+Customer: Okay, okay, then it's fine. Okay. I understood.
+Amit: Okay.
+Customer: So, do this Amit ji, you send me your GST number and email ID. I have already sent you the email ID, I am sending you the proposal. And I will send it to everyone with you.
+Amit: GST number I am telling you my own.
+Customer: Send me your GST, then we will proceed. Work will start from tomorrow.
+Amit: Done, done, done. I mean, the Amazon one will be a little late, but the listing will be done.
+Customer: Okay, okay. So first, the listing will be done. Because on Amazon, I have only one product's back stock. The product will be delivered in one day.
+Customer: So what we will do is, on Amazon, our brand work will be cut.
+Amit: The brand work, we will not make it because it is on the name of HyClean.
+Customer: That will take time. So from tomorrow, my team will start working on yours. After the welcome call, the account manager will be assigned, then your work will start.
+Amit: Done, done, done.
+Customer: Okay, send me the GST number, I will send you the proposal.
+Amit: Done, done, done.
+Customer: Okay.
+Amit: Okay.
+
+--- BAD CALL 1 ---
+URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764583885.70929&type=rec&token=b2cyUVRxZWJlOERTS09IaDJkN3lubW1YZzBiVUZCUzNHU1NpMEhsS0E0R1RxckZsdEUvTDllTGFYOVlFSmQzUjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Caller: Hello.
+Executive: Good afternoon, I am Vikrant from gonukkad.com.
+Caller: Gonukkad.
+Executive: Yes, sir, you showed interest in your e-commerce business. This call is for your e-commerce business support. Are you doing business online, or are you planning to start?
+Caller: I am doing it, I want to do it.
+Executive: Okay. So, can you tell me what category of business you are doing right now and what are your plans for it?
+Caller: Spices and sprinklers.
+Executive: Okay. And on which platform are you doing business right now?
+Caller: I have just listed on Jio, Flipkart, and Amazon.
+Executive: Okay. Are you doing the listing yourself, or are you getting it done by someone else?
+Caller: No, I am doing it myself.
+Executive: You are doing it yourself. Okay. So, basically, I called because we provide account management services, Amazon, Flipkart, Meesho, all of them.
+Caller: Hmm.
+Executive: Yes. So, as you are doing it yourself right now, do you know how to do proper optimization for Amazon, Flipkart?
+Caller: Yes, I am learning by doing it.
+Executive: Listing is a very basic part, you know that you are doing it. But the main thing is optimization is very important, until then you won't get organic sales, until you optimize. Because every platform has its own metrics, listing metrics.
+Caller: Hmm.
+Executive: How?
+Executive: Like, your titles, descriptions, keyword management is very important. Until you use relevant keywords, you won't get reach, you won't get visibility. And until you get visibility, you won't get organic orders. You know that. So, what is your planning for all these things?
+Caller: For now, I take help from ChatGPT.
+Executive: Okay.
+Caller: I copy keywords. I also put titles and list it that way.
+Executive: Okay, sir. Then no issue. If you have any requirement in the future, please call us.
+Caller: Okay.
+
+--- BAD CALL 2 ---
+URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764567970.11598&type=rec&token=NDJ6cFAzR1FCTm5UNmxSSmdYQUl4eGRmMFgxRUNjQjBNUDN2VkxscEpDR1JXRlJ3bWZHZ1I5TXZpM2RudVlqVDo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Caller: Hello.
+Executive: Good morning, sir. Gudansh baat kar raha hu gonuka.com se.
+Caller: Kahan se?
+Executive: gonuka.com se baat kar raha hu sir. Boliye sir. Sir, aapne apne e-commerce business ke liye interest show kiya tha. Ek call aayi thi aapki.
+Caller: To, to. To, visit kar rahe hain ki koi aap planning start kar rahe hain ki?
+Caller: Sir, mujhe aap detail bhej dijiye. Main kar dunga ek baar.
+Executive: To, ek baar like batayenge business ke bare mein aapka kya business hai?
+Caller: Sir, main Amazon ko le kar ke online ka jo brand hai apna, khud ka matlab apne jo brand market mein hai, usko share kar ke na market public ko na dena chahta hu. Ye mera kaam hai.
+Executive: Kya product hai?
+Caller: Sir, apna product cosmetics se hai aur jewelry cosmetics hai. Aur baaki aapko sector ka to aap bhi kar lo.
+Executive: Okay. So, ismein, ab, aapka coaching main jaan sakta hu sir? Kya? Sir, naam hai na aapka.
+Caller: Haan.
+Executive: Rajesh, agar like available hai aap, so ek Google meet schedule karein. So, better main aapko chizein explain kar paunga. Dikha paunga.
+Caller: Aap kahan pe? Aap kahan pe hain?
+Executive: Sir, Gurgaon based company hai humari. Sector 49.
+Caller: Gurgaon mein main Bombay mein rehta hu. Aap wahan pe ho ya company hai? Google meet pe main karunga.
+Executive: Nahi, Google meet par aana nahi hai aapko. Aana nahi hai. Google meet par connect karenge sir.
+Caller: Theek hai main Google meet kar lunga aapko pass. Main aapko meeting, main aapko meeting details share kar dunga.
+Caller: Mujhe abhi main aapko, haan, main abhi aapko call kar dunga, abhi main bataunga, aap isko theek hai wo.
+Executive: Theek hai, main ek kaam karta hu, na Amazon ke liye aapko proposal share kar deta hu. Mujhe aap WhatsApp par apni email ID share kariyega. Main aapko file share karta hu.
+Caller: Okay sir.
+Executive: Okay sir, thank you.
+
+--- BAD CALL 3 ---
+URL: https://cloudphone.tatateleservices.com/file/recording?callId=1764571674.1038547&type=rec&token=S2dNdWp1aEZJbnpjU05LRG1JM3AvS0s0ZFJBdEI0S3ZXeU51WFVKbHlyTklYN0hONmdjOEJ3MXJhRGZsQjVVKzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Customer: Hello.
+I am Akash Agarwal from Adharsath.
+You are talking about the year. We are talking about the closing of 12 months.
+I will tell you.
+I told you 35. You mean 35?
+I said the last round. Then I gave you 2 lakh whole discount on the closing of 12 months.
+So right now we are like.
+You are talking about something else.
+No, I was just saying that this can be done. It is less than 50.
+You are expecting, please tell me your answer.
+So I will try to help you.
+One thing.
+It will be 18% GST. That is for.
+Yes, for. You tell me that the services you are providing now.
+Okay. What are the charges? Tell me.
+For a month, 500 SKU. It is 500 SKU per month.
+One by one. I am asking about everyone's points.
+If you talk about the charges, then it will be a bit long.
+No problem, you can note it down.
+Okay.
+So, for 3 months, it will be a service.
+Sir, this is your 3 months.
+Yes, 3 months, 3 platforms.
+Okay, okay.
+Yes.
+Now, what are your tools? What tools do they work on?
+That is wearable tool. Some are free, some are paid tools, some are.
+You will send the order. When you send the order, the invoice will also come.
+No.
+Okay, you print it out and attach it.
+You have to print it out, attach it and deliver it.
+The delivery will come to you, Amazon will pick it up from you. Or you can keep it in your warehouse and then deliver it.
+No, that is basically a one-time fee.
+Then their monthly fee.
+Sir, meter.
+Yes.
+How much will it cost me, tell me.
+Sir, that will depend on how much stock you are keeping.
+So, I will send 50. But the thing is that after keeping the stock, then the pick-up charges will also be there.
+It is an option. If you want to deliver to Amazon from your end, you can pick up the product from our warehouse. Then the delivery will be done by Amazon. Amazon also has a pick-up option. So you or any other delivery partner can pick it up from our warehouse. This is Amazon's.
+If your product is selling well, I would suggest that you go for FBA. You will get Amazon's support.
+Rs 40 per.
+It will be 36 Amazon charge. And there is a one-time fee of 25-30 rupees or something. It is between 25-30. It is a one-time fee.
+So, you are talking about the charges.
+Yes, definitely.
+The customer will tell us what the issue is.
+What is the issue?
+It depends on the base. If the customer has an issue with the size or color, then the return is generally valid.
+It is not like that.
+It means there is an issue with the size.
+Yes, or there is a manufacturing defect.
+Okay.
+But what if the customer cancels from our side? What will we do?
+I will handle it and you will also make a video.
+It will be like, you will get a form. So you will have to send it to us. Then we will generate a ticket.
+The photos you are talking about.
+That is your choice, sir. Whenever I list, I recommend.
+If you make a video once. If there is a defect in the product that has come, then we will generate a ticket from our end and you will get 50% refund, which the platform gives.
+60% if you see, my issue is that 60% means totally. The rating we will list will be that of.
+So your list.
+Whatever is listed, you will get a refund.
+Okay.
+Sir, what about the charges? As I told you, okay. It became 7.5%. And if I sell a product of 100 rupees, I will make it 120-125.
+Definitely.
+Okay, sir. So if I sell it for 220 plus, it will be 7.5%.
+220 7.5%.
+7.5% or 7%, what is Amazon's fee?
+It is 60-70 rupees.
+Sir, Pan India. I am asking a question. How can you decide 7 rupees because of the weight? If it is 500, 600, 700.
+Okay. So you can say that the cheaper the shoe, the more expensive it becomes. The more expensive it is, the cheaper it becomes. If it is 500, 600, 700, then it will naturally be light in weight. Its weight will be less.
+Definitely, definitely. I want to tell you, please tell me what your sales rate is. You calculate.
+It will be deducted, final cost will be calculated.
+Your picking charges are. Whatever we store, we will deduct it.
+You are saying that if I sell something for 100-200, I also have to calculate everything. It means there are hidden charges. It means I am paying 100, 200 rupees and then I am getting returns and then I am paying extra charges. Then after 3 months, I am paying extra charges.
+Definitely.
+Sir, if I am taking your guidance, I can ask you because it is my platform. I am taking your guidance that what will be my cost, how should I keep it, what should I not keep, which return is better, then I have to add the entire cost to my budget. Because if I do not, I will not be able to do my costing. It is getting returns, my packing is getting wasted, my courier charges are also there. So I have to see the end of the total percentage that is coming. So after all this, what will be left in the end? So I have to calculate the price according to that and I have to see it within the budget.
+Yes, absolutely. I am also saying that.
+If you do not, then I am putting the ball in your court. So, 220 rupees. You tell me what cost I should apply.
+I am telling you that for calculation, you have to choose a better product. So you will get a better product.
+Give me a minute.
+You are saying that I will send you the photos. You will bring the photos from your side.
+Sir, I am Akash. What is your name?
+Kiran, sir.
+Okay. Can I know what you talked about earlier?
+Sir, Akash ji, the company is offering me that I will take the service. I said okay.
+I am listening.

@@ -4,7 +4,7 @@ import requests
 import google.generativeai as genai
 from dotenv import load_dotenv  
 from tabulate import tabulate 
-from prompts import (
+from old_prompts import (
     CSAT_SCORING_PROMPT, 
     COMPARISON_PROMPT, 
     TRANSCRIPTION_PROMPT
