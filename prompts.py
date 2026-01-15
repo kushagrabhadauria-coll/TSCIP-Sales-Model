@@ -1,191 +1,211 @@
 CSAT_SCORING_PROMPT = """
-Analyze this call and give ONLY:
+You are a senior QA auditor.
 
+You MUST score the call using ALL 63 variables provided.
+All variables belong to ONE unified analysis called VARIABLE ANALYSIS.
+
+Each variable can have ONLY one state:
+Excellent (7–10)
+Moderate (4–6)
+Needs Improvement (0–3)
+Not Present (excluded from scoring)
+
+--------------------------------------------------
+MANDATORY SCORING LOGIC:
+
+1. Evaluate ONLY variables that are PRESENT.
+2. Count how many PRESENT variables fall into:
+   - Excellent
+   - Moderate
+   - Needs Improvement
+3. Calculate percentage:
+   Percentage = (Count / Total Present Variables) × 100
+4. Call Classification:
+   • If ≥ 66% of PRESENT variables are Excellent → CALL = GOOD
+   • Else → CALL = BAD
+5. Overall CSAT Score:
+   • Excellent dominated → 8–10
+   • Mixed → 4–7
+   • Moderate / Needs Improvement dominated → 0–4
+
+--------------------------------------------------
+OUTPUT FORMAT (STRICT — NO EXTRA TEXT):
+
+Call Classification: GOOD or BAD
 Score: X/10
-Reason: <max 15 words>
 Tone: <1 word>
+Reason: <max 15 words>
+
++---------------------------+----------------+
+| Metric                    | Value          |
++===========================+================+
+| Total Variables Present   | <number>       |
++---------------------------+----------------+
+| Excellent                 | <count> (<percentage>%) |
++---------------------------+----------------+
+| Moderate                  | <count> (<percentage>%) |
++---------------------------+----------------+
+| Needs Improvement         | <count> (<percentage>%) |
++---------------------------+----------------+
 """
 
 
 TRANSCRIPTION_PROMPT = """
 You are a professional transcriber.
+During Diarize Identify first who is agent and who is customer very clearly.
 
 RULES:
 1. Format strictly: Role: Text
 2. Remove fillers (uh, um, haan, acha, ji)
 3. Diarize as Agent / Customer
 4. Preserve English + Hinglish
-5. Plain text only (no markdown)
+5. Plain text only
 """
 
 
 EXTRACT_CONTEXT_PROMPT = """
-Identify presence of the following variables in the call.
+Perform VARIABLE ANALYSIS on the call.
 
-For EACH variable found, return:
-Variable | Sentence | Frequency
+Return ONE row per variable.
+DO NOT skip any variable.
 
-Frequency means number of times it appears in this call.
+Do not use same sentence as evidence in two different variables, on sentence cab be only used once and only one variable can be satisfied with it.
 
-Variables:
-Permission to Proceed, Mutual Agreement, Closing Confirmation, Polite Conclusion,
-Intent to Re-engage, Agreement to Collaboration, Direct Positive Feedback,
-Agreement on Fundamentals, Call-back Request, Flexibility Acknowledgment,
-Confirmation of Interest, Openness to Expansion, Direct Confirmation of Service Need,
-Future Openness, Future Outlook, Clear Intent to Start, Strategic Thinking,
-Direct Request for Information, High Performance Metric, Significant Catalog Size,
-Market Viability, Manufacturer Status, Business Scalability, Clear Product Identity,
-Possession of Essentials, Commitment to Quality, Established Foundation,
-Validation of Identity, Brand Identification, Pre-established Trust,
-Validation of Authority, Acceptance of Technology, Direct Price Inquiry,
-Technical Acknowledgment, Price Discussion, Specific Price Points,
-Validation of Scope, Confirmation of Solution, Network Expansion,
-Willingness for Deep Dive, Agreement to Next Steps
+Return ONLY a properly aligned ASCII grid.
+
+FORMAT (STRICT):
+
++-------------------------------+--------------------+--------------------------------------+
+| Variable                       | Status             | Sentence                             |
++===============================+====================+======================================+
+| <Variable Name>               | <Status>           | <Sentence or N/A>                    |
++-------------------------------+--------------------+--------------------------------------+
+
+Status must be ONE of:
+Excellent
+Moderate
+Needs Improvement
+Not Present
+
+Sentence:
+• Mandatory if Status ≠ Not Present
+• Use N/A if Not Present
+
+--------------------------------------------------
+VARIABLE LIST (DO NOT CHANGE NAMES OR ORDER):
+
+Agent Tone & Energy
+Agent Confidence
+Listening Quality
+Customer Empathy
+Discovery & Understanding
+Handling Customer Corrections
+Objection Handling
+Pricing Objection Response
+Handling Financial Constraints
+Solution Orientation
+Conversation Control
+Pacing of Call
+Escalation Handling
+Upsell / Add-on Handling
+Customer Trust Impact
+Agent Mindset
+Problem Ownership
+Customer Alignment
+Objection Framing
+Trust Signals
+Cost Sensitivity
+Decision Momentum
+Overall Call Outcome
+Permission to Proceed
+Mutual Agreement
+Closing Confirmation
+Polite Conclusion
+Intent to Re-engage
+Agreement to Collaboration
+Direct Positive Feedback
+Agreement on Fundamentals
+Call-back Request
+Flexibility Acknowledgment
+Confirmation of Interest
+Openness to Expansion
+Direct Confirmation of Service Need
+Future Openness
+Future Outlook
+Clear Intent to Start
+Strategic Thinking
+Direct Request for Information
+High Performance Metric
+Significant Catalog Size
+Market Viability
+Manufacturer Status
+Business Scalability
+Clear Product Identity
+Possession of Essentials
+Commitment to Quality
+Established Foundation
+Validation of Identity
+Brand Identification
+Pre-established Trust
+Validation of Authority
+Acceptance of Technology
+Direct Price Inquiry
+Technical Acknowledgment
+Price Discussion
+Specific Price Points
+Validation of Scope
+Confirmation of Solution
+Network Expansion
+Willingness for Deep Dive
+Agreement to Next Steps
 """
-
 
 FINAL_SYNTHESIS_PROMPT = """
 You are a senior sales QA auditor.
 
-You are analyzing MULTIPLE calls from:
-1. ONE GOOD AGENT
-2. ONE BAD AGENT
-
-STRICT THINKING RULES:
-• Think at AGENT LEVEL, not call level
-• Identify CONSISTENT BEHAVIORS
-• Do NOT mention URLs or individual calls
-• Always justify frequency or assessment with a short behavioral reason
-• Be crisp, factual, and audit-style
+You are analyzing MULTIPLE calls for ONE agent.
+Think ONLY at AGENT LEVEL.
+Use ONLY Variable Analysis outputs.
 
 --------------------------------------------------
+AGGREGATION LOGIC:
 
-[CSAT_SUMMARY]
-Provide ONE aggregated CSAT per agent.
-
-Format strictly:
-
-GOOD AGENT:
-Score: X/10
-Reason: <overall performance reason>
-Tone: <dominant tone>
-
-BAD AGENT:
-Score: X/10
-Reason: <overall performance reason>
-Tone: <dominant tone>
+1. Combine Variable Analysis across all calls.
+2. Count ONLY variables that are PRESENT.
+3. Recalculate percentages.
+4. Apply the SAME ≥66% Excellent rule.
 
 --------------------------------------------------
+OUTPUT FORMAT (STRICT — GRID ONLY):
 
-[TABLE_DATA]
-Create a comparison table with 3 columns:
+AGENT PERFORMANCE SUMMARY
 
-Evaluation Variable | GOOD AGENT | BAD AGENT
+Call Classification: GOOD or BAD
+Overall Score: X/10
+Dominant Tone: <1 word>
+Overall Reason: <max 20 words>
 
-For EACH cell:
-• Start with assessment: Strong / Moderate / Weak
-• Then add a SHORT justification (max 15 words)
-
-Variables MUST appear in this order:
-
-Agent Tone & Energy,
-Agent Confidence,
-Listening Quality,
-Customer Empathy,
-Discovery & Understanding,
-Handling Customer Corrections,
-Objection Handling,
-Objection Framing,
-Handling Financial Constraints,
-Pricing Objection Response,
-Solution Orientation,
-Conversation Control,
-Pacing of Call,
-Escalation Handling,
-Upsell / Add-on Handling,
-Customer Trust Impact,
-Trust Signals,
-Agent Mindset,
-Problem Ownership,
-Customer Alignment,
-Cost Sensitivity,
-Decision Momentum,
-Overall Call Outcome
++---------------------------+----------------+
+| Metric                    | Value          |
++===========================+================+
+| Total Variables Present   | <number>       |
++---------------------------+----------------+
+| Excellent                 | <count> (<percentage>%) |
++---------------------------+----------------+
+| Moderate                  | <count> (<percentage>%) |
++---------------------------+----------------+
+| Needs Improvement         | <count> (<percentage>%) |
++---------------------------+----------------+
 
 --------------------------------------------------
-
-[POSITIVE_CONTEXT_TABLE]
-Create a 3-column table:
-
-Context Variable | GOOD AGENT | BAD AGENT
-
-For EACH agent cell:
-• Format strictly as:
-  Frequency (Total Count) – Short behavioral summary
-• If absent:
-  "Not Present (0) – Behavior not observed across calls"
-
-Variables MUST appear in this order:
-
-Permission to Proceed,
-Validation of Identity,
-Validation of Authority,
-Brand Identification,
-Pre-established Trust,
-Direct Request for Information,
-Agreement on Fundamentals,
-Strategic Thinking,
-Market Viability,
-Manufacturer Status,
-Business Scalability,
-High Performance Metric,
-Significant Catalog Size,
-Possession of Essentials,
-Established Foundation,
-Mutual Agreement,
-Direct Positive Feedback,
-Commitment to Quality,
-Acceptance of Technology,
-Technical Acknowledgment,
-Clear Product Identity,
-Direct Confirmation of Service Need,
-Direct Price Inquiry,
-Price Discussion,
-Specific Price Points,
-Validation of Scope,
-Confirmation of Solution,
-Confirmation of Interest,
-Openness to Expansion,
-Willingness for Deep Dive,
-Network Expansion,
-Clear Intent to Start,
-Agreement to Collaboration,
-Intent to Re-engage,
-Call-back Request,
-Agreement to Next Steps,
-Future Openness,
-Future Outlook,
-Flexibility Acknowledgment,
-Closing Confirmation,
-Polite Conclusion
+SYSTEMIC FAILURES (BAD AGENT ONLY):
+List exactly 5 numbered behavioral failures with impact.
 
 --------------------------------------------------
+WINNING PHRASES (GOOD AGENT ONLY):
+Provide exactly 5 entries:
 
-[MISSING_ELEMENTS]
-List 5 SYSTEMIC failures found repeatedly in BAD AGENT calls.
-
-Rules:
-• Must be behavioral
-• Must explain impact
-• No generic statements
-
---------------------------------------------------
-
-[WINNING_PHRASES]
-Extract 5 phrases used by GOOD AGENT.
-
-Format strictly:
-"Winning Phrase"
-→ Where to use in Bad Agent call
-→ Expected Impact on conversation
+"Phrase"
+→ Where to use
+→ Expected impact
 """

@@ -4,8 +4,7 @@ import requests
 import pandas as pd
 import google.generativeai as genai
 from dotenv import load_dotenv
-from tabulate import tabulate
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from prompts import (
     CSAT_SCORING_PROMPT,
     TRANSCRIPTION_PROMPT,
@@ -13,178 +12,126 @@ from prompts import (
     FINAL_SYNTHESIS_PROMPT
 )
 
+# -------------------- CONFIG --------------------
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
 model = genai.GenerativeModel("gemini-2.5-flash")
 
-REPORT_FILE = "master_comparison_report.txt"
-TRANSCRIPT_FILE = "transcripts_log.txt"
 INPUT_SHEET = "calls.xlsx"
+OUTPUT_FILE = "call_level_results.txt"
+TRANSCRIPT_FILE = "transcripts.txt"
+MAX_WORKERS = 3
+# ------------------------------------------------
 
 
-def clean_local_file(path):
+def safe_delete(path):
     if path and os.path.exists(path):
         os.remove(path)
 
 
-def process_single_call(url, label):
-    if not url or pd.isna(url):
-        return None
+def process_single_call(index, url, total):
+    print(f"[START] ({index}/{total}) Processing call")
 
-    temp_path = f"temp_{label}_{int(time.time()*1000)}.mp3"
+    temp_path = f"temp_call_{index}_{int(time.time() * 1000)}.mp3"
 
     try:
         r = requests.get(url, timeout=30)
+        r.raise_for_status()
+
         with open(temp_path, "wb") as f:
             f.write(r.content)
 
         gem_file = genai.upload_file(path=temp_path)
+
         while gem_file.state.name == "PROCESSING":
             time.sleep(1)
 
         transcript = model.generate_content(
             [TRANSCRIPTION_PROMPT, gem_file]
-        ).text
+        ).text.strip()
+
+        variable_analysis = model.generate_content(
+            [EXTRACT_CONTEXT_PROMPT, gem_file]
+        ).text.strip()
 
         csat = model.generate_content(
             [CSAT_SCORING_PROMPT, gem_file]
-        ).text
-
-        context = model.generate_content(
-            [EXTRACT_CONTEXT_PROMPT, gem_file]
-        ).text
+        ).text.strip()
 
         genai.delete_file(gem_file.name)
-        clean_local_file(temp_path)
+        safe_delete(temp_path)
+
+        print(f"[SUCCESS] ({index}/{total}) Completed")
 
         return {
+            "index": index,
             "url": url,
             "transcript": transcript,
-            "csat": csat,
-            "context": context
+            "analysis": variable_analysis,
+            "csat": csat
         }
 
     except Exception as e:
-        print(f"Error processing {url}: {e}")
-        clean_local_file(temp_path)
+        safe_delete(temp_path)
+        print(f"[FAILED] ({index}/{total}) Error: {e}")
         return None
 
 
-def format_table(raw_text, headers):
-    rows = []
-    for line in raw_text.split("\n"):
-        if "|" in line:
-            parts = [p.strip() for p in line.split("|") if p.strip()]
-            if len(parts) >= len(headers):
-                rows.append(parts[:len(headers)])
-
-    rows = [r for r in rows if r[0] not in headers]
-    return tabulate(rows, headers=headers, tablefmt="grid")
-
-
-def extract_section(text, start, end=None):
-    try:
-        s = text.index(start) + len(start)
-        e = text.index(end) if end else len(text)
-        return text[s:e].strip()
-    except ValueError:
-        return ""
-
-
-def run_aggregate_analysis():
+def main():
     df = pd.read_excel(INPUT_SHEET)
-    good_urls = df["good_url"].dropna().tolist()
-    bad_urls = df["bad_url"].dropna().tolist()
 
-    print(f"[INFO] Processing {len(good_urls)} GOOD and {len(bad_urls)} BAD calls")
+    if "recording_url" not in df.columns:
+        raise ValueError("Excel must contain 'recording_url' column")
 
-    with ThreadPoolExecutor(max_workers=3) as executor:
-        good_results = list(
-            filter(None, executor.map(lambda u: process_single_call(u, "good"), good_urls))
-        )
-        bad_results = list(
-            filter(None, executor.map(lambda u: process_single_call(u, "bad"), bad_urls))
-        )
+    urls = df["recording_url"].dropna().tolist()
+    total_files = len(urls)
 
-    # ---- SAVE TRANSCRIPTS SEPARATELY ----
+    print("=" * 80)
+    print(f"[INFO] Total recordings to process : {total_files}")
+    print(f"[INFO] Max parallel workers       : {MAX_WORKERS}")
+    print("=" * 80)
+
+    results = []
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {
+            executor.submit(process_single_call, idx + 1, url, total_files): idx + 1
+            for idx, url in enumerate(urls)
+        }
+
+        for future in as_completed(futures):
+            res = future.result()
+            if res:
+                results.append(res)
+
+    print("=" * 80)
+    print(f"[INFO] Successfully processed {len(results)} / {total_files} calls")
+    print("=" * 80)
+
+    # ---------------- SAVE TRANSCRIPTS ----------------
     with open(TRANSCRIPT_FILE, "a", encoding="utf-8") as tf:
-        tf.write("=== TRANSCRIPTS LOG ===\n\n")
-        for r in good_results + bad_results:
-            tf.write(f"URL: {r['url']}\n")
+        for r in sorted(results, key=lambda x: x["index"]):
+            tf.write(f"Timestamp: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+            tf.write(f"Call Index: {r['index']}\n")
+            tf.write(f"Call URL  : {r['url']}\n\n")
             tf.write(r["transcript"])
-            tf.write("\n" + "-" * 60 + "\n")
+            tf.write("\n" + "-" * 80 + "\n")
 
-    # ---- AGGREGATE INPUT FOR LLM ----
-    good_block = "\n".join([
-        f"""
-CALL TYPE: GOOD AGENT
-CSAT:
-{r['csat']}
-CONTEXT:
-{r['context']}
-"""
-        for r in good_results
-    ])
+    # ---------------- SAVE CALL RESULTS ----------------
+    with open(OUTPUT_FILE, "a", encoding="utf-8") as of:
+        for r in sorted(results, key=lambda x: x["index"]):
+            of.write(f"Timestamp: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+            of.write(f"Call Index: {r['index']}\n")
+            of.write(f"Call URL  : {r['url']}\n\n")
+            of.write(r["csat"] + "\n\n")
+            of.write("VARIABLE ANALYSIS\n")
+            of.write(r["analysis"])
+            of.write("\n" + "=" * 80 + "\n")
 
-    bad_block = "\n".join([
-        f"""
-CALL TYPE: BAD AGENT
-CSAT:
-{r['csat']}
-CONTEXT:
-{r['context']}
-"""
-        for r in bad_results
-    ])
-
-    master_input = f"""
-GOOD AGENT CALLS (MULTIPLE):
-{good_block}
-
-BAD AGENT CALLS (MULTIPLE):
-{bad_block}
-"""
-
-    print("[INFO] Generating aggregate comparison report...")
-
-    response = model.generate_content(
-        [master_input, FINAL_SYNTHESIS_PROMPT]
-    ).text
-
-    csat_section = extract_section(response, "[CSAT_SUMMARY]", "[TABLE_DATA]")
-    table_raw = extract_section(response, "[TABLE_DATA]", "[POSITIVE_CONTEXT_TABLE]")
-    pos_raw = extract_section(response, "[POSITIVE_CONTEXT_TABLE]", "[MISSING_ELEMENTS]")
-    missing = extract_section(response, "[MISSING_ELEMENTS]", "[WINNING_PHRASES]")
-    winning = extract_section(response, "[WINNING_PHRASES]")
-
-    report = f"""
-====================================================================================
-MASTER AGENT COMPARISON REPORT
-====================================================================================
-
---- AGGREGATED CSAT SUMMARY ---
-{csat_section}
-
---- COMPARISON ANALYSIS ---
-{format_table(table_raw, ["Evaluation Variable", "GOOD AGENT", "BAD AGENT"])}
-
---- POSITIVE CONTEXT STRINGS & FREQUENCY ---
-{format_table(pos_raw, ["Context Variable", "GOOD AGENT", "BAD AGENT"])}
-
---- MISSING ELEMENTS IN BAD AGENT ---
-{missing}
-
---- WINNING PHRASES MAPPING ---
-{winning}
-
-====================================================================================
-"""
-
-    with open(REPORT_FILE, "a", encoding="utf-8") as f:
-        f.write(report)
-
-    print("[SUCCESS] Aggregate report and transcripts generated.")
+    print("[DONE] All outputs generated successfully.")
 
 
 if __name__ == "__main__":
-    run_aggregate_analysis()
+    main()
+    
