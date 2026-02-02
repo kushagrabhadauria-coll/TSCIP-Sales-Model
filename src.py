@@ -1,137 +1,199 @@
+# =========================
+# IMPORTS
+# =========================
+
 import os
-import time
 import requests
 import pandas as pd
-import google.generativeai as genai
-from dotenv import load_dotenv
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from prompts import (
-    CSAT_SCORING_PROMPT,
-    TRANSCRIPTION_PROMPT,
-    EXTRACT_CONTEXT_PROMPT,
-    FINAL_SYNTHESIS_PROMPT
+from datetime import datetime
+from collections import Counter
+
+import vertexai
+from vertexai.generative_models import GenerativeModel, Part, GenerationConfig
+
+from prompts import TRANSCRIPTION_PROMPT, EXTRACT_CONTEXT_PROMPT
+
+# =========================
+# VERTEX AI INIT
+# =========================
+
+import vertexai
+
+vertexai.init(
+    project="mec-transcript",
+    location="us-central1" 
 )
 
-# -------------------- CONFIG --------------------
-load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+model = GenerativeModel("gemini-2.5-flash")
 
-model = genai.GenerativeModel("gemini-2.5-flash")
+# =========================
+# GEMINI HELPER
+# =========================
 
-INPUT_SHEET = "calls.xlsx"
-OUTPUT_FILE = "call_level_results.txt"
-TRANSCRIPT_FILE = "transcripts.txt"
-MAX_WORKERS = 3
-# ------------------------------------------------
+def call_gemini(prompt=None, parts=None):
+    response = model.generate_content(
+        parts if parts else prompt,
+        generation_config=GenerationConfig(
+            temperature=0,
+            max_output_tokens=4096
+        )
+    )
+    return response.text.strip()
 
+# =========================
+# TRANSCRIPTION
+# =========================
 
-def safe_delete(path):
-    if path and os.path.exists(path):
-        os.remove(path)
+def transcribe_audio(audio_url):
+    audio_bytes = requests.get(audio_url, timeout=60).content
+    parts = [
+        Part.from_text(TRANSCRIPTION_PROMPT),
+        Part.from_data(audio_bytes, mime_type="audio/mpeg")
+    ]
+    return call_gemini(parts=parts)
 
+# =========================
+# VARIABLE EXTRACTION
+# =========================
 
-def process_single_call(index, url, total):
-    print(f"[START] ({index}/{total}) Processing call")
+def extract_variable_analysis(transcript):
+    prompt = EXTRACT_CONTEXT_PROMPT + "\n\nTRANSCRIPT:\n" + transcript
+    table_text = call_gemini(prompt=prompt)
 
-    temp_path = f"temp_call_{index}_{int(time.time() * 1000)}.mp3"
+    variables = []
 
-    try:
-        r = requests.get(url, timeout=30)
-        r.raise_for_status()
+    for line in table_text.splitlines():
+        if not line.startswith("|"):
+            continue
 
-        with open(temp_path, "wb") as f:
-            f.write(r.content)
+        cols = [c.strip() for c in line.strip("|").split("|")]
+        if len(cols) != 3 or cols[0] == "Variable":
+            continue
 
-        gem_file = genai.upload_file(path=temp_path)
+        variables.append({
+            "variable": cols[0],
+            "status": cols[1],
+            "evidence": cols[2]
+        })
 
-        while gem_file.state.name == "PROCESSING":
-            time.sleep(1)
+    return variables
 
-        transcript = model.generate_content(
-            [TRANSCRIPTION_PROMPT, gem_file]
-        ).text.strip()
+# =========================
+# CALL METRICS
+# =========================
 
-        variable_analysis = model.generate_content(
-            [EXTRACT_CONTEXT_PROMPT, gem_file]
-        ).text.strip()
+def compute_summary(variables):
+    counts = Counter(v["status"] for v in variables)
 
-        csat = model.generate_content(
-            [CSAT_SCORING_PROMPT, gem_file]
-        ).text.strip()
+    considered = (
+        counts["Excellent"] +
+        counts["Moderate"] +
+        counts["Needs Improvement"]
+    )
 
-        genai.delete_file(gem_file.name)
-        safe_delete(temp_path)
+    excellent_pct = round(
+        (counts["Excellent"] / considered) * 100, 2
+    ) if considered else 0
 
-        print(f"[SUCCESS] ({index}/{total}) Completed")
+    call_type = "GOOD" if excellent_pct >= 66 else "BAD"
 
-        return {
-            "index": index,
-            "url": url,
-            "transcript": transcript,
-            "analysis": variable_analysis,
-            "csat": csat
-        }
+    return {
+        "counts": dict(counts),
+        "excellent_percentage": excellent_pct,
+        "call_type": call_type
+    }
 
-    except Exception as e:
-        safe_delete(temp_path)
-        print(f"[FAILED] ({index}/{total}) Error: {e}")
-        return None
+# =========================
+# PROCESS SINGLE CALL
+# =========================
 
+def process_call(call):
+    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
 
-def main():
-    df = pd.read_excel(INPUT_SHEET)
+    print(f"[PROCESSING] Call {call['index']}")
 
-    if "recording_url" not in df.columns:
-        raise ValueError("Excel must contain 'recording_url' column")
+    transcript = transcribe_audio(call["audio_url"])
+    variables = extract_variable_analysis(transcript)
+    summary = compute_summary(variables)
 
-    urls = df["recording_url"].dropna().tolist()
-    total_files = len(urls)
+    return {
+        "index": call["index"],
+        "url": call["audio_url"],
+        "timestamp": timestamp,
+        "transcript": transcript,
+        "variables": variables,
+        "summary": summary
+    }
 
-    print("=" * 80)
-    print(f"[INFO] Total recordings to process : {total_files}")
-    print(f"[INFO] Max parallel workers       : {MAX_WORKERS}")
-    print("=" * 80)
+# =========================
+# LOAD INPUT
+# =========================
 
-    results = []
+def load_calls(excel_path):
+    df = pd.read_excel(excel_path)
+    return [
+        {"index": i + 1, "audio_url": url}
+        for i, url in enumerate(df["recording_url"])
+        if pd.notna(url)
+    ]
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {
-            executor.submit(process_single_call, idx + 1, url, total_files): idx + 1
-            for idx, url in enumerate(urls)
-        }
-
-        for future in as_completed(futures):
-            res = future.result()
-            if res:
-                results.append(res)
-
-    print("=" * 80)
-    print(f"[INFO] Successfully processed {len(results)} / {total_files} calls")
-    print("=" * 80)
-
-    # ---------------- SAVE TRANSCRIPTS ----------------
-    with open(TRANSCRIPT_FILE, "a", encoding="utf-8") as tf:
-        for r in sorted(results, key=lambda x: x["index"]):
-            tf.write(f"Timestamp: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
-            tf.write(f"Call Index: {r['index']}\n")
-            tf.write(f"Call URL  : {r['url']}\n\n")
-            tf.write(r["transcript"])
-            tf.write("\n" + "-" * 80 + "\n")
-
-    # ---------------- SAVE CALL RESULTS ----------------
-    with open(OUTPUT_FILE, "a", encoding="utf-8") as of:
-        for r in sorted(results, key=lambda x: x["index"]):
-            of.write(f"Timestamp: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
-            of.write(f"Call Index: {r['index']}\n")
-            of.write(f"Call URL  : {r['url']}\n\n")
-            of.write(r["csat"] + "\n\n")
-            of.write("VARIABLE ANALYSIS\n")
-            of.write(r["analysis"])
-            of.write("\n" + "=" * 80 + "\n")
-
-    print("[DONE] All outputs generated successfully.")
-
+# =========================
+# MAIN
+# =========================
 
 if __name__ == "__main__":
-    main()
-    
+
+    INPUT_EXCEL = "calls.xlsx"
+    OUTPUT_DIR = "output"
+    TRANSCRIPT_DIR = f"{OUTPUT_DIR}/transcripts"
+    PIPELINE_FILE = f"{OUTPUT_DIR}/pipeline_output.txt"
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(TRANSCRIPT_DIR, exist_ok=True)
+
+    calls = load_calls(INPUT_EXCEL)
+
+    results = []
+    for call in calls:
+        results.append(process_call(call))
+
+    # =========================
+    # SAVE TRANSCRIPTS
+    # =========================
+
+    for r in results:
+        path = f"{TRANSCRIPT_DIR}/call_{r['index']}.txt"
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(f"TIMESTAMP : {r['timestamp']}\n")
+            f.write(f"CALL INDEX: {r['index']}\n")
+            f.write(f"CALL URL  : {r['url']}\n\n")
+            f.write(r["transcript"])
+
+    # =========================
+    # SAVE PIPELINE OUTPUT
+    # =========================
+
+    with open(PIPELINE_FILE, "w", encoding="utf-8") as f:
+        for r in results:
+            f.write(f"\nCALL {r['index']}\n")
+            f.write("=" * 80 + "\n")
+            f.write(f"Timestamp : {r['timestamp']}\n")
+            f.write(f"Audio URL : {r['url']}\n\n")
+
+            f.write("| Variable | Status | Evidence |\n")
+            f.write("|" + "-" * 78 + "|\n")
+
+            for v in r["variables"]:
+                f.write(
+                    f"| {v['variable']} | {v['status']} | {v['evidence']} |\n"
+                )
+
+            f.write("\nSUMMARY\n")
+            f.write("-" * 40 + "\n")
+            for k, v in r["summary"]["counts"].items():
+                f.write(f"{k}: {v}\n")
+            f.write(f"Excellent %: {r['summary']['excellent_percentage']}\n")
+            f.write(f"Call Type : {r['summary']['call_type']}\n")
+            f.write("=" * 80 + "\n")
+
+    print("Pipeline completed successfully")

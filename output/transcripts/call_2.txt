@@ -1,0 +1,27 @@
+TIMESTAMP : 2026-02-02 04:51:15 UTC
+CALL INDEX: 2
+CALL URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764669530.194451&type=rec&token=WVVzMWRFNlIxc1djbFp4MzhHQzBORjd3dHhpZmhnVDhZQWExVjV4U3k5bXIxZDhWeHRGdGJHbW03Z1ZSc3d1bzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+
+Agent: Hello. Hello. Yes sir, actually, jo aap keh rahe hain na isme ki brand store aur A+ content isme included nahi hai. Toh hamara 36,000 hai.
+Customer: Ji.
+Agent: Haan ji. Actually kya hota hai jo hamara A+ content hota hai and the brand store, isme jo used hota hai wo banners aur infographics hote hain. Aur per banner aur infographics ki costing hi agar jo main baat karu banane ki toh 250 to 300 hoti hai. Us according iski costing hoti hai. Jaise ki agar jo hamari ek A+ listing mein hume paanch se cheh banner used hote hain jo ki isme lagaye jaate hain.
+Customer: Haan ji. Matlab A+ content toh wahi ho gaya na jaise jo hum normal listing ko open karte hain description mein jaake jo extra four five photo aur video hoti hai.
+Agent: Yes, yes, yes.
+Customer: A+ hoga aur brand store toh wahi ho gaya jo hum brand store par click karte hain toh hume banners wagera second mein show hote hain item is hoti hai.
+Agent: Yes. Yes. Wo hamare 10 to 15 banners usme lagte hain. Toh wo uske charges hote hain.
+Customer: Okay. Theek hai. Toh jo 36 wala jo aapka plan hai isme saari services include hongi but ye dono isme include nahi hai iske alag se charges honge.
+Agent: Nahi. Ji ji ji ji. Yes.
+Customer: Theek hai. Aur advertisement pe jo bhi spend karna hai wo alag hota hai na isme.
+Agent: Wo totally aapke upar hai aap kitna budget leke chalna chahte hain isme.
+Customer: Haan ji haan ji. Toh ye matlab ki pura jo plan hai ye six months ke liye ho jayega na.
+Agent: Yes.
+Customer: Sure. Chaliye theek hai.
+Agent: Sir isme hum wo baaki hum pe depend karta hai ki hum isme A+ aur kitna add on karana chahte hain. Abhi hamara jo discussion hua tha wo five ke liye hua tha. But if in case Nitin sir ka koi plan change hota hai aur product leke aate hain toh wo uske upar depend karta hai.
+Customer: Haan wo toh amount toh aapne daal hi diya usko toh hum calculate kar hi lenge.
+Agent: Ji ji.
+Customer: Theek hai na isme confusion dena. Toh wahi mujhe.
+Agent: Koi baat nahi. No issues. That's very nice ki aapne ek bar clear kar liya because agar is time bhi hoti rehti toh kya fayda tha.
+Customer: Bilkul bilkul bilkul. Kaam toh hume karna hi hai na ab ye cheeze toh clear karke hume chalni padengi. Chaliye koi baat nahi theek hai. Main ek bar sir ko bhi ye dikha deta hu. Okay.
+Agent: Hello.
+Customer: Okay okay okay okay. Okay.
+Agent: Thank you so much.

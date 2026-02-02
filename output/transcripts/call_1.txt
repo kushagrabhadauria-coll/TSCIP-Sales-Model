@@ -1,0 +1,16 @@
+TIMESTAMP : 2026-02-02 04:50:46 UTC
+CALL INDEX: 1
+CALL URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764677140.2065693&type=rec&token=K0YxM29LM1hkUnZrcWZiYXl2a0JUTTE5emNjWWF3cE5EdXhlNjJsaEV0SGowUC9McFlMeUdpcDVwb3dxSDEwNTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+
+Agent: Hello.
+Customer: Yeah hi Diksha how are you?
+Agent: I'm good. I'm Shivani from GoNukkad. I'm sorry for the delay. I will give you a call in some days. I'm really sorry for the delay. But yeah some time.
+Customer: No issue no issue. Aap mujhe ek suitable time bata dijiye main us accordingly kar lungi. What is it what is it regarding? Kuch hai specifically that you want to tell or you want a feedback with the same?
+Agent: Nahi nahi Saturday hamara discussion hua na ki aaiye baith ke baat karte hain fir hum like aage ke hamara jo brands to render the content tha.
+Customer: Haan to acha uske liye. But still main aapko ye kaha tha I have not seen that creative yet.
+Agent: Abhi nahi aaya hai.
+Customer: Nahi is baar usne email aayega but I have seen it. Maine ye confirm kiya tha aapko. Maine bola tha maine nahi dekha hai. Kyunki main dekhungi tabhi to isko baith ke reply karungi.
+Agent: Okay. So I expect today right at least we can just close it out.
+Customer: Okay no issue. I'll aapko main after that kar lete hain. Thank you thank you so much.
+Agent: Thank you so much Diksha have a great day.
+Customer: You too bye.

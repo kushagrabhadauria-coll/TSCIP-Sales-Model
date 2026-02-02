@@ -1,0 +1,16 @@
+TIMESTAMP : 2026-02-02 04:51:49 UTC
+CALL INDEX: 3
+CALL URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764573603.46856&type=rec&token=UkgreFpaVlg5MVQxZjZrb3V5RE1HWDZ2WnBHd1ZjcHRJUUptVUJTUUxTTFVobjRoVGpQTkx5OFhOZFZiczROdTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+
+Agent: Hello
+Agent: Good afternoon sir, Vinash baat kar raha hu GoNukkar se. Kaise hain sir?
+Customer: Badhiya.
+Agent: Kal humari baat hui thi listing ko lekar sir.
+Customer: Haan to wo isko main ye keh raha hu pehle advance de do aapko thoda us pe karwa do work fir main usko kar dunga remaining.
+Agent: Actually isme 3000 mein paanch percent nahi ho payega hamare.
+Customer: Chalo acha theek hai aap pehle kaise karna hai maine acha aapka mail dekha nahi main chalo check karke. Haan main dekh ke aapko karta hu theek hai call aaj hi karwate hain dekh lo theek hai mujhe bata dijiye main call karta hu aapko.
+Customer: Mujhe kar do kis time par batao 1:00 baje 3:30 4:00 tak chalo aap.
+Agent: Theek hai theek hai sir main aapko 3:30 baje call karta hu.
+Customer: Main pehle hi kar lunga aapko thoda free ho jau abhi theek hai.
+Agent: Haan bilkul usme koi kaam nahi hai. Ek bar ek bar proposal dekh lena agar aapko nahi mil raha inbox mein to promotional ya spam mein dekh lena ek bar.
+Customer: Nahi wo main dekh lunga yaar aap mujhe bata dena theek hai theek hai sir main aapko call karta hu fir 3:30.

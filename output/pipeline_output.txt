@@ -1,0 +1,237 @@
+
+CALL 1
+================================================================================
+Timestamp : 2026-02-02 04:50:46 UTC
+Audio URL : https://cloudphone.tatateleservices.com/file/recording?callId=1764677140.2065693&type=rec&token=K0YxM29LM1hkUnZrcWZiYXl2a0JUTTE5emNjWWF3cE5EdXhlNjJsaEV0SGowUC9McFlMeUdpcDVwb3dxSDEwNTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+
+| Variable | Status | Evidence |
+|------------------------------------------------------------------------------|
+| Agent Tone & Energy | Moderate | I'm sorry for the delay. But yeah some time. |
+| Agent Confidence | Moderate | I expect today right at least we can just close it out. |
+| Listening Quality | Excellent | Abhi nahi aaya hai. |
+| Customer Empathy | Moderate | I'm sorry for the delay. |
+| Discovery & Understanding | Moderate | Saturday hamara discussion hua na |
+| Handling Customer Corrections | Excellent | Abhi nahi aaya hai. |
+| Objection Handling | Moderate | Abhi nahi aaya hai. |
+| Pricing Objection Response | Not Present | NA |
+| Handling Financial Constraints | Not Present | NA |
+| Solution Orientation | Moderate | at least we can just close it out. |
+| Conversation Control | Needs Improvement | I'll aapko main after that kar lete hain. |
+| Pacing of Call | Moderate | I'm sorry for the delay. But yeah some time. |
+| Escalation Handling | Not Present | NA |
+| Upsell / Add-on Handling | Not Present | NA |
+| Customer Trust Impact | Moderate | I'm sorry for the delay. |
+| Agent Mindset | Moderate | I expect today right at least we can just close it out. |
+| Problem Ownership | Excellent | I'm sorry for the delay. |
+| Customer Alignment | Moderate | I'll aapko main after that kar lete hain. |
+| Objection Framing | Not Present | NA |
+| Trust Signals | Moderate | I'm sorry for the delay. |
+| Cost Sensitivity | Not Present | NA |
+| Decision Momentum | Needs Improvement | I expect today right at least we can just close it out. |
+| Overall Call Outcome | Needs Improvement | I'll aapko main after that kar lete hain. |
+| Permission to Proceed | Moderate | I'll aapko main after that kar lete hain. |
+| Mutual Agreement | Moderate | I'll aapko main after that kar lete hain. |
+| Closing Confirmation | Needs Improvement | I expect today right at least we can just close it out. |
+| Polite Conclusion | Excellent | Thank you so much Diksha have a great day. You too bye. |
+| Intent to Re-engage | Excellent | I'll aapko main after that kar lete hain. |
+| Agreement to Collaboration | Moderate | I'll aapko main after that kar lete hain. |
+| Direct Positive Feedback | Not Present | NA |
+| Agreement on Fundamentals | Excellent | Saturday hamara discussion hua na ki aaiye baith ke baat karte hain |
+| Call-back Request | Moderate | Aap mujhe ek suitable time bata dijiye |
+| Flexibility Acknowledgment | Excellent | No issue no issue. Aap mujhe ek suitable time bata dijiye |
+| Confirmation of Interest | Excellent | But still main aapko ye kaha tha I have not seen that creative yet. |
+| Openness to Expansion | Not Present | NA |
+| Direct Confirmation of Service Need | Not Present | NA |
+| Future Openness | Excellent | Aap mujhe ek suitable time bata dijiye |
+| Future Outlook | Excellent | I'll aapko main after that kar lete hain. |
+| Clear Intent to Start | Not Present | NA |
+| Strategic Thinking | Not Present | NA |
+| Direct Request for Information | Excellent | What is it what is it regarding? |
+| High Performance Metric | Not Present | NA |
+| Significant Catalog Size | Not Present | NA |
+| Market Viability | Not Present | NA |
+| Manufacturer Status | Not Present | NA |
+| Business Scalability | Not Present | NA |
+| Clear Product Identity | Needs Improvement | brands to render the content |
+| Possession of Essentials | Needs Improvement | I have not seen that creative yet. |
+| Commitment to Quality | Not Present | NA |
+| Established Foundation | Excellent | Saturday hamara discussion hua na |
+| Validation of Identity | Excellent | I'm |
+
+SUMMARY
+----------------------------------------
+Moderate: 15
+Excellent: 13
+Not Present: 17
+Needs Improvement: 6
+Excellent %: 38.24
+Call Type : BAD
+================================================================================
+
+CALL 2
+================================================================================
+Timestamp : 2026-02-02 04:51:15 UTC
+Audio URL : https://cloudphone.tatateleservices.com/file/recording?callId=1764669530.194451&type=rec&token=WVVzMWRFNlIxc1djbFp4MzhHQzBORjd3dHhpZmhnVDhZQWExVjV4U3k5bXIxZDhWeHRGdGJHbW03Z1ZSc3d1bzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+
+| Variable | Status | Evidence |
+|------------------------------------------------------------------------------|
+| Agent Tone & Energy | Excellent | Hello. Hello. Yes sir, actually, jo aap keh rahe hain |
+| Agent Confidence | Excellent | Toh hamara 36,000 hai. Haan ji. Actually kya hota hai |
+| Listening Quality | Excellent | Yes, yes, yes. |
+| Customer Empathy | Moderate | No issues. That's very nice ki aapne ek bar clear |
+| Discovery & Understanding | Excellent | jo aap keh rahe hain na isme ki brand store |
+| Handling Customer Corrections | Excellent | Yes, yes, yes. |
+| Objection Handling | Excellent | Nahi. Ji ji ji ji. Yes. |
+| Pricing Objection Response | Excellent | Toh hamara 3 |
+
+SUMMARY
+----------------------------------------
+Excellent: 7
+Moderate: 1
+Excellent %: 87.5
+Call Type : GOOD
+================================================================================
+
+CALL 3
+================================================================================
+Timestamp : 2026-02-02 04:51:49 UTC
+Audio URL : https://cloudphone.tatateleservices.com/file/recording?callId=1764573603.46856&type=rec&token=UkgreFpaVlg5MVQxZjZrb3V5RE1HWDZ2WnBHd1ZjcHRJUUptVUJTUUxTTFVobjRoVGpQTkx5OFhOZFZiczROdTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+
+| Variable | Status | Evidence |
+|------------------------------------------------------------------------------|
+| Agent Tone & Energy | Excellent | Good afternoon sir, Vinash baat kar raha hu GoNukkar se. Kaise hain sir? |
+| Agent Confidence | Excellent | 3000 mein paanch percent nahi ho payega hamare. |
+| Listening Quality | Excellent | Kal humari baat hui thi listing ko lekar sir. |
+| Customer Empathy | Not Present | NA |
+| Discovery & Understanding | Moderate | Kal humari baat hui thi listing ko lekar sir. |
+| Handling Customer Corrections | Not Present | NA |
+| Objection Handling | Moderate | 3000 mein paanch percent nahi ho payega hamare. |
+| Pricing Objection Response | Moderate | 3000 mein paanch percent nahi ho payega hamare. |
+| Handling Financial Constraints | Moderate | 3000 mein paanch percent nahi ho payega hamare. |
+| Solution Orientation | Moderate | proposal dekh lena agar aapko nahi mil raha inbox mein |
+| Conversation Control | Excellent | Theek hai theek hai sir main aapko 3:30 baje call karta hu. |
+| Pacing of Call | Excellent | NA |
+| Escalation Handling | Not Present | NA |
+| Upsell / Add-on Handling | Not Present | NA |
+| Customer Trust Impact | Moderate | 3000 mein paanch percent nahi ho payega hamare. |
+| Agent Mindset | Excellent | proposal dekh lena agar aapko nahi mil raha inbox mein |
+| Problem Ownership | Excellent | main aapko 3:30 baje call karta hu. |
+| Customer Alignment | Excellent | Theek hai theek hai sir main aapko 3:30 baje call karta hu. |
+| Objection Framing | Moderate | 3000 mein paanch percent nahi ho payega hamare. |
+| Trust Signals | Moderate | main aapko 3:30 baje call karta hu. |
+| Cost Sensitivity | Moderate | pehle advance de do aapko thoda us pe karwa do work |
+| Decision Momentum | Excellent | main aapko 3:30 baje call karta hu. |
+| Overall Call Outcome | Excellent | main aapko 3:30 baje call karta hu. |
+| Permission to Proceed | Excellent | mujhe bata dijiye main call karta hu aapko. |
+| Mutual Agreement | Excellent | Theek hai theek hai sir main aapko 3:30 baje call karta hu. |
+| Closing Confirmation | Excellent | Theek hai theek hai sir main aapko 3:30 baje call karta hu. |
+| Polite Conclusion | Excellent | Theek hai theek hai sir main aapko 3:30 baje call karta hu. |
+| Intent to Re-engage | Excellent | main aapko 3:30 baje call karta hu. |
+| Agreement to Collaboration | Excellent | main dekh lunga yaar aap mujhe bata dena |
+| Direct Positive Feedback | Not Present | NA |
+| Agreement on Fundamentals | Excellent | main dekh ke aapko karta hu theek hai call aaj hi karwate hain |
+| Call-back Request | Excellent | Mujhe kar do kis time par batao |
+| Flexibility Acknowledgment | Moderate | 1:00 baje 3:30 4:00 tak chalo aap. |
+| Confirmation of Interest | Excellent | Haan main dekh ke aapko karta hu theek hai call |
+| Openness to Expansion | Not Present | NA |
+| Direct Confirmation of Service Need | Moderate | listing ko lekar sir. |
+| Future Openness | Excellent | Haan main dekh ke aapko karta hu theek hai call |
+| Future Outlook | Excellent | call aaj hi karwate hain dekh lo theek hai |
+| Clear Intent to Start | Excellent | Haan main dekh ke aapko karta hu theek hai call |
+| Strategic Thinking | Moderate | promotional ya spam mein dekh lena ek bar. |
+| Direct Request for Information | Excellent | Mujhe kar do kis time par batao |
+| High Performance Metric | Not Present | NA |
+| Significant Catalog Size | Not Present | NA |
+| Market Viability | Not Present | NA |
+| Manufacturer Status | Not Present | NA |
+
+SUMMARY
+----------------------------------------
+Excellent: 23
+Not Present: 10
+Moderate: 12
+Excellent %: 65.71
+Call Type : BAD
+================================================================================
+
+CALL 4
+================================================================================
+Timestamp : 2026-02-02 04:52:14 UTC
+Audio URL : https://cloudphone.tatateleservices.com/file/recording?callId=1764575297.47725&type=rec&token=ZklOMVlOVHo5WENCWmEwMWVIWktBVjN1b0hXekcwNDNnMStGTkM2UXdMalk1UHJycWVoMExPQk5wSWdOSk5aOTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+
+| Variable | Status | Evidence |
+|------------------------------------------------------------------------------|
+| Agent Tone & Energy | Excellent | "sir main aapko na expert se baat kara raha hu" |
+| Agent Confidence | Excellent | "main aapko bata raha tha ki abhi aap dono cheeze aaram se dekhna." |
+| Listening Quality | Excellent | "Awaaz aa rahi hai sir?" |
+| Customer Empathy | Not Present | NA |
+| Discovery & Understanding | Moderate | "aapki category mein jo aapne mujhe bheja tha" |
+| Handling Customer Corrections | Not Present | NA |
+| Objection Handling | Not Present | NA |
+| Pricing Objection Response | Not Present | NA |
+| Handling Financial Constraints | Not Present | NA |
+| Solution Orientation | Excellent | "Amazon fulfillment if you are taking the Amazon warehouse service." |
+| Conversation Control | Excellent | "main aapko bata raha tha ki abhi aap dono cheeze aaram se dekhna." |
+| Pacing of Call | Excellent | "theek hai." |
+| Escalation Handling | Not Present | NA |
+| Upsell / Add-on Handling | Not Present | NA |
+| Customer Trust Impact | Moderate | "aap dono cheeze aaram se dekhna. pehla hai Amazon fulfillment" |
+| Agent Mindset | Excellent | "main aapko bata raha tha ki abhi aap dono cheeze aaram se dekhna." |
+| Problem Ownership | Excellent | "main aapko bata raha tha ki abhi aap dono cheeze aaram se dekhna." |
+| Customer Alignment | Excellent | "aapki category mein jo aapne mujhe bheja tha" |
+| Objection Framing | Not Present | NA |
+| Trust Signals | Excellent | "21 rupees as a referral fees 21 rupees as a closing fees." |
+| Cost Sensitivity | Excellent | "21 rupees as a referral fees 21 rupees as a closing fees." |
+| Decision Momentum | Moderate | "371 rupees net mil raha hai." |
+| Overall Call Outcome | Needs Improvement | "Awaaz aa rahi hai sir?" |
+| Permission to Proceed | Moderate | "ek minute time dijiyega." |
+| Mutual Agreement | Moderate | "theek hai." |
+| Closing Confirmation | Not Present | NA |
+| Polite Conclusion | Not Present | NA |
+| Intent to Re-engage | Not Present | NA |
+| Agreement to Collaboration | Not Present | NA |
+| Direct Positive Feedback | Not Present | NA |
+| Agreement on Fundamentals | Moderate | "theek hai." |
+| Call-back Request | Not Present | NA |
+| Flexibility Acknowledgment | Not Present | NA |
+| Confirmation of Interest | Excellent | "maine dekh liya screenshot khol bhi rakha hai." |
+| Openness to Expansion | Not Present | NA |
+| Direct Confirmation of Service Need | Not Present | NA |
+| Future Openness | Not Present | NA |
+| Future Outlook | Not Present | NA |
+| Clear Intent to Start | Not Present | NA |
+| Strategic Thinking | Excellent | "aap dono cheeze aaram se dekhna. pehla hai Amazon fulfillment" |
+| Direct Request for Information | Not Present | NA |
+| High Performance Metric | Not Present | NA |
+| Significant Catalog Size | Not Present | NA |
+| Market Viability | Not Present | NA |
+| Manufacturer Status | Not Present | NA |
+| Business Scalability | Not Present | NA |
+| Clear Product Identity | Moderate | "aapki category mein jo aapne mujhe bheja tha" |
+| Possession of Essentials | Not Present | NA |
+| Commitment to Quality | Not Present | NA |
+| Established Foundation | Not Present | NA |
+| Validation of Identity | Not Present | NA |
+| Brand Identification | Not Present | NA |
+| Pre-established Trust | Moderate | "expert se baat kara raha hu" |
+| Validation of Authority | Excellent | "expert se baat kara raha hu" |
+| Acceptance of Technology | Excellent | "maine dekh liya screenshot khol bhi rakha hai." |
+| Direct Price Inquiry | Not Present | NA |
+| Technical Acknowledgment | Excellent | "maine dekh liya screenshot khol bhi rakha hai." |
+| Price Discussion | Excellent | "21 rupees as a referral fees 21 rupees as a closing fees." |
+| Specific Price Points | Excellent | "495 aapki category mein jo aapne mujhe bheja tha" |
+| Validation of Scope | Excellent | "Amazon fulfillment if you are taking the Amazon warehouse service." |
+| Confirmation of Solution | Excellent | "Amazon fulfillment if you are taking the Amazon warehouse service." |
+| Network Expansion | Not Present | NA |
+| Willingness for Deep Dive | Excellent | "aap dono cheeze aaram se dekhna. pehla hai Amazon fulfillment" |
+| Agreement to Next Steps | Not Present | NA |
+
+SUMMARY
+----------------------------------------
+Excellent: 21
+Not Present: 34
+Moderate: 8
+Needs Improvement: 1
+Excellent %: 70.0
+Call Type : GOOD
+================================================================================
