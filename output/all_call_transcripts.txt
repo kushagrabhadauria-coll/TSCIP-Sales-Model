@@ -1,0 +1,282 @@
+########################################
+CALL INDEX: 1
+########################################
+CALL METADATA
+==========================
+Timestamp  : 2026-02-02 14:39:17 IST
+Audio URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764677140.2065693&type=rec&token=K0YxM29LM1hkUnZrcWZiYXl2a0JUTTE5emNjWWF3cE5EdXhlNjJsaEV0SGowUC9McFlMeUdpcDVwb3dxSDEwNTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : BAD (37.84%)
+==========================
+
+TRANSCRIPT
+--------------------------
+Customer: Hello?
+Agent: Yeah hi, how are you?
+Customer: I'm good.
+Agent: I'm calling from Go local.
+Customer: I'm good.
+Agent: I'm sorry, I will give you a call in some days. I apologize for the delay. But give me some time.
+Agent: Okay.
+Customer: No, no issue, no issue. Aap mujhe ek suitable time bata dijiye main us accordingly kar lungi.
+Agent: What is it? What is it regarding? Kuch hai specifically that you want to tell or you want a feedback with Saturday?
+Customer: Nahi nahi, Saturday hamara discussion hua na. Regarding ki baith ke baat karte hain fir hum like aage ke hamara jo brand store and content tha.
+Agent: Ha, to acha uske liye.
+Customer: But fir maine wahi kaha tha, I have not seen that creative yet.
+Agent: Abhi nahi I'm sorry.
+Customer: Nahi, I'm sorry, I'm sorry. I've seen it. Maine ye confirm kiya tha. Maine bola tha maine nahi dekha hai. Kyunki main tabhi to iska better sa reply karti.
+Customer: Okay, no issue. I'll I'll I'll check and I'll update you later.
+Agent: Just thank you so much. Thank you so much.
+Customer: Thank you so much, have a good day.
+--------------------------
+End of Transcript for Call 1
+
+================================================================================
+
+########################################
+CALL INDEX: 2
+########################################
+CALL METADATA
+==========================
+Timestamp  : 2026-02-02 14:40:00 IST
+Audio URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764669530.194451&type=rec&token=WVVzMWRFNlIxc1djbFp4MzhHQzBORjd3dHhpZmhnVDhZQWExVjV4U3k5bXIxZDhWeHRGdGJHbW03Z1ZSc3d1bzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (90.7%)
+==========================
+
+TRANSCRIPT
+--------------------------
+Customer: Hello? Hello?
+Agent: yes actually wo jo aap keh rahe hain na isme ki brand store aur A+ content isme included nahi hai. So hamara 36,000 hai.
+Customer: Ji.
+Agent: Haan ji. Actually kya hota hai jo hamara A+ content hota hai and the brand store isme jo used hota hai wo banners aur infographics hote hain. Aur per banner aur infographics ki costing hi agar jo main baat karu banane ki toh 250 to 300 hoti hai. Us according iski costing hoti hai. Jaise ki agar jo hamari ek A+ listing mein hume paanch se cheh banner used hote hain jo ki isme lagaye jaate hain.
+Customer: Haan ji. Matlab A+ content toh wahi hogi na jaise jo hum normal listing ko open karte hain description mein jaake jo extra four five photo aur add on hoti hai.
+Agent: Yes, yes, yes.
+Customer: A+ ko hoga aur brand store toh wahi hoga jo hum brand store pe click karte hain toh hume banners wagera second mein show hote hain item hoti hai.
+Agent: Yes. Yes. Woh hamare 10 to 15 banners usme lagte hain. Toh woh uske charges hote hain.
+Customer: Okay. Theek hai. Toh jo 36 wala jo aapka plan hai isme saari services include hongi but ye dono isme include nahi hai iske alag se charges hain.
+Agent: Nahi. Ji ji ji ji. Yes.
+Customer: Theek hai. Aur advertisement pe jo bhi spend karna hai wo alag hota hai na isme?
+Agent: Woh totally aapke upar hai aap kitna budget leke chalna chahte hain isme.
+Customer: Haan ji haan ji. Toh ye matlab ki pura jo plan hai ye six months ke liye ho jayega na?
+Agent: Yes.
+Customer: Chaliye.
+Agent: Sir isme hum woh baaki hum pe depend karta hai ki hum isme A+ aur kitna add on karana chahte hain. Abhi hamara jo discussion hua tha woh five ke liye hua tha. But if in case Nitin sir ka koi plan change hota hai aur product leke aate hain toh woh uske upar depend karta hai.
+Customer: Haan woh toh amount toh aapne daal hi diya usko toh hum calculate kar hi lenge.
+Agent: Ji ji sir.
+Customer: Theek hai na isme confusion dena toh wahi mujhe.
+Agent: No issue. I am very nice ki aapne ek baar clear kar liya because main sir isme hi hoti rehti toh kya fayda tha fir.
+Customer: Bilkul bilkul bilkul. Ke kaam toh hume karna hi hai na ab ye cheeze toh clear karke hume chalni padengi.
+Customer: Chaliye. Koi baat nahi. Theek hai. Main ek baar sir ko bhi ye dikha deta hu hai na.
+Customer: Okay?
+Agent: Hello?
+Customer: Okay okay okay okay.
+Agent: Okay.
+Customer: Thank you so much.
+--------------------------
+End of Transcript for Call 2
+
+================================================================================
+
+########################################
+CALL INDEX: 3
+########################################
+CALL METADATA
+==========================
+Timestamp  : 2026-02-02 14:40:35 IST
+Audio URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764573603.46856&type=rec&token=UkgreFpaVlg5MVQxZjZrb3V5RE1HWDZ2WnBHd1ZjcHRJUUptVUJTUUxTTFVobjRoVGpQTkx5OFhOZFZiczROdTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (71.43%)
+==========================
+
+TRANSCRIPT
+--------------------------
+Agent: Hello
+Agent: Good afternoon sir, Vidhans baat kar raha hu Go from Go. Kaise hain sir?
+Customer: badhiya
+Agent: Ji, kal humari baat hui thi listing ko lekar sir?
+Customer: Ha, to ha, ha to wo isko main ye keh raha hu pehle advance de do aapko thoda us pe karwa do work fir main usko kar dunga remaining.
+Agent: Sir actually isme 3000 mein part payment nahi ho payega hamare.
+Customer: Chalo achha theek hai aap pehle kaise karna hai maine achha aapka mail dekha nahi. Main chalo check karke.
+Agent: Ha main dekh ke aapko karta hu theek hai call aaj hi karwate hain. theek hai mujhe bata dijiye main call karta hu aapko.
+Customer: Mujhe kar do kis time par? 1:00 baje 3:00 baje. 3:30 4:00 tak chalo aap.
+Agent: Theek hai theek hai sir. Main aapko 3:30 baje call karta hu. Main pehle hi kar lunga aapko thoda free ho jaunga only theek hai.
+Customer: Ha bilkul.
+Agent: Ek bar ek bar proposal mein dekh lena agar aap mail mein inbox mein to promotional ya spam mein dekh lena ek bar.
+Customer: Nahi wo main dekh lunga uska. Aap mujhe call kar dena theek hai.
+Agent: Theek hai theek hai sir main aapko call karta hu fir 3:30.
+--------------------------
+End of Transcript for Call 3
+
+================================================================================
+
+########################################
+CALL INDEX: 4
+########################################
+CALL METADATA
+==========================
+Timestamp  : 2026-02-02 14:41:19 IST
+Audio URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764575297.47725&type=rec&token=ZklOMVlOVHo5WENCWmEwMWVIWktBVjN1b0hXekcwNDNnMStGTkM2UXdMalk1UHJycWVoMExPQk5wSWdOSk5aOTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : BAD (62.5%)
+==========================
+
+TRANSCRIPT
+--------------------------
+Agent: हां सर बताइए।
+Agent: सर मैं आपको एक एक्सपर्ट से बात करा रहा हूं वो कैलकुलेशन के लिए ना वो उन्होंने निकाल लिया है।
+Customer: अच्छा जी एक मिनट टाइम दीजिएगा।
+Agent: हेलो।
+Customer: हां सर बताइए।
+Agent: मैंने आपको एक ना लाइक मैंने भेजा होगा आपको एक स्क्रीनशॉट जरा चेक करोगे।
+Customer: हां जी हां जी मैंने देख लिया स्क्रीनशॉट खोल भी रखा है आपके पास।
+Agent: मैं आपको ये बता रहा था कि अभी आप दोनों चीजें आराम से देखना। पहला है Amazon फुलफिलमेंट इफ यू आर टेकिंग द Amazon वेयरहाउस सर्विसेज।
+Agent: ठीक है? तो वहां पे आपको दिख रहा होगा उसका एक रेफरल फीस आपकी जो सेम प्राइसिंग है ना 495 आपकी कैटेगरी में जो आपने मुझे भेजा था उनका लग रहा है मतलब आपका जो आपके क्लाइंट बेच रहे हैं ना तो उनके प्रोडक्ट पे ये लग रहा है अभी। ठीक है? ₹25 रेफरल फीस, ₹21 क्लोजिंग फीस। अब पहले स्क्रीनशॉट में आपने देखा होगा वहां ₹54 है Amazon का फुलफिलमेंट कॉस्ट।
+Agent: ठीक है? ये होता है वेयरहाउस का।
+Customer: वेयरहाउस।
+Agent: ठीक है? ये वेयरहाउस का कॉस्ट जा रहा है तो आपका अदर कॉस्ट कट के आपको ₹371 नेट मिल रहा है।
+Agent: ठीक है? ₹220 का अगर प्रोडक्ट है अपना तो ₹371 अपने को नेट मिलेगा उसमें से आप अपना वो हटा सकते हो। जो आप इसमें क्या कहते हैं अपने वहां तक भेजने का कॉस्ट होगा ना Amazon पे वो हटा सकते हो बाकी सारे कॉस्ट इसमें जुड़ गए हैं।
+Agent: आवाज आ रही है सर?
+Agent: हेलो।
+--------------------------
+End of Transcript for Call 4
+
+================================================================================
+
+########################################
+CALL INDEX: 1
+########################################
+CALL METADATA
+==========================
+Timestamp  : 2026-02-03 10:22:48 IST
+Audio URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764677140.2065693&type=rec&token=K0YxM29LM1hkUnZrcWZiYXl2a0JUTTE5emNjWWF3cE5EdXhlNjJsaEV0SGowUC9McFlMeUdpcDVwb3dxSDEwNTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : BAD (37.84%)
+==========================
+
+TRANSCRIPT
+--------------------------
+Customer: Hello?
+Agent: Yeah hi, how are you?
+Customer: I'm good.
+Agent: I'm calling from Go local.
+Customer: I'm good.
+Agent: I'm sorry, I will give you a call in some days. I apologize for the delay. But give me some time.
+Agent: Okay.
+Customer: No, no issue, no issue. Aap mujhe ek suitable time bata dijiye main us accordingly kar lungi.
+Agent: What is it? What is it regarding? Kuch hai specifically that you want to tell or you want a feedback with Saturday?
+Customer: Nahi nahi, Saturday hamara discussion hua na. Regarding ki baith ke baat karte hain fir hum like aage ke hamara jo brand store and content tha.
+Agent: Ha, to acha uske liye.
+Customer: But fir maine wahi kaha tha, I have not seen that creative yet.
+Agent: Abhi nahi I'm sorry.
+Customer: Nahi, I'm sorry, I'm sorry. I've seen it. Maine ye confirm kiya tha. Maine bola tha maine nahi dekha hai. Kyunki main tabhi to iska better sa reply karti.
+Customer: Okay, no issue. I'll I'll I'll check and I'll update you later.
+Agent: Just thank you so much. Thank you so much.
+Customer: Thank you so much, have a good day.
+--------------------------
+End of Transcript for Call 1
+
+================================================================================
+
+########################################
+CALL INDEX: 2
+########################################
+CALL METADATA
+==========================
+Timestamp  : 2026-02-03 10:23:26 IST
+Audio URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764669530.194451&type=rec&token=WVVzMWRFNlIxc1djbFp4MzhHQzBORjd3dHhpZmhnVDhZQWExVjV4U3k5bXIxZDhWeHRGdGJHbW03Z1ZSc3d1bzo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (90.7%)
+==========================
+
+TRANSCRIPT
+--------------------------
+Customer: Hello? Hello?
+Agent: yes actually wo jo aap keh rahe hain na isme ki brand store aur A+ content isme included nahi hai. So hamara 36,000 hai.
+Customer: Ji.
+Agent: Haan ji. Actually kya hota hai jo hamara A+ content hota hai and the brand store isme jo used hota hai wo banners aur infographics hote hain. Aur per banner aur infographics ki costing hi agar jo main baat karu banane ki toh 250 to 300 hoti hai. Us according iski costing hoti hai. Jaise ki agar jo hamari ek A+ listing mein hume paanch se cheh banner used hote hain jo ki isme lagaye jaate hain.
+Customer: Haan ji. Matlab A+ content toh wahi hogi na jaise jo hum normal listing ko open karte hain description mein jaake jo extra four five photo aur add on hoti hai.
+Agent: Yes, yes, yes.
+Customer: A+ ko hoga aur brand store toh wahi hoga jo hum brand store pe click karte hain toh hume banners wagera second mein show hote hain item hoti hai.
+Agent: Yes. Yes. Woh hamare 10 to 15 banners usme lagte hain. Toh woh uske charges hote hain.
+Customer: Okay. Theek hai. Toh jo 36 wala jo aapka plan hai isme saari services include hongi but ye dono isme include nahi hai iske alag se charges hain.
+Agent: Nahi. Ji ji ji ji. Yes.
+Customer: Theek hai. Aur advertisement pe jo bhi spend karna hai wo alag hota hai na isme?
+Agent: Woh totally aapke upar hai aap kitna budget leke chalna chahte hain isme.
+Customer: Haan ji haan ji. Toh ye matlab ki pura jo plan hai ye six months ke liye ho jayega na?
+Agent: Yes.
+Customer: Chaliye.
+Agent: Sir isme hum woh baaki hum pe depend karta hai ki hum isme A+ aur kitna add on karana chahte hain. Abhi hamara jo discussion hua tha woh five ke liye hua tha. But if in case Nitin sir ka koi plan change hota hai aur product leke aate hain toh woh uske upar depend karta hai.
+Customer: Haan woh toh amount toh aapne daal hi diya usko toh hum calculate kar hi lenge.
+Agent: Ji ji sir.
+Customer: Theek hai na isme confusion dena toh wahi mujhe.
+Agent: No issue. I am very nice ki aapne ek baar clear kar liya because main sir isme hi hoti rehti toh kya fayda tha fir.
+Customer: Bilkul bilkul bilkul. Ke kaam toh hume karna hi hai na ab ye cheeze toh clear karke hume chalni padengi.
+Customer: Chaliye. Koi baat nahi. Theek hai. Main ek baar sir ko bhi ye dikha deta hu hai na.
+Customer: Okay?
+Agent: Hello?
+Customer: Okay okay okay okay.
+Agent: Okay.
+Customer: Thank you so much.
+--------------------------
+End of Transcript for Call 2
+
+================================================================================
+
+########################################
+CALL INDEX: 3
+########################################
+CALL METADATA
+==========================
+Timestamp  : 2026-02-03 10:24:01 IST
+Audio URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764573603.46856&type=rec&token=UkgreFpaVlg5MVQxZjZrb3V5RE1HWDZ2WnBHd1ZjcHRJUUptVUJTUUxTTFVobjRoVGpQTkx5OFhOZFZiczROdTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (71.43%)
+==========================
+
+TRANSCRIPT
+--------------------------
+Agent: Hello
+Agent: Good afternoon sir, Vidhans baat kar raha hu Go from Go. Kaise hain sir?
+Customer: badhiya
+Agent: Ji, kal humari baat hui thi listing ko lekar sir?
+Customer: Ha, to ha, ha to wo isko main ye keh raha hu pehle advance de do aapko thoda us pe karwa do work fir main usko kar dunga remaining.
+Agent: Sir actually isme 3000 mein part payment nahi ho payega hamare.
+Customer: Chalo achha theek hai aap pehle kaise karna hai maine achha aapka mail dekha nahi. Main chalo check karke.
+Agent: Ha main dekh ke aapko karta hu theek hai call aaj hi karwate hain. theek hai mujhe bata dijiye main call karta hu aapko.
+Customer: Mujhe kar do kis time par? 1:00 baje 3:00 baje. 3:30 4:00 tak chalo aap.
+Agent: Theek hai theek hai sir. Main aapko 3:30 baje call karta hu. Main pehle hi kar lunga aapko thoda free ho jaunga only theek hai.
+Customer: Ha bilkul.
+Agent: Ek bar ek bar proposal mein dekh lena agar aap mail mein inbox mein to promotional ya spam mein dekh lena ek bar.
+Customer: Nahi wo main dekh lunga uska. Aap mujhe call kar dena theek hai.
+Agent: Theek hai theek hai sir main aapko call karta hu fir 3:30.
+--------------------------
+End of Transcript for Call 3
+
+================================================================================
+
+########################################
+CALL INDEX: 4
+########################################
+CALL METADATA
+==========================
+Timestamp  : 2026-02-03 10:24:47 IST
+Audio URL  : https://cloudphone.tatateleservices.com/file/recording?callId=1764575297.47725&type=rec&token=ZklOMVlOVHo5WENCWmEwMWVIWktBVjN1b0hXekcwNDNnMStGTkM2UXdMalk1UHJycWVoMExPQk5wSWdOSk5aOTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : BAD (62.5%)
+==========================
+
+TRANSCRIPT
+--------------------------
+Agent: हां सर बताइए।
+Agent: सर मैं आपको एक एक्सपर्ट से बात करा रहा हूं वो कैलकुलेशन के लिए ना वो उन्होंने निकाल लिया है।
+Customer: अच्छा जी एक मिनट टाइम दीजिएगा।
+Agent: हेलो।
+Customer: हां सर बताइए।
+Agent: मैंने आपको एक ना लाइक मैंने भेजा होगा आपको एक स्क्रीनशॉट जरा चेक करोगे।
+Customer: हां जी हां जी मैंने देख लिया स्क्रीनशॉट खोल भी रखा है आपके पास।
+Agent: मैं आपको ये बता रहा था कि अभी आप दोनों चीजें आराम से देखना। पहला है Amazon फुलफिलमेंट इफ यू आर टेकिंग द Amazon वेयरहाउस सर्विसेज।
+Agent: ठीक है? तो वहां पे आपको दिख रहा होगा उसका एक रेफरल फीस आपकी जो सेम प्राइसिंग है ना 495 आपकी कैटेगरी में जो आपने मुझे भेजा था उनका लग रहा है मतलब आपका जो आपके क्लाइंट बेच रहे हैं ना तो उनके प्रोडक्ट पे ये लग रहा है अभी। ठीक है? ₹25 रेफरल फीस, ₹21 क्लोजिंग फीस। अब पहले स्क्रीनशॉट में आपने देखा होगा वहां ₹54 है Amazon का फुलफिलमेंट कॉस्ट।
+Agent: ठीक है? ये होता है वेयरहाउस का।
+Customer: वेयरहाउस।
+Agent: ठीक है? ये वेयरहाउस का कॉस्ट जा रहा है तो आपका अदर कॉस्ट कट के आपको ₹371 नेट मिल रहा है।
+Agent: ठीक है? ₹220 का अगर प्रोडक्ट है अपना तो ₹371 अपने को नेट मिलेगा उसमें से आप अपना वो हटा सकते हो। जो आप इसमें क्या कहते हैं अपने वहां तक भेजने का कॉस्ट होगा ना Amazon पे वो हटा सकते हो बाकी सारे कॉस्ट इसमें जुड़ गए हैं।
+Agent: आवाज आ रही है सर?
+Agent: हेलो।
+--------------------------
+End of Transcript for Call 4
+
+================================================================================
+

@@ -5,6 +5,7 @@
 import os
 import requests
 import pandas as pd
+import pytz
 from datetime import datetime
 from collections import Counter
 
@@ -14,103 +15,119 @@ from vertexai.generative_models import GenerativeModel, Part, GenerationConfig
 from prompts import TRANSCRIPTION_PROMPT, EXTRACT_CONTEXT_PROMPT
 
 # =========================
-# VERTEX AI INIT
+# CONFIGURATION
 # =========================
 
-import vertexai
+PROJECT_ID = "mec-transcript"
+LOCATION = "us-central1"
+MODEL_NAME = "gemini-2.5-flash"
 
-vertexai.init(
-    project="mec-transcript",
-    location="us-central1" 
-)
-
-model = GenerativeModel("gemini-2.5-flash")
+vertexai.init(project=PROJECT_ID, location=LOCATION)
+model = GenerativeModel(MODEL_NAME)
 
 # =========================
-# GEMINI HELPER
+# UTILS & HELPERS
 # =========================
+
+def get_ist_time():
+    """Returns current time in Indian Standard Time (IST)."""
+    ist = pytz.timezone('Asia/Kolkata')
+    return datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S IST")
 
 def call_gemini(prompt=None, parts=None):
+    """Calls Vertex AI returning plain text."""
+    config = GenerationConfig(
+        temperature=0,
+        max_output_tokens=8192
+    )
+    
     response = model.generate_content(
         parts if parts else prompt,
-        generation_config=GenerationConfig(
-            temperature=0,
-            max_output_tokens=4096
-        )
+        generation_config=config
     )
     return response.text.strip()
 
 # =========================
-# TRANSCRIPTION
+# CORE LOGIC
 # =========================
 
 def transcribe_audio(audio_url):
-    audio_bytes = requests.get(audio_url, timeout=60).content
-    parts = [
-        Part.from_text(TRANSCRIPTION_PROMPT),
-        Part.from_data(audio_bytes, mime_type="audio/mpeg")
-    ]
-    return call_gemini(parts=parts)
-
-# =========================
-# VARIABLE EXTRACTION
-# =========================
+    """Transcribes audio URL."""
+    try:
+        audio_bytes = requests.get(audio_url, timeout=60).content
+        parts = [
+            Part.from_text(TRANSCRIPTION_PROMPT),
+            Part.from_data(audio_bytes, mime_type="audio/mpeg")
+        ]
+        return call_gemini(parts=parts)
+    except Exception as e:
+        return f"Error transcribing: {str(e)}"
 
 def extract_variable_analysis(transcript):
+    """
+    Extracts variables by parsing the TEXT TABLE returned by the prompt.
+    Does NOT rely on JSON.
+    """
     prompt = EXTRACT_CONTEXT_PROMPT + "\n\nTRANSCRIPT:\n" + transcript
-    table_text = call_gemini(prompt=prompt)
-
+    raw_text = call_gemini(prompt=prompt)
+    
     variables = []
-
-    for line in table_text.splitlines():
-        if not line.startswith("|"):
+    
+    # Parse the pipe-separated table
+    lines = raw_text.splitlines()
+    for line in lines:
+        if "|" not in line:
             continue
-
+            
+        # Remove outer pipes and split
         cols = [c.strip() for c in line.strip("|").split("|")]
-        if len(cols) != 3 or cols[0] == "Variable":
+        
+        # Skip header or malformed lines
+        if len(cols) < 3 or cols[0].lower() == "variable" or "---" in cols[0]:
             continue
 
         variables.append({
             "variable": cols[0],
             "status": cols[1],
-            "evidence": cols[2]
+            "evidence": cols[2] if len(cols) > 2 else "NA"
         })
 
     return variables
 
-# =========================
-# CALL METRICS
-# =========================
-
 def compute_summary(variables):
-    counts = Counter(v["status"] for v in variables)
+    """Calculates scores based on extracted variables, excluding 'Not Present'."""
+    if not variables:
+        return {"counts": {}, "excellent_percentage": 0, "call_type": "ERROR", "total_possible": 0, "considered": 0}
 
-    considered = (
-        counts["Excellent"] +
-        counts["Moderate"] +
-        counts["Needs Improvement"]
-    )
+    counts = Counter(v["status"] for v in variables)
+    total_possible = len(variables)
+    not_present = counts.get("Not Present", 0)
+    
+    # Logic: Total minus Not Present
+    considered = total_possible - not_present
 
     excellent_pct = round(
         (counts["Excellent"] / considered) * 100, 2
-    ) if considered else 0
+    ) if considered > 0 else 0
 
     call_type = "GOOD" if excellent_pct >= 66 else "BAD"
 
+    # Add extra metadata to the summary dictionary
     return {
         "counts": dict(counts),
         "excellent_percentage": excellent_pct,
-        "call_type": call_type
+        "call_type": call_type,
+        "total_possible": total_possible,
+        "considered": considered
     }
 
 # =========================
-# PROCESS SINGLE CALL
+# PIPELINE RUNNER
 # =========================
 
 def process_call(call):
-    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-
-    print(f"[PROCESSING] Call {call['index']}")
+    timestamp = get_ist_time()
+    print(f"[{timestamp}] Processing Call {call['index']}...")
 
     transcript = transcribe_audio(call["audio_url"])
     variables = extract_variable_analysis(transcript)
@@ -125,10 +142,6 @@ def process_call(call):
         "summary": summary
     }
 
-# =========================
-# LOAD INPUT
-# =========================
-
 def load_calls(excel_path):
     df = pd.read_excel(excel_path)
     return [
@@ -138,62 +151,92 @@ def load_calls(excel_path):
     ]
 
 # =========================
-# MAIN
+# MAIN EXECUTION
 # =========================
 
 if __name__ == "__main__":
-
-    INPUT_EXCEL = "calls.xlsx"
+    
+    # Input/Output Config
+    INPUT_EXCEL = "calls_4.xlsx"
     OUTPUT_DIR = "output"
     TRANSCRIPT_DIR = f"{OUTPUT_DIR}/transcripts"
-    PIPELINE_FILE = f"{OUTPUT_DIR}/pipeline_output.txt"
-
+    
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(TRANSCRIPT_DIR, exist_ok=True)
+    
+    SUMMARY_REPORT = f"{OUTPUT_DIR}/summary_report.txt"
 
     calls = load_calls(INPUT_EXCEL)
-
     results = []
+
+    # 1. Process all calls
     for call in calls:
         results.append(process_call(call))
 
-    # =========================
-    # SAVE TRANSCRIPTS
-    # =========================
-
-    for r in results:
-        path = f"{TRANSCRIPT_DIR}/call_{r['index']}.txt"
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(f"TIMESTAMP : {r['timestamp']}\n")
-            f.write(f"CALL INDEX: {r['index']}\n")
-            f.write(f"CALL URL  : {r['url']}\n\n")
-            f.write(r["transcript"])
-
-    # =========================
-    # SAVE PIPELINE OUTPUT
-    # =========================
-
-    with open(PIPELINE_FILE, "w", encoding="utf-8") as f:
+   # 2. Save All Transcripts to a Single File
+    ALL_TRANSCRIPTS_FILE = f"{OUTPUT_DIR}/all_call_transcripts.txt"
+    print(f"\nSaving all transcripts to {ALL_TRANSCRIPTS_FILE}...")
+    
+    with open(ALL_TRANSCRIPTS_FILE, "a", encoding="utf-8") as f:
         for r in results:
-            f.write(f"\nCALL {r['index']}\n")
-            f.write("=" * 80 + "\n")
-            f.write(f"Timestamp : {r['timestamp']}\n")
-            f.write(f"Audio URL : {r['url']}\n\n")
+            f.write(f"{'#'*40}\n")
+            f.write(f"CALL INDEX: {r['index']}\n")
+            f.write(f"{'#'*40}\n")
+            f.write(f"CALL METADATA\n")
+            f.write(f"==========================\n")
+            f.write(f"Timestamp  : {r['timestamp']}\n")
+            f.write(f"Audio URL  : {r['url']}\n")
+            f.write(f"Result     : {r['summary']['call_type']} ({r['summary']['excellent_percentage']}%)\n")
+            f.write(f"==========================\n\n")
+            f.write(f"TRANSCRIPT\n")
+            f.write(f"--------------------------\n")
+            f.write(r['transcript'])
+            f.write(f"\n--------------------------\n")
+            f.write(f"End of Transcript for Call {r['index']}\n\n")
+            f.write(f"{'='*80}\n\n") # Visual separator between different calls
+    # 3. Save Summary Report
+    print(f"Saving summary report to {SUMMARY_REPORT}...")
+    
+    with open(SUMMARY_REPORT, "a", encoding="utf-8") as f:
+        for r in results:
+            f.write(f"\n{'='*80}\n")
+            f.write(f"CALL {r['index']} ANALYSIS REPORT\n")
+            f.write(f"{'='*80}\n")
+            f.write(f"Time (IST) : {r['timestamp']}\n")
+            f.write(f"URL        : {r['url']}\n")
+            f.write(f"Result     : {r['summary']['call_type']} ({r['summary']['excellent_percentage']}%)\n\n")
 
-            f.write("| Variable | Status | Evidence |\n")
-            f.write("|" + "-" * 78 + "|\n")
+            header = f"| {'Variable':<40} | {'Status':<20} | {'Evidence'} |\n"
+            divider = f"|{'-'*42}|{'-'*22}|{'-'*50}|\n"
+            
+            f.write(divider)
+            f.write(header)
+            f.write(divider)
 
             for v in r["variables"]:
-                f.write(
-                    f"| {v['variable']} | {v['status']} | {v['evidence']} |\n"
-                )
+                evidence = str(v.get('evidence', 'NA')).replace('\n', ' ')
+                variable = str(v.get('variable', 'Unknown'))
+                status = str(v.get('status', 'Unknown'))
+                f.write(f"| {variable:<40} | {status:<20} | {evidence}\n")
 
-            f.write("\nSUMMARY\n")
-            f.write("-" * 40 + "\n")
-            for k, v in r["summary"]["counts"].items():
-                f.write(f"{k}: {v}\n")
-            f.write(f"Excellent %: {r['summary']['excellent_percentage']}\n")
-            f.write(f"Call Type : {r['summary']['call_type']}\n")
-            f.write("=" * 80 + "\n")
+            f.write(divider)
+            
+            # UPDATED SCORING METRICS SECTION
+            summary = r['summary']
+            counts = summary['counts']
+            
+            f.write(f"\nSCORING METRICS:\n")
+            f.write(f"{'-'*20}\n")
+            f.write(f"Total Variables        : {summary['total_possible']}\n")
+            f.write(f"Not Present            : {counts.get('Not Present', 0)}\n")
+            f.write(f"Total Evaluated (Net)  : {summary['considered']}\n")
+            f.write(f"{'-'*20}\n")
+            f.write(f"Excellent              : {counts.get('Excellent', 0)}\n")
+            f.write(f"Moderate               : {counts.get('Moderate', 0)}\n")
+            f.write(f"Needs Improvement      : {counts.get('Needs Improvement', 0)}\n")
+            f.write(f"{'-'*20}\n")
+            f.write(f"Final Percentage Score : {summary['excellent_percentage']}%\n")
+            f.write(f"Call Classification    : {summary['call_type']}\n")
+            f.write(f"\n\n")
 
-    print("Pipeline completed successfully")
+    print("\nPipeline completed successfully!")
