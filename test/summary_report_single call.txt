@@ -1,0 +1,441 @@
+
+================================================================================
+CALL 1 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:26:07 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764655955.828742&type=rec&token=SXZlc0pvZ01Xa3NRZkNBcUtwVnZFUEVSeEhCZDlQTUVZNmtWekIzc1VMYUNtTmQxNUZqTlZIMVMzV2tndTZyazo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : ERROR (0%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 0
+Not Present            : 0
+Total Evaluated (Net)  : 0
+--------------------
+Excellent              : 0
+Moderate               : 0
+Needs Improvement      : 0
+--------------------
+Final Percentage Score : 0%
+Call Classification    : ERROR
+
+
+
+================================================================================
+CALL 2 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:45:23 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764670103.213014&type=rec&token=RnZJZjhyanpYcE5OY3lxbEFxV0FRZmxOSHpPTUdKaCtWVVc3elFic0ZCZW5jZlR0K29sMVlJTmFzaldQOHNCSjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (91.67%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Agent Tone & Energy                      | Excellent            | "Hello, good afternoon, ma'am."
+| Agent Confidence                         | Excellent            | "Koi dikkat nahi hai. Hum isme discounted price mein se close kar sakte hain."
+| Listening Quality                        | Excellent            | "Okay, okay. Toh matlab kisi brand ki saadi nahi hai na yeh?"
+| Customer Empathy                         | Excellent            | "Koi dikkat nahi hai. Hum isme discounted price mein se close kar sakte hain."
+| Discovery & Understanding                | Excellent            | "Kya aapki khud ki manufacturing hai?"
+| Handling Customer Corrections            | Moderate             | "Retail se kaam karti hoon, lekin direct weaver se leti hoon main."
+| Objection Handling                       | Excellent            | "Koi dikkat nahi hai. Hum isme discounted price mein se close kar sakte hain."
+| Pricing Objection Response               | Excellent            | "Hum isme discounted price mein se close kar sakte hain."
+| Handling Financial Constraints           | Excellent            | "Hum isme discounted price mein se close kar sakte hain."
+| Solution Orientation                     | Excellent            | "Hum isme discounted price mein se close kar sakte hain."
+| Conversation Control                     | Excellent            | "Aap yeh bataiye ki aap saadi ki baat kar rahe the."
+| Pacing of Call                           | Excellent            | "Per day order kitne aa rahe hain? Kitne SKU aapne list kar rakhe hain?"
+| Escalation Handling                      | Not Present          | NA
+| Upsell / Add-on Handling                 | Not Present          | NA
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 14
+Not Present            : 2
+Total Evaluated (Net)  : 12
+--------------------
+Excellent              : 11
+Moderate               : 1
+Needs Improvement      : 0
+--------------------
+Final Percentage Score : 91.67%
+Call Classification    : GOOD
+
+
+
+================================================================================
+CALL 3 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:46:12 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764668007.33215&type=rec&token=L1p0UjFObnBSMDJqZXpRQ1VjSnpIcE9QVEdjNnRuRHRCM2VIYU1XaitncE1wZ3lkbkFDb0xidnFJMFFxVjVJWjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (58.33%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Agent Tone & Energy                      | Excellent            | Welcome to Gonukkar Home Health Care.
+| Agent Confidence                         | Excellent            | Basically, hamari call Gonukkar ki website pe hui hai.
+| Listening Quality                        | Excellent            | Product listing. Aapka account hai already product listing karani hai?
+| Customer Empathy                         | Not Present          | NA
+| Discovery & Understanding                | Moderate             | Okay, aur kya product category aur baaki sir?
+| Handling Customer Corrections            | Not Present          | NA
+| Objection Handling                       | Moderate             | Ji ji, depend karta hai.
+| Pricing Objection Response               | Moderate             | depend karta. Kitne marketplace ke liye aap opt karte hain
+| Handling Financial Constraints           | Not Present          | NA
+| Solution Orientation                     | Excellent            | complete end-to-end account management hota. Jismein hum account creation se leke sales
+| Conversation Control                     | Excellent            | Main aapko brief kar deti hu. Basically, hamari baaki call jo hui hai
+| Pacing of Call                           | Excellent            | Jismein hum account creation se leke sales ko boost karne tak support hota.
+| Escalation Handling                      | Not Present          | NA
+| Upsell / Add-on Handling                 | Moderate             | complete end-to-end account management hota. Jismein hum account creation se leke sales
+| Customer Trust Impact                    | Moderate             | listing, organic, inorganic promotions, price management, brand promotion, return analysis
+| Agent Mindset                            | Excellent            | Basically, hamari baaki call jo hui hai Gon
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 16
+Not Present            : 4
+Total Evaluated (Net)  : 12
+--------------------
+Excellent              : 7
+Moderate               : 5
+Needs Improvement      : 0
+--------------------
+Final Percentage Score : 58.33%
+Call Classification    : GOOD
+
+
+
+================================================================================
+CALL 4 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:47:01 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764651482.1097070&type=rec&token=aWtXL0hjaFUvLzRleFFZU1Vrb1dnMHlHekx5UHFFTG93SmNraGhycUE1M2pJWnIyc1NzOFBFK2VyRkYrcnlRQjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (80.0%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Agent Tone & Energy                      | Excellent            | I am calling from Go Local Seller Support team.
+| Agent Confidence                         | Excellent            | Basically main aapko pehle thodi services provide kar doon
+| Listening Quality                        | Excellent            | aap kis cheez mein deal karte hain?
+| Customer Empathy                         | Moderate             | Jisse ek baar main analyze kar loon
+| Discovery & Understanding                | Excellent            | online business Amazon pe chal raha hai kya?
+| Handling Customer Corrections            | Excellent            | Nahi, nahi, account nahi. This is the accounting, taxation.
+| Objection Handling                       | Excellent            | Wo saari cheeze humare team hi dekhti hain.
+| Pricing Objection Response               | Moderate             | charges ki hum baat karte hain
+| Handling Financial Constraints           | Not Present          | NA
+| Solution Orientation                     | Excellent            | Basically main aapko pehle thodi services provide kar doon
+| Conversation Control                     | Excellent            | main aapko pehle thodi services provide kar doon
+| Pacing of Call                           | Excellent            | NA
+| Escalation Handling                      | Not Present          | NA
+| Upsell / Add-on Handling                 | Moderate             | teenon marketplaces ke saath jaana chah rahe hain?
+| Customer Trust Impact                    | Excellent            | Jisse ek baar main analyze kar loon
+| Agent Mindset                            | Excellent            | 100 order ko hum upar leke jaayen.
+| Problem Ownership                        | Excellent            | Wo saari cheeze humare team hi dekhti hain.
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 17
+Not Present            : 2
+Total Evaluated (Net)  : 15
+--------------------
+Excellent              : 12
+Moderate               : 3
+Needs Improvement      : 0
+--------------------
+Final Percentage Score : 80.0%
+Call Classification    : GOOD
+
+
+
+================================================================================
+CALL 5 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:47:50 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764677088.131847&type=rec&token=WWtjTWY2Nk5SMGtreHFScS9GZGtNbkp6c09WZnFBRy9QOVJ0MUs5aFNodWw3djRmeFhHNytKREZBVmhPcVZvZjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (92.86%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Agent Tone & Energy                      | Excellent            | Hello, good evening sir.
+| Agent Confidence                         | Excellent            | Bilkul ho sakta hai sir.
+| Listening Quality                        | Excellent            | Ji sir abhi aap karte hain e-commerce business?
+| Customer Empathy                         | Moderate             | Jo bhi doubt ho na sir aap apne clear kar lena.
+| Discovery & Understanding                | Excellent            | Sir brand hai sir aapke paas brand authorization letter hota hai sir?
+| Handling Customer Corrections            | Excellent            | Kamlesh. Okay sorry Kamlesh ji.
+| Objection Handling                       | Excellent            | Dubai aap kar sakte hain.
+| Pricing Objection Response               | Excellent            | 0.67 dollars per cubic per fit ke hisaab se rent hota hai
+| Handling Financial Constraints           | Excellent            | 0.67 dollars per cubic per fit ke hisaab se rent hota hai
+| Solution Orientation                     | Excellent            | Sir aapko na jo product hoga na aapko Dubai ke warehouse mein rakhwana padega
+| Conversation Control                     | Excellent            | Main aapko batata hu. Dekhiye aap agar Dubai aap chahte hain
+| Pacing of Call                           | Excellent            | NA
+| Escalation Handling                      | Excellent            | Main ek bar call transfer kar deti hu woh aapko acche se bata denge.
+| Upsell / Add-on Handling                 | Not Present          | NA
+| Customer Trust Impact                    | Excellent            | Main isme pura proposal share kar
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 15
+Not Present            : 1
+Total Evaluated (Net)  : 14
+--------------------
+Excellent              : 13
+Moderate               : 1
+Needs Improvement      : 0
+--------------------
+Final Percentage Score : 92.86%
+Call Classification    : GOOD
+
+
+
+================================================================================
+CALL 6 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:48:52 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764679305.234202&type=rec&token=cEsxNW9TdW51S09lWS9ibVRHZlFmU1dBNUk0U0hWL3hNTklUamdCeUhoZlhPR0lqMjRKTTRXcVNRVFhFTFN4Zjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (75.0%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Agent Tone & Energy                      | Excellent            | Good evening sir, main Ayush baat kar raha hu
+| Agent Confidence                         | Excellent            | Without GST number to sir aapki e-commerce business chal nahi payegi.
+| Listening Quality                        | Excellent            | Cash on delivery ke kya se products?
+| Customer Empathy                         | Needs Improvement    | GST mandatory hai. GST ke liye aapko apply karna padega.
+| Discovery & Understanding                | Moderate             | GST hai aapke paas? Customer: GST nahi hai.
+| Handling Customer Corrections            | Not Present          | NA
+| Objection Handling                       | Moderate             | GST ke liye to aapko apne kisi chartered accountant ko connect karna padega.
+| Pricing Objection Response               | Not Present          | NA
+| Handling Financial Constraints           | Not Present          | NA
+| Solution Orientation                     | Excellent            | GST ke liye to aapko apne kisi chartered accountant ko connect karna padega.
+| Conversation Control                     | Excellent            | Okay, to GST hai aapke paas?
+| Pacing of Call                           | Excellent            | NA
+| Escalation Handling                      | Not Present          | NA
+| Upsell / Add-on Handling                 | Not Present          | NA
+| Customer Trust Impact                    | Excellent            | GST mandatory hai. GST ke liye aapko apply karna padega.
+| Agent Mindset                            | Excellent            | e-commerce business support ke liye kiya gaya hai.
+| Problem Ownership                        | Excellent            | GST ke liye to aapko apne kisi chartered
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 17
+Not Present            : 5
+Total Evaluated (Net)  : 12
+--------------------
+Excellent              : 9
+Moderate               : 2
+Needs Improvement      : 1
+--------------------
+Final Percentage Score : 75.0%
+Call Classification    : GOOD
+
+
+
+================================================================================
+CALL 7 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:49:38 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764655838.154382&type=rec&token=ZnpKdm1MS01yYmN1UDkyVjlJQnZwWmhLZ1kwazAxQzNHODlUbnJYVXNDQ1RUdFk1T1UvaGwzc0dFS0pkUFVteDo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (92.86%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Agent Tone & Energy                      | Excellent            | Sir, main Arpit baat kar raha tha, GoNukkad se.
+| Agent Confidence                         | Excellent            | main usme discount de sakta hoon dekho.
+| Listening Quality                        | Excellent            | Haan ji, rice hai.
+| Customer Empathy                         | Moderate             | agar commercials mein Mahesh ji, theek hai, uh, challenge hai
+| Discovery & Understanding                | Excellent            | kitne products aap list karne wale ho abhi starting mein?
+| Handling Customer Corrections            | Not Present          | NA
+| Objection Handling                       | Excellent            | main usme discount de sakta hoon dekho.
+| Pricing Objection Response               | Excellent            | main isme achcha discount kara dunga Mahesh ji
+| Handling Financial Constraints           | Excellent            | main isme achcha discount kara dunga Mahesh ji
+| Solution Orientation                     | Excellent            | Toh main isme aisa kar deta hoon.
+| Conversation Control                     | Excellent            | Bataiye Mahesh ji, phir kab connect karein hum
+| Pacing of Call                           | Excellent            | Theek hai, 5 baje ke baad karte hain ek baar
+| Escalation Handling                      | Not Present          | NA
+| Upsell / Add-on Handling                 | Not Present          | NA
+| Customer Trust Impact                    | Excellent            | July mein unke 145 order aaye
+| Agent Mindset                            | Excellent            | Agar aapko business aayega, toh aapko bhi koi challenge nahi aayega.
+| Problem Ownership                        | Excellent            | Woh sara kaam meri team karke degi sir aapko.
+| Customer Alignment                       | Excellent            | Barabar hai.
+| Objection Framing                        | Excellent            | Woh amount bhi aapko na aane wale time pe phir chhota lagne lagta hai
+| Trust Signals                            | Excellent            | humare saath multiple brands ne kaam kiya
+| Cost Sensitivity                         | Excellent            | agar commercials mein Mahesh ji, theek hai, uh, challenge hai
+| Decision Momentum                        | Excellent            | Phir toh start karte hain, bataiye aap.
+| Overall Call Outcome                     | Excellent            | Theek hai, 5 baje ke baad karte hain ek baar
+| Permission to Proceed                    | Excellent            | Phir toh start karte hain, bataiye aap.
+| Mutual Agreement                         | Excellent            | Theek hai, 5 baje ke baad karte hain ek baar
+| Closing Confirmation                     | Excellent            | Theek hai, 5 baje ke baad karte hain ek baar
+| Polite Conclusion                        | Excellent            | Okay, thank you Mahesh ji.
+| Intent to Re-engage                      | Excellent            | 5 baje ke baad karte hain ek baar
+| Agreement to Collaboration               | Excellent            | Theek hai, 5 baje ke baad karte hain ek baar
+| Direct Positive Feedback                 | Not Present          | NA
+| Agreement on Fundamentals                | Excellent            | Amazon pe starting mein Amazon ke saath start karo.
+| Call-back Request                        | Excellent            | Uh, aap shaam ke time pe.
+| Flexibility Acknowledgment               | Excellent            | main usme discount de sakta hoon dekho.
+| Confirmation of Interest                 | Excellent            | Chaliye, theek hai na. Aapko batate hain
+| Openness to Expansion                    | Excellent            | business ko 2X, 4X, 6X, is tarah se aage le ke chal sakein
+| Direct Confirmation of Service Need      | Moderate             | starting kis type se kya karna hai?
+| Future Openness                          | Excellent            | Woh amount bhi aapko na aane wale time pe phir chhota lagne lagta hai
+| Future Outlook                           | Excellent            | July mein unke 145 order aaye
+| Clear Intent to Start                    | Moderate             | Chaliye, theek hai na. Aapko batate hain
+| Strategic Thinking                       | Excellent            | trending keywords hain, woh aate hain.
+| Direct Request for Information           | Excellent            | kitne products aap list karne wale ho abhi starting mein?
+| High Performance Metric                  | Excellent            | July mein unke 145 order aaye
+| Significant Catalog Size                 | Not Present          | NA
+| Market Viability                         | Excellent            | sugar free hi rice khate hain zyada log
+| Manufacturer Status                      | Not Present          | NA
+| Business Scalability                     | Excellent            | business ko 2X, 4X, 6X, is tarah se aage le ke chal sakein
+| Clear Product Identity                   | Excellent            | chawal hai.
+| Possession of Essentials                 | Excellent            | FSSAI jo main cheez toh FSSAI hoga.
+| Commitment to Quality                    | Not Present          | NA
+| Established Foundation                   | Not Present          | NA
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 50
+Not Present            : 8
+Total Evaluated (Net)  : 42
+--------------------
+Excellent              : 39
+Moderate               : 3
+Needs Improvement      : 0
+--------------------
+Final Percentage Score : 92.86%
+Call Classification    : GOOD
+
+
+
+================================================================================
+CALL 8 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:50:43 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764673422.36376&type=rec&token=eGNKUU9jOGhZQmZsMHdzOEZmTEdMcUd4akRoVnZBZTBHYVZkQkpQTTlmSk0wcTRwYjBuakFYWGFEZHVIbmFzbTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (66.67%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Agent Tone & Energy                      | Excellent            | Good evening sir.
+| Agent Confidence                         | Excellent            | Haan sir, connect karenge, lekin jo abhi aapki pending payment hai
+| Listening Quality                        | Excellent            | Ji, ji.
+| Customer Empathy                         | Needs Improvement    | Sir, actually na is wajah se nahi ho paayi
+| Discovery & Understanding                | Excellent            | Sir, actually na is wajah se nahi ho paayi
+| Handling Customer Corrections            | Not Present          | NA
+| Objection Handling                       | Moderate             | Sir, actually na is wajah se nahi ho paayi
+| Pricing Objection Response               | Not Present          | NA
+| Handling Financial Constraints           | Moderate             | Okay.
+| Solution Orientation                     | Excellent            | complete kara dijiye
+| Conversation Control                     | Excellent            | Sir, kal aap kis time tak kara denge?
+| Pacing of Call                           | Excellent            | NA
+| Escalation Handling                      | Not Present          | NA
+| Upsell / Add-on Handling                 | Not Present          | NA
+| Customer Trust Impact                    | Moderate             | aapki pending payment reh rahi thi
+| Agent Mindset                            | Excellent            | fir hum kal se aapka start kara denge work.
+| Problem Ownership                        | Excellent            | aapki pending payment reh rahi thi
+| Customer Alignment                       | Excellent            | Okay sir, sure sir.
+| Objection Framing                        | Not Present          | NA
+| Trust Signals                            | Moderate             | Okay sir, sure sir.
+| Cost Sensitivity                         | Not Present          | NA
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 21
+Not Present            : 6
+Total Evaluated (Net)  : 15
+--------------------
+Excellent              : 10
+Moderate               : 4
+Needs Improvement      : 1
+--------------------
+Final Percentage Score : 66.67%
+Call Classification    : GOOD
+
+
+
+================================================================================
+CALL 9 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:51:32 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764578779.62121&type=rec&token=Q3QrY0x3QVAralVydE9GY2V5YjdjeUdDalo3WXVaUm9HTWtzRmJrK3BGWVpyK3paZlREQS85dUxhVkF4UTh1cDo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : GOOD (83.33%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Agent Tone & Energy                      | Moderate             | हां या हाय गुड आफ्टरनून मैं बात कर रही हूं गोनू का
+| Agent Confidence                         | Excellent            | जी जी जी मैं करा देती हूं।
+| Listening Quality                        | Excellent            | जी सर?
+| Customer Empathy                         | Moderate             | कोई नहीं है आपका कुछ इसके लिए तो आपको कॉल करना पड़ा
+| Discovery & Understanding                | Excellent            | हां तो अभी चैलेंज कहां पे आ रहा है? Amazon पे अपना हो गया है सर?
+| Handling Customer Corrections            | Excellent            | Amazon पे तो कुछ हुआ ही नहीं है। Amazon पे तो कुछ करा ही नहीं है उसने लड़के ने।
+| Objection Handling                       | Not Present          | NA
+| Pricing Objection Response               | Not Present          | NA
+| Handling Financial Constraints           | Not Present          | NA
+| Solution Orientation                     | Excellent            | मैं कंसर्न आपका आया हुआ है हमारी इंटरनल भी चल रही है इसके बाद।
+| Conversation Control                     | Excellent            | हां तो अभी चैलेंज कहां पे आ रहा है? Amazon पे अपना हो गया है सर?
+| Pacing of Call                           | Excellent            | NA
+| Escalation Handling                      | Excellent            | और आपके पास एस्केलेशन मैट्रिक्स है क्या?
+| Upsell / Add-on Handling                 | Not Present          | NA
+| Customer Trust Impact                    | Excellent            | सर मैं बस इनके टीम से डिस्कस कर रहा हूं। मैं आपको अपडेट करता हूं उस टाइम के बाद।
+| Agent Mindset                            | Excellent            | मैं कंसर्न आपका आया हुआ है हमारी
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 16
+Not Present            : 4
+Total Evaluated (Net)  : 12
+--------------------
+Excellent              : 10
+Moderate               : 2
+Needs Improvement      : 0
+--------------------
+Final Percentage Score : 83.33%
+Call Classification    : GOOD
+
+
+
+================================================================================
+CALL 10 ANALYSIS REPORT
+================================================================================
+Time (IST) : 2026-02-09 11:52:18 IST
+URL        : https://cloudphone.tatateleservices.com/file/recording?callId=1764584831.86309&type=rec&token=RDVKUlFtZW9oYzhHaVp5cnhPQ2RzSTQ5dHovcGg0ZzYvalRUeTFrR1p5SzM3T1VjS2lyMVRPNGFDc2RabnJBODo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D
+Result     : ERROR (0%)
+
+|------------------------------------------|----------------------|--------------------------------------------------|
+| Variable                                 | Status               | Evidence |
+|------------------------------------------|----------------------|--------------------------------------------------|
+|------------------------------------------|----------------------|--------------------------------------------------|
+
+SCORING METRICS:
+--------------------
+Total Variables        : 0
+Not Present            : 0
+Total Evaluated (Net)  : 0
+--------------------
+Excellent              : 0
+Moderate               : 0
+Needs Improvement      : 0
+--------------------
+Final Percentage Score : 0%
+Call Classification    : ERROR
+
+
+
+
+
+
+

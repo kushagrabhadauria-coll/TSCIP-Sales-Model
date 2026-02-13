@@ -134,7 +134,7 @@ def check_transcript_quality(transcript):
         if repetition_ratio > 0.5:
             return False, f"HALLUCINATED_REPEAT ('{most_common_word}' repeated {most_common_count}/{len(words)} times)"
 
-    # Check for diarization (must have Agent: or Customer: labels)
+    # Check for diarization
     has_agent = "Agent:" in transcript or "agent:" in transcript.lower()
     has_customer = "Customer:" in transcript or "customer:" in transcript.lower()
     if not has_agent and not has_customer:
@@ -150,11 +150,8 @@ def transcribe_audio(audio_url):
     """
     Transcribes audio URL with validation.
     Returns (transcript, error_reason).
-    - On success: (transcript_text, None)
-    - On failure: (None, error_description)
     """
     try:
-        # FIX #3 + #4: Validate audio before sending
         audio_bytes, mime_type = download_and_validate_audio(audio_url)
 
         parts = [
@@ -163,7 +160,6 @@ def transcribe_audio(audio_url):
         ]
         transcript = call_gemini(parts=parts)
 
-        # Quality check on the transcript
         is_good, reason = check_transcript_quality(transcript)
         if not is_good:
             return transcript, f"BAD_TRANSCRIPT: {reason}"
@@ -178,23 +174,19 @@ def transcribe_audio(audio_url):
 def extract_variable_analysis(transcript):
     """
     Extracts variables by parsing the TEXT TABLE returned by the prompt.
-    Does NOT rely on JSON.
     """
     prompt = EXTRACT_CONTEXT_PROMPT + "\n\nTRANSCRIPT:\n" + transcript
     raw_text = call_gemini(prompt=prompt)
 
     variables = []
 
-    # Parse the pipe-separated table
     lines = raw_text.splitlines()
     for line in lines:
         if "|" not in line:
             continue
 
-        # Remove outer pipes and split
         cols = [c.strip() for c in line.strip("|").split("|")]
 
-        # Skip header or malformed lines
         if len(cols) < 3 or cols[0].lower() == "variable" or "---" in cols[0]:
             continue
 
@@ -215,7 +207,6 @@ def compute_summary(variables):
     total_possible = len(variables)
     not_present = counts.get("Not Present", 0)
 
-    # Logic: Total minus Not Present
     considered = total_possible - not_present
 
     # FIX #1: Use .get() to prevent KeyError
@@ -238,10 +229,7 @@ def compute_summary(variables):
 # =========================
 
 def process_call(call):
-    """
-    Process a single call through the full pipeline.
-    Returns result dict with status information.
-    """
+    """Process a single call through the full pipeline."""
     timestamp = get_ist_time()
     print(f"  [{timestamp}] Processing Call {call['index']}...")
 
@@ -251,8 +239,6 @@ def process_call(call):
     # FIX #2: Don't pass errors forward silently
     if error_reason:
         print(f"    [WARN] Call {call['index']}: {error_reason}")
-
-        # If we got a bad transcript (hallucination), still save it for reference
         saved_transcript = transcript if transcript else f"[FAILED] {error_reason}"
 
         return {
@@ -287,7 +273,6 @@ def process_call(call):
     # Step 3: Compute summary
     summary = compute_summary(variables)
 
-    # Check completeness
     is_complete = len(variables) >= EXPECTED_VARIABLES
     if not is_complete:
         print(f"    [WARN] Call {call['index']}: Only {len(variables)}/{EXPECTED_VARIABLES} variables extracted")
@@ -322,20 +307,16 @@ def save_transcript(r, filepath):
             f.write(f"{'#'*40}\n")
             f.write(f"CALL INDEX: {r['index']}\n")
             f.write(f"{'#'*40}\n")
-            f.write(f"CALL METADATA\n")
-            f.write(f"==========================\n")
-            f.write(f"Timestamp  : {r['timestamp']}\n")
-            f.write(f"Audio URL  : {r['url']}\n")
-            f.write(f"Result     : {r['summary']['call_type']} ({r['summary']['excellent_percentage']}%)\n")
+            f.write(f"Timestamp : {r['timestamp']}\n")
+            f.write(f"Audio URL : {r['url']}\n")
+            f.write(f"Result    : {r['summary']['call_type']} ({r['summary']['excellent_percentage']}%)\n")
             if r.get("error"):
-                f.write(f"Error      : {r['error']}\n")
-            f.write(f"==========================\n\n")
-            f.write(f"TRANSCRIPT\n")
-            f.write(f"--------------------------\n")
+                f.write(f"Error     : {r['error']}\n")
+            f.write("\n")
+            f.write("TRANSCRIPT\n")
+            f.write("-"*30 + "\n")
             f.write(r['transcript'])
-            f.write(f"\n--------------------------\n")
-            f.write(f"End of Transcript for Call {r['index']}\n\n")
-            f.write(f"{'='*80}\n\n")
+            f.write("\n" + "="*80 + "\n\n")
 
 def save_summary_report(r, filepath):
     """Append a single summary report (thread-safe)."""
@@ -344,11 +325,11 @@ def save_summary_report(r, filepath):
             f.write(f"\n{'='*80}\n")
             f.write(f"CALL {r['index']} ANALYSIS REPORT\n")
             f.write(f"{'='*80}\n")
-            f.write(f"Time (IST) : {r['timestamp']}\n")
-            f.write(f"URL        : {r['url']}\n")
-            f.write(f"Result     : {r['summary']['call_type']} ({r['summary']['excellent_percentage']}%)\n")
+            f.write(f"Time (IST): {r['timestamp']}\n")
+            f.write(f"URL       : {r['url']}\n")
+            f.write(f"Result    : {r['summary']['call_type']} ({r['summary']['excellent_percentage']}%)\n")
             if r.get("error"):
-                f.write(f"Error      : {r['error']}\n")
+                f.write(f"Error     : {r['error']}\n")
             f.write("\n")
 
             header = f"| {'Variable':<40} | {'Status':<20} | {'Evidence'} |\n"
@@ -359,42 +340,30 @@ def save_summary_report(r, filepath):
             f.write(divider)
 
             for v in r["variables"]:
-                evidence = str(v.get('evidence', 'NA')).replace('\n', ' ')
-                variable = str(v.get('variable', 'Unknown'))
-                status = str(v.get('status', 'Unknown'))
-                f.write(f"| {variable:<40} | {status:<20} | {evidence}\n")
+                evidence = str(v.get("evidence", "NA")).replace("\n", " ")
+                f.write(f"| {v['variable']:<40} | {v['status']:<20} | {evidence}\n")
 
             f.write(divider)
 
-            # Metrics
-            summary = r['summary']
-            counts = summary['counts']
+            summary = r["summary"]
+            counts = summary["counts"]
 
-            f.write(f"\nSCORING METRICS:\n")
-            f.write(f"{'-'*20}\n")
-            f.write(f"Total Variables        : {summary['total_possible']}\n")
-            f.write(f"Not Present            : {counts.get('Not Present', 0)}\n")
-            f.write(f"Total Evaluated (Net)  : {summary['considered']}\n")
-            f.write(f"{'-'*20}\n")
-            f.write(f"Excellent              : {counts.get('Excellent', 0)}\n")
-            f.write(f"Moderate               : {counts.get('Moderate', 0)}\n")
-            f.write(f"Needs Improvement      : {counts.get('Needs Improvement', 0)}\n")
-            f.write(f"{'-'*20}\n")
-            f.write(f"Final Percentage Score : {summary['excellent_percentage']}%\n")
-            f.write(f"Call Classification    : {summary['call_type']}\n")
-            f.write(f"\n\n")
-
-def mark_processed(index, filepath):
-    """Mark a call index as processed (thread-safe)."""
-    with file_write_lock:
-        with open(filepath, "a") as f:
-            f.write(f"{index}\n")
+            f.write("\nSCORING METRICS\n")
+            f.write("-"*20 + "\n")
+            f.write(f"Total Variables : {summary['total_possible']}\n")
+            f.write(f"Not Present     : {counts.get('Not Present', 0)}\n")
+            f.write(f"Evaluated       : {summary['considered']}\n")
+            f.write(f"Excellent       : {counts.get('Excellent', 0)}\n")
+            f.write(f"Moderate        : {counts.get('Moderate', 0)}\n")
+            f.write(f"Needs Improve   : {counts.get('Needs Improvement', 0)}\n")
+            f.write(f"Final Score     : {summary['excellent_percentage']}%\n")
+            f.write(f"Classification  : {summary['call_type']}\n\n")
 
 # =========================
 # BATCH PROCESSOR
 # =========================
 
-def process_batch(calls_batch, transcript_file, summary_file, log_file):
+def process_batch(calls_batch, transcript_file, summary_file):
     """
     Process a batch of calls concurrently using ThreadPoolExecutor.
     Returns list of result dicts.
@@ -415,7 +384,6 @@ def process_batch(calls_batch, transcript_file, summary_file, log_file):
                 # Immediately save results (thread-safe)
                 save_transcript(r, transcript_file)
                 save_summary_report(r, summary_file)
-                mark_processed(r['index'], log_file)
 
                 status = "✓" if r['is_complete'] else f"⚠ ({r.get('error', 'INCOMPLETE')})"
                 print(f"  Call {r['index']} completed {status}")
@@ -441,68 +409,65 @@ def process_batch(calls_batch, transcript_file, summary_file, log_file):
 # =========================
 # MAIN EXECUTION
 # =========================
-
 if __name__ == "__main__":
-
-    # Input/Output Config
+    # ---------------------------------------------------------
+    # Input / Output Config
+    # ---------------------------------------------------------
     INPUT_EXCEL = "calls_4.xlsx"
-    OUTPUT_DIR = "output"
+    OUTPUT_DIR = "test"
     TRANSCRIPT_DIR = f"{OUTPUT_DIR}/transcripts"
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(TRANSCRIPT_DIR, exist_ok=True)
 
-    # Files for Output
-    SUMMARY_REPORT = f"{OUTPUT_DIR}/summary_reportcalls.txt"
-    ALL_TRANSCRIPTS_FILE = f"{OUTPUT_DIR}/call_transcripts.txt"
-    PROCESSED_LOG_FILE = f"{OUTPUT_DIR}/processed_calls_log.txt"
-
-    calls = load_calls(INPUT_EXCEL)
+    SUMMARY_REPORT = f"{OUTPUT_DIR}/summary_report_single_call.txt"
+    ALL_TRANSCRIPTS_FILE = f"{OUTPUT_DIR}/call_transcripts_single.txt"
 
     # ---------------------------------------------------------
-    # RESUME LOGIC: Filter out calls that are already done
+    # CALL SOURCE CONFIG
     # ---------------------------------------------------------
-    processed_indices = set()
-    if os.path.exists(PROCESSED_LOG_FILE):
-        with open(PROCESSED_LOG_FILE, "r") as f:
-            for line in f:
-                if line.strip():
-                    try:
-                        processed_indices.add(int(line.strip()))
-                    except ValueError:
-                        continue
+    USE_MANUAL_URLS = True
 
-    print(f"Total calls in Sheet  : {len(calls)}")
-    print(f"Already processed     : {len(processed_indices)}")
+    if USE_MANUAL_URLS:
+        URLS = ['https://cloudphone.tatateleservices.com/file/recording?callId=1764655955.828742&type=rec&token=SXZlc0pvZ01Xa3NRZkNBcUtwVnZFUEVSeEhCZDlQTUVZNmtWekIzc1VMYUNtTmQxNUZqTlZIMVMzV2tndTZyazo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        'https://cloudphone.tatateleservices.com/file/recording?callId=1764670103.213014&type=rec&token=RnZJZjhyanpYcE5OY3lxbEFxV0FRZmxOSHpPTUdKaCtWVVc3elFic0ZCZW5jZlR0K29sMVlJTmFzaldQOHNCSjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        'https://cloudphone.tatateleservices.com/file/recording?callId=1764668007.33215&type=rec&token=L1p0UjFObnBSMDJqZXpRQ1VjSnpIcE9QVEdjNnRuRHRCM2VIYU1XaitncE1wZ3lkbkFDb0xidnFJMFFxVjVJWjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        'https://cloudphone.tatateleservices.com/file/recording?callId=1764651482.1097070&type=rec&token=aWtXL0hjaFUvLzRleFFZU1Vrb1dnMHlHekx5UHFFTG93SmNraGhycUE1M2pJWnIyc1NzOFBFK2VyRkYrcnlRQjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        'https://cloudphone.tatateleservices.com/file/recording?callId=1764677088.131847&type=rec&token=WWtjTWY2Nk5SMGtreHFScS9GZGtNbkp6c09WZnFBRy9QOVJ0MUs5aFNodWw3djRmeFhHNytKREZBVmhPcVZvZjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        'https://cloudphone.tatateleservices.com/file/recording?callId=1764679305.234202&type=rec&token=cEsxNW9TdW51S09lWS9ibVRHZlFmU1dBNUk0U0hWL3hNTklUamdCeUhoZlhPR0lqMjRKTTRXcVNRVFhFTFN4Zjo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        'https://cloudphone.tatateleservices.com/file/recording?callId=1764655838.154382&type=rec&token=ZnpKdm1MS01yYmN1UDkyVjlJQnZwWmhLZ1kwazAxQzNHODlUbnJYVXNDQ1RUdFk1T1UvaGwzc0dFS0pkUFVteDo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        'https://cloudphone.tatateleservices.com/file/recording?callId=1764673422.36376&type=rec&token=eGNKUU9jOGhZQmZsMHdzOEZmTEdMcUd4akRoVnZBZTBHYVZkQkpQTTlmSk0wcTRwYjBuakFYWGFEZHVIbmFzbTo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        'https://cloudphone.tatateleservices.com/file/recording?callId=1764578779.62121&type=rec&token=Q3QrY0x3QVAralVydE9GY2V5YjdjeUdDalo3WXVaUm9HTWtzRmJrK3BGWVpyK3paZlREQS85dUxhVkF4UTh1cDo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        'https://cloudphone.tatateleservices.com/file/recording?callId=1764584831.86309&type=rec&token=RDVKUlFtZW9oYzhHaVp5cnhPQ2RzSTQ5dHovcGg0ZzYvalRUeTFrR1p5SzM3T1VjS2lyMVRPNGFDc2RabnJBODo6YWIxMjM0Y2Q1NnJ0eXl1dQ%3D%3D',
+        ]
+        calls = [
+            {"index": i + 1, "audio_url": url}
+            for i, url in enumerate(URLS)
+        ]
+    else:
+        calls = load_calls(INPUT_EXCEL)
 
-    calls_to_process = [c for c in calls if c["index"] not in processed_indices]
-    print(f"Remaining to process  : {len(calls_to_process)}\n")
-
-    if not calls_to_process:
-        print("All calls have been processed. Exiting.")
-        exit()
+    print(f"\nTotal calls to process: {len(calls)}\n")
 
     # ---------------------------------------------------------
-    # PASS 1: Main processing in batches
+    # PASS 1: Process calls in batches
     # ---------------------------------------------------------
     print(f"{'='*60}")
-    print(f"PASS 1: Processing {len(calls_to_process)} calls (batch size: {BATCH_SIZE})")
+    print(f"PASS 1: Processing {len(calls)} calls (batch size: {BATCH_SIZE})")
     print(f"{'='*60}\n")
 
     all_results = []
 
-    # Split into batches
-    for batch_start in range(0, len(calls_to_process), BATCH_SIZE):
-        batch = calls_to_process[batch_start:batch_start + BATCH_SIZE]
+    for batch_start in range(0, len(calls), BATCH_SIZE):
+        batch = calls[batch_start:batch_start + BATCH_SIZE]
         batch_num = (batch_start // BATCH_SIZE) + 1
-        total_batches = (len(calls_to_process) + BATCH_SIZE - 1) // BATCH_SIZE
+        total_batches = (len(calls) + BATCH_SIZE - 1) // BATCH_SIZE
 
         print(f"\n--- Batch {batch_num}/{total_batches} (Calls: {[c['index'] for c in batch]}) ---")
 
-        batch_results = process_batch(batch, ALL_TRANSCRIPTS_FILE, SUMMARY_REPORT, PROCESSED_LOG_FILE)
+        batch_results = process_batch(batch, ALL_TRANSCRIPTS_FILE, SUMMARY_REPORT)
         all_results.extend(batch_results)
 
-    # ---------------------------------------------------------
 
 
     # ---------------------------------------------------------
@@ -538,21 +503,8 @@ if __name__ == "__main__":
             if not r['is_complete'] and r['summary']['call_type'] != 'ERROR':
                 print(f"  - Call {r['index']}: {r['summary']['total_possible']} variables extracted")
 
-    # Save final stats
     scores = [r['summary']['excellent_percentage'] for r in all_results]
     avg_score = round(sum(scores) / len(scores), 2) if scores else 0
 
-    stats_file = f"{OUTPUT_DIR}/summary_stats.txt"
-    with open(stats_file, "w") as f:
-        f.write(f"Good Calls: {good}\n")
-        f.write(f"Bad Calls: {bad}\n")
-        f.write(f"Error Calls: {errors}\n")
-        f.write(f"Complete Calls (64 vars): {complete}\n")
-        f.write(f"Incomplete Calls: {incomplete}\n")
-        f.write(f"Final Scores: {scores}\n")
-        f.write(f"Average Final Percentage Score: {avg_score}%\n")
-        f.write(f"Total Scores Count: {len(scores)}\n")
-
     print(f"\nAverage Score    : {avg_score}%")
-    print(f"\nResults saved to: {OUTPUT_DIR}/")
-    print("Pipeline completed successfully!")
+    print("\nAll calls processed successfully!")

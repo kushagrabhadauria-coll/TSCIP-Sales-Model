@@ -1,0 +1,8 @@
+Good Calls: 3
+Bad Calls: 1
+Error Calls: 0
+Complete Calls (64 vars): 4
+Incomplete Calls: 0
+Final Scores: [62.5, 37.84, 90.7, 71.43]
+Average Final Percentage Score: 65.62%
+Total Scores Count: 4
